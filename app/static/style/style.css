@@ -731,12 +731,12 @@ html .footer, html .push, body .footer, body .push {
 }
 
 .iti__flag {
-  background-image: url("/app/build/img/flags.png");
+  background-image: url("./app/build/img/flags.png");
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .iti__flag {
-    background-image: url("/app/build/img/flags@2x.png");
+    background-image: url("./app/build/img/flags@2x.png");
   }
 }
 
