@@ -1,0 +1,524 @@
+/* app/static/css/style.css */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, html {
+  width: 100%;
+  height: 100%;
+}
+
+* body, html body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: whitesmoke;
+  /* Style the button that is used to open and close the collapsible content */
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  /* section {
+    position: static;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: lavender;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  section span {
+    position: absolute;
+    bottom: -50px;
+    background: transparent;
+    border-radius: 50%;
+    pointer-events: none;
+    -webkit-box-shadow: inset 0 0 10px rgba(225, 225, 225, 0.5);
+            box-shadow: inset 0 0 10px rgba(225, 225, 225, 0.5);
+    -webkit-animation: animate 4s linear infinite;
+            animation: animate 4s linear infinite;
+  }
+  
+  section span::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(0.25) translate(-70%, -70%);
+            transform: scale(0.25) translate(-70%, -70%);
+    background: radial-gradient(#ffffff, transparent);
+    border-radius: 50%;
+  }
+  
+  @-webkit-keyframes animation {
+    0% {
+      -webkit-transform: translateY(0%);
+              transform: translateY(0%);
+      opacity: 1;
+    }
+    99% {
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translateY(-1200%);
+              transform: translateY(-1200%);
+      opacity: .1;
+    }
+  }
+  
+  @keyframes animation {
+    0% {
+      -webkit-transform: translateY(0%);
+              transform: translateY(0%);
+      opacity: 1;
+    }
+    99% {
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translateY(-1200%);
+              transform: translateY(-1200%);
+      opacity: .1;
+    }
+  } */
+  /*# sourceMappingURL=style.css.map */
+}
+
+* body header, html body header {
+  height: auto;
+  border-style: none;
+  border-bottom-color: black;
+}
+
+* body header nav, html body header nav {
+  margin: 0;
+  justify-items: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  vertical-align: middle;
+  height: auto;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(#09181d));
+  background-image: linear-gradient(black, #09181d);
+  border-bottom-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* body header nav .topnav, html body header nav .topnav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-bottom-left-radius: .5em;
+  border-bottom-right-radius: .5em;
+  border-bottom-style: hidden;
+}
+
+* body header nav .topnav .collapse ul, html body header nav .topnav .collapse ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+* body a, * body .navbar-default .navbar-brand, * body .navbar-default .navbar-nav > li > a, html body a, html body .navbar-default .navbar-brand, html body .navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+* body a:hover, * body .navbar-default .navbar-brand:hover, * body .navbar-default .navbar-nav > li > a:hover, html body a:hover, html body .navbar-default .navbar-brand:hover, html body .navbar-default .navbar-nav > li > a:hover {
+  color: skyblue;
+}
+
+* body h2.villaFeat, html body h2.villaFeat {
+  font-family: "Josefin Sans",sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #dadada;
+}
+
+* body h1, * body h2, html body h1, html body h2 {
+  text-transform: uppercase;
+}
+
+* body main, html body main {
+  background: #78A4DA;
+}
+
+* body main .wrapper, html body main .wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -4em;
+}
+
+* body main .wrapper .search-cover-photo-container, * body main .wrapper .heroBg, html body main .wrapper .search-cover-photo-container, html body main .wrapper .heroBg {
+  background-attachment: fixed !important;
+}
+
+* body main .wrapper .heroBg, html body main .wrapper .heroBg {
+  background: #111 url(/img/15.jpg) no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  height: auto;
+  grid-area: auto;
+}
+
+* body main .wrapper .card, html body main .wrapper .card {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: white;
+}
+
+* body main .wrapper .price, html body main .wrapper .price {
+  color: grey;
+  font-size: 22px;
+}
+
+* body main .wrapper .card button, html body main .wrapper .card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+* body main .wrapper .card button:hover, html body main .wrapper .card button:hover {
+  opacity: 0.7;
+}
+
+* body main .wrapper .why, html body main .wrapper .why {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  max-width: 40rem;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-family: arial;
+  font-size: 1.8rem;
+  background-color: white;
+  padding: 1.8rem;
+  line-height: auto;
+  border-bottom: 4px solid #ebe4e4;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+* body main .wrapper .why p.top, html body main .wrapper .why p.top {
+  background-color: grey;
+  padding: 1.4rem;
+}
+
+* body main .wrapper .why ul li, html body main .wrapper .why ul li {
+  list-style: none;
+  margin-left: -35px;
+}
+
+* body main .wrapper .why #benefits, html body main .wrapper .why #benefits {
+  margin: 0;
+  text-align: center;
+}
+
+* body main .wrapper .why div.green, html body main .wrapper .why div.green {
+  color: green;
+}
+
+* body main .marketing, html body main .marketing {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+* body main .alert-info, html body main .alert-info {
+  width: 50%;
+  margin: auto;
+  color: tomato;
+  background-color: #e6ecca;
+  border-color: wheat;
+}
+
+* body main .btn-default, html body main .btn-default {
+  border-color: skyblue;
+  color: skyblue;
+}
+
+* body main .btn-default:hover, html body main .btn-default:hover {
+  background-color: skyblue;
+}
+
+* body main .center, html body main .center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+* body main .content-section, html body main .content-section {
+  padding: 1% 0;
+  border-top: 1px solid #e7e7e7;
+}
+
+* body main .intro-divider, html body main .intro-divider {
+  width: 40rem;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+* body main .intro-header, html body main .intro-header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0;
+  text-align: center;
+  color: #f8f8f8;
+  background-size: cover;
+  height: 100%;
+}
+
+* body main .intro-message, html body main .intro-message {
+  position: relative;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+* body main .intro-message > h1, html body main .intro-message > h1 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 4.4em;
+}
+
+* body main .intro-message > h3, html body main .intro-message > h3 {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+* body main .lead, html body main .lead {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+* body main .marketing, html body main .marketing {
+  height: auto;
+}
+
+@media screen and (max-width: 680px) {
+  * body .heroGrid, html body .heroGrid {
+    background: rgba(0, 0, 0, 0.4) !important;
+  }
+}
+
+* body .justified-gallery, html body .justified-gallery {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+* body #singleProperty #map, html body #singleProperty #map {
+  width: 100%;
+  height: 500px;
+}
+
+* body .collapsible, html body .collapsible {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.8;
+  background-color: white;
+  color: #0c4358;
+  cursor: pointer;
+  padding-left: 14px;
+  padding-top: 10px;
+  padding-bottom: -12px;
+  padding-right: 14px;
+  width: 100%;
+  border: none;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  text-align: left;
+  outline: none;
+  font-size: 1.80rem;
+  margin: auto;
+}
+
+* body .active, * body .collapsible:hover, html body .active, html body .collapsible:hover {
+  background-color: skyblue;
+}
+
+* body .content, html body .content {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.8;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding-left: 14px;
+  padding-top: 12px;
+  padding-bottom: -12px;
+  padding-right: 14px;
+  width: 100%;
+  border: none;
+  list-style: none;
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.8;
+  background-color: #fff;
+  background-color: #eee;
+  color: #0c4358;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  text-align: left;
+  outline: none;
+  font-size: 1.80rem;
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-out;
+}
+
+* body .sections, html body .sections {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 18px;
+}
+
+* body .sections hr, html body .sections hr {
+  padding: 4px;
+}
+
+* body .sections .first, html body .sections .first {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+* body .collapsible:after, html body .collapsible:after {
+  content: '\02795';
+  /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+* body .active:after, html body .active:after {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
+}
+
+* body .structure, html body .structure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  width: 100%;
+}
+
+* body .structure .left, html body .structure .left {
+  width: 40%;
+}
+
+* body .structure .right, html body .structure .right {
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+}
+
+* body .structure form, html body .structure form {
+  width: 44rem;
+  display: block;
+  border: 1px solid skyblue;
+  text-align: center;
+}
+
+* body .structure form h3, html body .structure form h3 {
+  font-family: "Josefin Sans",sans-serif;
+  font-weight: 100;
+  font-size: 3rem;
+  padding: 1rem;
+  color: whitesmoke;
+}
+
+* body .structure form p, html body .structure form p {
+  font-family: "Josefin Sans",sans-serif;
+  font-weight: 100;
+  font-size: 1.88rem;
+}
+
+* body .structure form input, html body .structure form input {
+  width: 88%;
+  padding: .8rem;
+  margin: .8rem;
+}
+
+* body .structure form input[type=button], html body .structure form input[type=button] {
+  background-color: #FF8000;
+  color: whitesmoke;
+  border-style: none;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+* body footer, html body footer {
+  padding: 2rem 1rem;
+  background-color: #f8f8f8;
+  height: 40vh;
+  margin: auto;
+}
+
+* body p.copyright, html body p.copyright {
+  margin: 15px 0 0;
+}
+
+* body .footer, * body .push, html body .footer, html body .push {
+  clear: both;
+  height: 4em;
+}
+/*# sourceMappingURL=style2.css.map */
