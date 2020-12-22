@@ -379,7 +379,7 @@ html .structure .view, body .structure .view {
   background-color: white;
   z-index: 5;
   position: relative;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 html .structure h2, body .structure h2 {
@@ -459,7 +459,6 @@ html .structure .right, body .structure .right {
   max-width: 28rem;
   width: 90%;
   height: auto;
-  border-radius: 2px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -471,7 +470,7 @@ html .structure .right, body .structure .right {
 html .structure form, body .structure form {
   border: 1px solid transparent;
   text-align: center;
-  border-radius: 2px;
+  border-radius: 4px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -492,7 +491,7 @@ html .structure form h3, body .structure form h3 {
   border-radius: 2px;
   color: black;
   border: 1px dashed black;
-  opacity: .7;
+  opacity: .8;
 }
 
 html .structure form p, body .structure form p {
@@ -500,7 +499,6 @@ html .structure form p, body .structure form p {
   font-weight: 20;
   font-size: 1.60rem;
   color: #0a59b9;
-  opacity: .8;
 }
 
 html .structure form ::-webkit-input-placeholder, body .structure form ::-webkit-input-placeholder {
@@ -701,7 +699,7 @@ html #gallery, body #gallery {
 }
 
 html #gallery div.gallery, body #gallery div.gallery {
-  margin: 1px auto;
+  margin: 1.1px;
   border: 1px solid #ccc;
   float: left;
   width: 17rem;
@@ -753,7 +751,7 @@ html footer, body footer {
 
 html p.copyright, body p.copyright {
   padding: 5px;
-  font-size: 12px;
+  font-size: 13px;
   text-align: center;
 }
 
@@ -769,7 +767,7 @@ html ul#footer-list, body ul#footer-list {
 html ul#footer-list li a, body ul#footer-list li a {
   list-style: none;
   color: black !important;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 html .footer-menu-divider, body .footer-menu-divider {

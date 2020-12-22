@@ -330,7 +330,7 @@ html, body {
       z-index: 5;
       position: relative;
 
-      border-radius: 2px;
+      border-radius: 4px;
     }
     
     h2 {
@@ -432,8 +432,6 @@ html, body {
       width: 90%;
       height: auto;
 
-      border-radius: 2px;
-
       align-items: center;
       justify-content: center;
 
@@ -445,7 +443,7 @@ html, body {
       border: 1px solid transparent;
       text-align: center;
       
-      border-radius: 2px;
+      border-radius: 4px;
 
       align-items: center;
       justify-content: center;
@@ -468,7 +466,7 @@ html, body {
 
         color: black;
         border: 1px dashed black;
-        opacity: .7;
+        opacity: .8;
 
       }
   
@@ -477,7 +475,7 @@ html, body {
         font-weight: 20;
         font-size: 1.60rem;
         color: #0a59b9;
-        opacity: .8;
+        // opacity: .8;
       }
       
       ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -763,7 +761,7 @@ html, body {
     width: 100%;
 
     div.gallery {
-      margin: 1px auto;
+      margin: 1.1px;
       border: 1px solid #ccc;
       float: left;
       width: 17rem;
@@ -820,7 +818,7 @@ html, body {
   
   p.copyright {
     padding: 5px;
-    font-size: 12px;
+    font-size: 13px;
 
     text-align: center;
   }
@@ -836,7 +834,7 @@ html, body {
     li a {
       list-style: none;
       color: black !important;
-      font-size: 12px;
+      font-size: 13px;
     }
   }
 
