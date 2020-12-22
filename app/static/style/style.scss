@@ -757,16 +757,16 @@ html, body {
     flex-wrap: wrap;
     justify-content: center;
 
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
     width: 100%;
 
     div.gallery {
-      margin: 1.5px;
+      margin: 1px;
       border: 1px solid #ccc;
       float: left;
-      width: 170px;
+      width: 171px;
     }
     
     div.gallery:hover {
@@ -787,6 +787,7 @@ html, body {
       // width: 49.4%;
       float: right;
     }
+
   }
 
 

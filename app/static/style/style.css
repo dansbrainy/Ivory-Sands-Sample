@@ -695,16 +695,16 @@ html #gallery, body #gallery {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   width: 100%;
 }
 
 html #gallery div.gallery, body #gallery div.gallery {
-  margin: 1.5px;
+  margin: 1px;
   border: 1px solid #ccc;
   float: left;
-  width: 170px;
+  width: 171px;
 }
 
 html #gallery div.gallery:hover, body #gallery div.gallery:hover {
