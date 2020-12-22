@@ -763,10 +763,10 @@ html, body {
     width: 100%;
 
     div.gallery {
-      margin: 1px;
+      margin: 1px auto;
       border: 1px solid #ccc;
       float: left;
-      width: 171px;
+      width: 17rem;
     }
     
     div.gallery:hover {
@@ -806,16 +806,44 @@ html, body {
   footer {
 
     background-color: #f8f8f8;
-    // height: 40vh;
+    color: black;
+    height: auto;
     margin: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    display: flex;
+    flex-direction: row;
+
+    text-align: center;
   }
   
   p.copyright {
-    margin: 15px 0 0;
+    padding: 5px;
+    font-size: 12px;
+
+    text-align: center;
   }
   
+  ul#footer-list {
+
+    align-items: center;
+    vertical-align: middle;
+    padding: 5px;
+
+    text-align: center;
+
+    li a {
+      list-style: none;
+      color: black !important;
+      font-size: 12px;
+    }
+  }
+
+  .footer-menu-divider {
+    font-size: 22px;
+  }
+
   .footer, .push {
     clear: both;
     height: 4em;

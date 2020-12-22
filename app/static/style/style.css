@@ -701,10 +701,10 @@ html #gallery, body #gallery {
 }
 
 html #gallery div.gallery, body #gallery div.gallery {
-  margin: 1px;
+  margin: 1px auto;
   border: 1px solid #ccc;
   float: left;
-  width: 171px;
+  width: 17rem;
 }
 
 html #gallery div.gallery:hover, body #gallery div.gallery:hover {
@@ -736,13 +736,44 @@ html #map, body #map {
 
 html footer, body footer {
   background-color: #f8f8f8;
+  color: black;
+  height: auto;
   margin: auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
 }
 
 html p.copyright, body p.copyright {
-  margin: 15px 0 0;
+  padding: 5px;
+  font-size: 12px;
+  text-align: center;
+}
+
+html ul#footer-list, body ul#footer-list {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  vertical-align: middle;
+  padding: 5px;
+  text-align: center;
+}
+
+html ul#footer-list li a, body ul#footer-list li a {
+  list-style: none;
+  color: black !important;
+  font-size: 12px;
+}
+
+html .footer-menu-divider, body .footer-menu-divider {
+  font-size: 22px;
 }
 
 html .footer, html .push, body .footer, body .push {
