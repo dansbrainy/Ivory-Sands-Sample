@@ -4,6 +4,7 @@ var input = document.getElementById("tel");
 var iti = window.intlTelInput(input, {
     utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@17.0.3/build/js/utils.js",
     allowDropdown:true,
+    hiddenInput: "full",
     autoPlaceholder:"polite",
     formatOnDisplay:true,
     geoIpLookup:null,
@@ -64,13 +65,17 @@ window.addEventListener("DOMContentLoaded", function() {
   var form = document.getElementById("my-form");
   var button = document.getElementById("my-form-button");
   // var status = document.getElementById("my-form-status");
-
+  var okay = document.getElementById("okay");
+  var feedback = document.getElementById("feedback");
   // Success and Error functions for after the form is submitted
   
   function success() {
     form.reset();
-    button.style = "display: none ";
+    // button.style = "display: none ";
     // status.innerHTML = "Thanks!";
+    // okay.style = "display: block; padding: 10px";
+    // feedback.style = "display: flex; padding: 10px; font-size: 14px; text-align: center";
+
   }
 
   function error() {
@@ -96,6 +101,22 @@ function ajax(method, url, data, success, error) {
     if (xhr.readyState !== XMLHttpRequest.DONE) return;
     if (xhr.status === 200) {
       success(xhr.response, xhr.responseType);
+      
+      okay.style = "display: block; padding: 10px";
+      feedback.style = "display: flex; padding: 10px; font-size: 16px; text-align: center";
+      
+      $('.feedback').addClass('.feedback');
+      $('#okay').addClass('.okay');
+
+      $('.feedback').fadeIn(50);
+      $('#okay').fadeIn(50);
+
+      $("#okay").fadeOut(15000);
+      $(".feedback").fadeOut(15000);
+
+      // okay.fadeIn(50).show();
+      // feedback.fadeIn(50).show();
+
     } else {
       error(xhr.status, xhr.response, xhr.responseType);
     }

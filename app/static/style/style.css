@@ -118,6 +118,28 @@ html header .topnav, body header .topnav {
   border-bottom-style: hidden;
 }
 
+html header .dropdown-menu, body header .dropdown-menu {
+  background-color: inherit;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(#09181d));
+  background: linear-gradient(black, #09181d);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+html header .dropdown-menu a, body header .dropdown-menu a {
+  color: whitesmoke;
+  margin: 20px;
+  padding-top: 20px;
+  text-align: center;
+  max-width: 10px;
+  float: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 html a, html .navbar-default .navbar-brand, html .navbar-default .navbar-nav > li > a, body a, body .navbar-default .navbar-brand, body .navbar-default .navbar-nav > li > a {
   color: white;
 }
@@ -564,6 +586,19 @@ html .structure form input[type=tel], body .structure form input[type=tel] {
   width: 246px !important;
   padding: .8rem;
   margin: .8rem;
+}
+
+html .structure form #okay, body .structure form #okay {
+  padding: 10px;
+  font-size: 28px;
+  color: #024402;
+}
+
+html .structure form .feedback, body .structure form .feedback {
+  padding: 10px;
+  font-size: 18px;
+  color: #066c74;
+  text-align: center;
 }
 
 html .collapsible, body .collapsible {

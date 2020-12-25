@@ -55,6 +55,25 @@ html, body {
         border-bottom-style: hidden;
       }
 
+      .dropdown-menu {
+        background-color: inherit;
+        background: linear-gradient(black, rgb(9, 24, 29));;
+        // display: flex;
+        flex-direction: column;
+        // max-width: 10px;
+        a {
+          color: whitesmoke;
+          // padding: 10px;
+          margin: 20px;
+          padding-top: 20px;
+          text-align: center;
+          max-width: 10px;
+          float: center;
+          align-items: center;
+        }
+
+      }
+
     }
     
   
@@ -524,6 +543,20 @@ html, body {
         width: 246px !important;
         padding: .8rem;
         margin: .8rem;
+      }
+
+      #okay {
+        padding: 10px;
+        font-size: 28px;
+        color: rgb(2, 68, 2);
+      }
+
+      .feedback {
+        padding: 10px;
+        font-size: 18px;
+        color: rgb(6, 108, 116);
+        // font-weight: bold;
+        text-align: center
       }
       
     }
