@@ -15,6 +15,19 @@ var iti = window.intlTelInput(input, {
 window.iti = iti;
 
 
+// var button = $("button");
+// button.click(function(){
+//     var name = $("#name")
+//     // name.val("");
+//     name.focus();
+// });
+
+
+$('#refer').on("click", function() {
+  $('#name').autofocus();
+});
+
+
 // COLLAPSIBLE
 var coll = document.getElementsByClassName("collapsible");
 var i;
