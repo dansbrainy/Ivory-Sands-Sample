@@ -175,6 +175,12 @@ html .wrapper .pull-left, body .wrapper .pull-left {
   line-height: 2;
 }
 
+html .wrapper #pictures, body .wrapper #pictures {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
 html .search-cover-photo-container, html .heroBg, body .search-cover-photo-container, body .heroBg {
   background-attachment: fixed !important;
 }
