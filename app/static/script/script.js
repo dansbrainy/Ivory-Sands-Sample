@@ -124,8 +124,8 @@ function ajax(method, url, data, success, error) {
       $('.feedback').fadeIn(50);
       $('#okay').fadeIn(50);
 
-      $("#okay").fadeOut(15000);
-      $(".feedback").fadeOut(15000);
+      $("#okay").fadeOut(18000);
+      $(".feedback").fadeOut(18000);
 
       // okay.fadeIn(50).show();
       // feedback.fadeIn(50).show();
