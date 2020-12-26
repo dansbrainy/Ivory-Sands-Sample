@@ -136,3 +136,15 @@ function ajax(method, url, data, success, error) {
   };
   xhr.send(data);
 }
+
+// form = document.getElementById("my-form");
+
+// function askForSave() {
+//     form.action="save_for_later.php";
+//     form.action="http://box.sianware.com/echopost.php";
+//     form.submit();
+// }
+// function askForSubmit() {
+//     form.action="submit_for_approval.php";
+//     form.submit();
+// }
