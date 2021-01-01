@@ -352,7 +352,7 @@ html, body {
         height: auto;
       
         background-color: white;
-        z-index: 5;
+        // z-index: 5;
         position: relative;
 
         border-radius: 4px;
@@ -1954,9 +1954,9 @@ body {
 	-moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
 	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
 	
-  height: 80px;
+  height: 100px;
 	position: absolute;
-	width: 80px;
+	width: 100px;
 }
 
 .bubble:after {
@@ -1977,8 +1977,8 @@ body {
 	box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
 	
 	content: "";
-  height: 72px;
+  height: 90px;
 	left: 10px;
 	position: absolute;
-	width: 72px;
+	width: 90px;
 }
