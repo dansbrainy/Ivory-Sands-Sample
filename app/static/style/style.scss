@@ -102,7 +102,8 @@ html, body {
       min-height: 100%;
       height: auto !important;
       height: 100%;
-      margin: 0 auto -4em;
+      // margin: 0 auto -4em;
+      margin: auto;
       z-index: 1;
 
       width: 100% !important;
@@ -157,11 +158,11 @@ html, body {
     }
 
     
-  @media screen and (max-width: 680px) {
-    .heroGrid {
-      background: rgba(0,0,0,0.4) !important;
+    @media screen and (max-width: 680px) {
+      .heroGrid {
+        background: rgba(0,0,0,0.4) !important;
+      }
     }
-  }
 
   
     .alert-info {
@@ -192,7 +193,6 @@ html, body {
       border-top: 1px solid #e7e7e7;
     }
     
-    
     .intro-divider {
       width: 20rem;
       border-top: 1px solid #f8f8f8;
@@ -200,19 +200,19 @@ html, body {
     }
     
     .intro-header {
-      padding-top: 5rem;
-      padding-bottom: 5rem;
+
       text-align: center;
       color: #f8f8f8;
       background-size: cover;
-      height: 100%;
+      // height: 100%;
+      height: auto;
     }
     
     .intro-message {
       position: relative;
       padding-top: 20%;
       padding-bottom: 20%;
-      
+
     }
     
     .intro-message > h1 {
@@ -231,7 +231,7 @@ html, body {
     }
     
     .marketing {
-      // top: -100px;
+     
       height: auto;
       -webkit-tap-highlight-color: rgba(0,0,0,0);
       font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -240,452 +240,440 @@ html, body {
       color: black;
       box-sizing: border-box;
       padding-right: 15px;
+
       padding-left: 15px;
       margin-right: auto;
       margin-left: auto;
-      margin-top: 3rem;
+
+      margin-top: auto;
       z-index: 2;
 
       section {
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 4rem;
+        // padding-bottom: 30px;
       }
 
     }
 
-  body {
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: black;
-    // background-color: #fff;
-  }
-  
-  .justified-gallery {
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  #singleProperty #map {
-    width: 100%;
-    height: 500px;
-  }
-  
-  
-  .card {
-    position: sticky;
-    top: 50%;
-    left: 50%;
-    width: 28rem;
-    height: 28rem;
-    margin: -150px;
-    float: left;
-    perspective: 500px;
-  }
-  
-  .content {
-
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    box-shadow: 0 0 15px rgba(0,0,0,0.1);
-  
-    transition: transform 1s;
-    transform-style: preserve-3d;
-    
-  }
-  
-  .card:hover .content {
-    transform: rotateY( 180deg ) ;
-    transition: transform 0.5s;
-  }
-  
-  .front,
-  .back {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: white;
-    line-height: 98px;
-    color: #03446A;
-    text-align: center;
-    font-size: 40px;
-    border-radius: 5px;
-    backface-visibility: hidden;
-  }
-  
-  .back {
-
-    background: #03446A;
-    color: whitesmoke;
-    transform: rotateY( 180deg );
-
-    font-size: 2rem;
-    line-height: 48px;
-
-  }
-
-  .front {
-    text-align: center;
-    vertical-align: middle;
-  }
-
-  .structure {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
-    
-    // padding-top: 10px;
-    // padding-bottom: 10px;
-    
-    align-items: center;
-    justify-content: center;
-
-    .view {
-
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-      max-width: 28rem;
-     
-      text-align: center;
-   
-      float: left;
-
-      margin-bottom: 20px;
-      padding-bottom: 1.8rem;
-
-      height: auto;
-     
-      background-color: white;
-      z-index: 5;
+    .justified-gallery {
+      width: 100%;
       position: relative;
-
-      border-radius: 4px;
+      overflow: hidden;
+    }
+  
+    #singleProperty #map {
+      width: 100%;
+      height: 500px;
+    }
+  
+    .card {
+      position: sticky;
+      top: 50%;
+      left: 50%;
+      width: 28rem;
+      height: 28rem;
+      margin: -150px;
+      float: left;
+      perspective: 500px;
     }
     
-    h2 {
-      font-size: 20px;
-    }
+    .content {
 
-    .price {
-      color: grey;
-      font-size: 18px;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    
+      transition: transform 1s;
+      transform-style: preserve-3d;
+      
     }
     
-    .view button {
-      border: none;
-      outline: 0;
-      padding: 10px;
-      color: white;
-      background-color: #000;
+    .card:hover .content {
+      transform: rotateY( 180deg ) ;
+      transition: transform 0.5s;
+    }
+    
+    .front,
+    .back {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background: white;
+      line-height: 98px;
+      color: #03446A;
       text-align: center;
-      cursor: pointer;
-      width: 80%;
-      font-size: 18px;
-
-      border-radius: 2px;
+      font-size: 40px;
+      border-radius: 5px;
+      backface-visibility: hidden;
     }
     
-    .view button:hover {
-      opacity: 0.7;
-    }  
+    .back {
 
-    .middle {
-          
+      background: #03446A;
+      color: whitesmoke;
+      transform: rotateY( 180deg );
+
+      font-size: 2rem;
+      line-height: 48px;
+
+    }
+
+    .front {
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .structure {
+      
       display: flex;
       flex-direction: column;
-      flex-wrap: wrap;
-  
-      // height: 28rem;
-      height: auto;
-  
-      // top: 80%;
-      // bottom: 20%;
-
-      // display: inline-block;
-      // align-self: flex-end;
-
-      // max-width: 40rem;
-      text-align: center;
-      align-items: center;
+      justify-content: center;
       align-content: center;
-     
-      font-size: 1.8rem;
-      // background-color: white;
-  
-      // padding: 1rem;
-  
-      // border-bottom: 4px solid rgb(235, 228, 228);
-      // border-bottom-left-radius: 2px;
-      // border-bottom-right-radius: 2px;
+      width: 100%;
       
-      #reason {
-        color: whitesmoke;
-  
-      }
+      align-items: center;
+      justify-content: center;
 
-      #benefits {
-        margin: 0;
+      z-index: 2;
+
+      .view {
+
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 28rem;
+      
         text-align: center;
- 
-      }
-  
-      div.green {
-        color: green;
-        color: yellowgreen;
-        color: #442505;
+    
+        float: left;
+
+        margin-bottom: 20px;
+        padding-bottom: 1.8rem;
+
+        height: auto;
+      
+        background-color: white;
+        z-index: 5;
+        position: relative;
+
+        border-radius: 4px;
       }
       
-      hr {
-
-        color: whitesmoke;
-        width: 22rem;
-        // border-bottom: 1px dashed whitesmoke;
-        padding-top: -70px;
-        border-style: dashed;
-
+      h2 {
+        font-size: 20px;
       }
 
-    }
-
-    .middle {
-      margin-bottom: 20px;
-      // padding-bottom: 1.8rem;
-    }
-
-    .right {
-
-      margin-bottom: 20px;
-      // padding-bottom: 1.8rem;
-
-      max-width: 28rem;
-      width: 90%;
-      height: auto;
-
-      align-items: center;
-      justify-content: center;
-
-    }
-  
-    form {
-  
-      // display: block;
-      border: 1px solid transparent;
-      text-align: center;
+      .price {
+        color: grey;
+        font-size: 18px;
+      }
       
-      border-radius: 4px;
-
-      align-items: center;
-      justify-content: center;
-
-      background-color: white;
-
-      h3 {
-
-        font-family: "Josefin Sans",sans-serif;
-        font-weight: 20;
-        font-size: 2rem;
-
-        padding: 1rem;
-
-        margin-right: 2rem;
-        margin-left: 2rem;
-        margin-bottom: 2rem;
+      .view button {
+        border: none;
+        outline: 0;
+        padding: 10px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 80%;
+        font-size: 18px;
 
         border-radius: 2px;
-
-        color: black;
-        border: 1px dashed black;
-        opacity: .8;
-
       }
+      
+      .view button:hover {
+        opacity: 0.7;
+      }  
+
+      .middle {
+            
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    
+        // height: 28rem;
+        height: auto;
+    
+        // top: 80%;
+        // bottom: 20%;
+
+        // display: inline-block;
+        // align-self: flex-end;
+
+        // max-width: 40rem;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+      
+        font-size: 1.8rem;
+        // background-color: white;
+    
+        // padding: 1rem;
+    
+        // border-bottom: 4px solid rgb(235, 228, 228);
+        // border-bottom-left-radius: 2px;
+        // border-bottom-right-radius: 2px;
+        
+        #reason {
+          color: whitesmoke;
+    
+        }
+
+        #benefits {
+          margin: 0;
+          text-align: center;
   
-      p {
-        font-family: "Josefin Sans",sans-serif;
-        font-weight: 20;
-        font-size: 1.60rem;
-        color: #0a59b9;
-        // opacity: .8;
+        }
+    
+        div.green {
+          color: green;
+          color: yellowgreen;
+          color: #442505;
+        }
+        
+        hr {
+
+          color: whitesmoke;
+          width: 22rem;
+          // border-bottom: 1px dashed whitesmoke;
+          padding-top: -70px;
+          border-style: dashed;
+
+        }
+
       }
-      
-      ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-        color: black;
-        opacity: .5; /* Firefox */
-      }
-      
-      :-ms-input-placeholder { /* Internet Explorer 10-11 */
-        color: black;
-      }
-      
-      ::-ms-input-placeholder { /* Microsoft Edge */
-        color: black;
+
+      .middle {
+        margin-bottom: 20px;
       }
 
-      input {
-  
-        width: 88%;
-        padding: .8rem;
-        margin: .8rem;
+      .right {
 
-        // background-color: #78A4DA;
-        background-color: transparent;
+        margin-bottom: 20px;
 
-        color: black;
+        max-width: 28rem;
+        width: 90%;
+        height: auto;
 
-        border-style: none;
-        border-bottom: 1px solid black;
+        align-items: center;
+        justify-content: center;
 
-        border-radius: 2px;
-
-        font-size: 1.6rem;
+      }
+    
+      form {
+    
+        // display: block;
+        border: 1px solid transparent;
         text-align: center;
         
-      }
-  
-      input[type=submit] {
-        background-color: #FF8000;
-        color: whitesmoke;
-        border-style: none;
-        padding: 1rem;
-        margin-bottom: 2rem;
-      }
-      
-      input[type=tel]{
-        width: 246px !important;
-        padding: .8rem;
-        margin: .8rem;
+        border-radius: 4px;
+
+        align-items: center;
+        justify-content: center;
+
+        background-color: white;
+
+        h3 {
+
+          font-family: "Josefin Sans",sans-serif;
+          font-weight: 20;
+          font-size: 2rem;
+
+          padding: 1rem;
+
+          margin-right: 2rem;
+          margin-left: 2rem;
+          margin-bottom: 2rem;
+
+          border-radius: 2px;
+
+          color: black;
+          border: 1px dashed black;
+          opacity: .8;
+
+        }
+    
+        p {
+          font-family: "Josefin Sans",sans-serif;
+          font-weight: 20;
+          font-size: 1.60rem;
+          color: #0a59b9;
+          // opacity: .8;
+        }
+        
+        ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+          color: black;
+          opacity: .5; /* Firefox */
+        }
+        
+        :-ms-input-placeholder { /* Internet Explorer 10-11 */
+          color: black;
+        }
+        
+        ::-ms-input-placeholder { /* Microsoft Edge */
+          color: black;
+        }
+
+        input {
+    
+          width: 88%;
+          padding: .8rem;
+          margin: .8rem;
+
+          // background-color: #78A4DA;
+          background-color: transparent;
+
+          color: black;
+
+          border-style: none;
+          border-bottom: 1px solid black;
+
+          border-radius: 2px;
+
+          font-size: 1.55rem;
+          text-align: center;
+          
+        }
+    
+        input[type=submit] {
+          background-color: #FF8000;
+          color: whitesmoke;
+          border-style: none;
+          padding: 1rem;
+          margin-bottom: 2rem;
+        }
+        
+        input[type=tel]{
+          width: 246px !important;
+          padding: .8rem;
+          margin: .8rem;
+        }
+
+        #okay {
+          padding: 10px;
+          font-size: 28px;
+          color: rgb(2, 68, 2);
+        }
+
+        .feedback {
+          padding: 10px;
+          font-size: 18px;
+          color: rgb(6, 108, 116);
+          // font-weight: bold;
+          text-align: center
+        }
+        
       }
 
-      #okay {
-        padding: 10px;
-        font-size: 28px;
-        color: rgb(2, 68, 2);
-      }
-
-      .feedback {
-        padding: 10px;
-        font-size: 18px;
-        color: rgb(6, 108, 116);
-        // font-weight: bold;
-        text-align: center
-      }
-      
     }
 
-  }
+    /* Style the button that is used to open and close the collapsible content */
+    .collapsible {
 
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      line-height: 1.8;
 
-  /* Style the button that is used to open and close the collapsible content */
-  .collapsible {
+      background-color: white;
+      color: rgb(12, 67, 88);
 
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    line-height: 1.8;
+      cursor: pointer;
+      padding-left: 20px;
+      padding-top: 18px;
+      padding-bottom: -42px;
+      padding-right: 18px;
 
-    background-color: white;
-    color: rgb(12, 67, 88);
+      width: 100%;
+      border: none;
+      border-top-right-radius: 1rem;
+      border-top-left-radius: 1rem;
 
-    cursor: pointer;
-    padding-left: 20px;
-    padding-top: 18px;
-    padding-bottom: -42px;
-    padding-right: 18px;
+      text-align: center;
 
-    width: 100%;
-    border: none;
-    border-top-right-radius: 1rem;
-    border-top-left-radius: 1rem;
+      outline: none;
+      font-size: 1.7rem;
+      margin: auto;
+      // margin-top: 20px;
 
-    text-align: center;
-
-    outline: none;
-    font-size: 1.7rem;
-    margin: auto;
-    // margin-top: 20px;
-
-  }
-
+    }
   
-  .s-content {
-    
-    display: flex;
-    flex-direction: column;
-
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    line-height: 1.8;
- 
-    width: 100%;
-    border: none;
-    
-    list-style: none;
-    margin: auto;
-
-    color: rgb(12, 67, 88);
-    
-    border-bottom-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-    // text-align: left;
-    outline: none;
-
-    font-size: 1.7rem;
-    text-align: center;
-
-    padding-left: 12px;
-    padding-top: 18px;
-    // padding-bottom: -42px;
-    padding-right: 12px;
-
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-
-    .sections {
-
+    .s-content {
+      
       display: flex;
       flex-direction: column;
 
-      justify-content: center;
-      flex-wrap: wrap;
-      // padding: 18px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      line-height: 1.8;
   
-      hr {
-        padding: 4px;
-      }
-  
-      .first {
+      width: 100%;
+      border: none;
+      
+      list-style: none;
+      margin: auto;
+
+      color: rgb(12, 67, 88);
+      
+      border-bottom-right-radius: 1rem;
+      border-bottom-left-radius: 1rem;
+      // text-align: left;
+      outline: none;
+
+      font-size: 1.7rem;
+      text-align: center;
+
+      padding-left: 12px;
+      padding-top: 18px;
+
+      padding-right: 12px;
+
+      background-color: white;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+
+      .sections {
+
+        display: flex;
+        flex-direction: column;
+
         justify-content: center;
-        // max-width: 40%;
+        flex-wrap: wrap;
+        // padding: 18px;
+    
+        hr {
+          padding: 4px;
+        }
+    
+        .first {
+          justify-content: center;
+          // max-width: 40%;
+        }
+    
+        .second {
+          // justify-content: flex-end;
+        }
+    
       }
-  
-      .second {
-        // justify-content: flex-end;
-      }
-  
     }
-  }
- 
 
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active, .collapsible:hover {
-    background-color: skyblue;
-    // background-color: #488FC4;
-  }
+    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+    .active, .collapsible:hover {
+      background-color: rgb(188, 221, 235);
+      // background-color: #488FC4;
+    }
 
-  .collapsible:after {
+    .collapsible:after {
 
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
-    font-size: 14px;
-    color: white;
-    float: right;
-    margin-left: 5px;
+      content: '\02795'; /* Unicode character for "plus" sign (+) */
+      font-size: 14px;
+      color: white;
+      float: right;
+      margin-left: 5px;
 
-  }
-  
-  .active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
-  }
+    }
+    
+    .active:after {
+      content: "\2796"; /* Unicode character for "minus" sign (-) */
+    }
 
     /* section {
       position: static;
@@ -760,396 +748,57 @@ html, body {
     } */
     /*# sourceMappingURL=style.css.map */
 
-  .reviews {
-    
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    line-height: 1.8;
- 
-    width: 100%;
-    border: none;
-    
-    list-style: none;
-    margin: auto;
-
-    color: rgb(12, 67, 88);
-    
-    // text-align: left;
-    outline: none;
-
-    font-size: 1.7rem;
-  
-    padding-left: 20px;
-    padding-top: 18px;
-    padding-bottom: 20px;
-    padding-right: 18px;
-    background-color: white;
-    // max-height: 0;
-
-      .review {
-        margin-top: 10px; 
-
-        .title {
-          color: tomato;
-        }
-      }
-
-  }
-
-  #gallery {
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-    width: 100%;
-
-    div.gallery {
-      margin: 1.1px;
-      border: 1px solid #ccc;
-      float: left;
-      width: 17rem;
-    }
-    
-    div.gallery:hover {
-      border: 1px solid #777;
-    }
-    
-    div.gallery img {
-      width: 100%;
-      height: auto;
-    }
-    
-    div.desc {
-      padding: 15px;
-      text-align: center;
-    }
-
-    div.larger {
-      // width: 49.4%;
-      float: right;
-    }
-
-  }
-
-  /* Set the size of the div element that contains the map */
-  #map {
-
-    margin-top: 15px;
-    margin-bottom: 15px;
-
-    height: 400px;
-    /* The height is 400 pixels */
-    width: 100%;
-    /* The width is the width of the web page */
-  }
-
-  footer {
-
-    background-color: #f8f8f8;
-    color: black;
-    height: auto;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-    display: flex;
-    flex-direction: row;
-
-    text-align: center;
-  }
-  
-  p.copyright {
-    padding: 5px;
-    font-size: 13px;
-
-    text-align: center;
-  }
-  
-  ul#footer-list {
-
-    align-items: center;
-    vertical-align: middle;
-    padding: 5px;
-
-    text-align: center;
-
-    li a {
-      list-style: none;
-      color: black !important;
-      font-size: 13px;
-    }
-  }
-
-  .footer-menu-divider {
-    font-size: 22px;
-  }
-
-  .footer, .push {
-    clear: both;
-    height: 4em;
-  }
-  
-
-  @media (min-width: 1281px) {
-  
-    header nav {
-      height: 8rem !important;
-    }
-
-    /* CSS */
-    .heroBg {
-      background-size: cover !important;
-    }
-    
-    .intro-divider {
-      width: 38rem !important;
-    }
-    
-    .intro-header {
-      padding-top: 50px !important;
-      padding-bottom: 50px !important;
-    }
-    
-    .intro-message {
-      padding-top: 14% !important;
-      padding-bottom: 14% !important;
-      
-    }
-    
-    .structure {
-      flex-direction: row !important;
-    }
-  
-    .structure {
-  
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-content: stretch;
-      // width: 100%;
-      
-      padding-top: 20px;
-      padding-bottom: 20px;
-    
-      .view {
-
-        max-width: 33rem;
-   
-        align-self: flex-start;
-        margin: 0;
-
-        float: left;
-  
-
-        // margin-bottom: 20px;
-        // padding-bottom: 1.8rem;
-  
-        // height: 55rem;
-        // height: auto;
-       
-      }
-      
-      .price {
-        font-size: 18px;
-      }
-      
-      .view button {
-    
-        padding: 12px;
-      
-        cursor: pointer;
-        width: 80%;
-        font-size: 18px;
-
-      }
-      
-      .middle {
-            
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-    
-        height: auto;
-    
-        // top: 80%;
-        // bottom: 20%;
-  
-        display: inline-block;
-        align-self: center;
-   
-        font-size: 1.8rem;
-
-        // padding: 1.8rem;
-   
-        // hr {
-
-        // }
-
-      }
-  
-      // .middle {
-      //   margin-bottom: 20px;
-      //   padding-bottom: 1.8rem;
-      // }
-  
-      .right {
-
-        display: inline-block;
-        align-self: flex-start;
-        margin: 0;
-
-        // margin-bottom: 20px;
-        // padding-bottom: 1.8rem;
-  
-        max-width: 36.8rem;
-        // height: 58rem;
-        // height: auto;
-  
-      }
-    
-      form {
-
-        h3 {
-          font-size: 2.60rem;
-        }
-    
-        p {
-          font-size: 1.6rem;
-        }
-  
-        input {
-    
-          width: 88%;
-          padding: .6rem;
-          margin: .6rem;
-
-          font-size: 1.7rem;
-          text-align: center;
-          
-        }
-    
-        input[type=submit] {
-          padding: 1rem;
-          margin-top: 1.4rem;
-          margin-bottom: 1.8rem;
-        }
-        
-        input[type=tel]{
-          width: 320px !important;
-          padding: .6rem;
-          margin: .6rem;
-        }
-
-        input[type=text] {
-          padding: .6rem !important;
-          margin: .6rem !important;
-        }
-        
-      }
-  
-    }
-  
-  
-     /* Style the button that is used to open and close the collapsible content */
-    .collapsible {
-  
-      cursor: pointer;
-      padding-left: 38px;
-      padding-top: 30px;
-      padding-bottom: -12px;
-      padding-right: 20px;
-  
-      text-align: left;
-     
-      font-size: 1.80rem;
-      margin: auto;
-  
-    }
-  
-    
-    .s-content {
-      
-      display: flex;
-      flex-direction: column;
-   
-      margin: auto;
-
-      font-size: 1.80rem;
-      text-align: left;
-
-      padding-left: 38px;
-      padding-top: 20px;
-      padding-bottom: -20px;
-      padding-right: 20px;
-  
-      .sections {
-  
-        display: flex;
-        flex-direction: row;
-  
-        justify-content: space-between;
-        flex-wrap: wrap;
-        padding: 18px;
-    
-        // hr {
-        //   padding: 4px;
-        // }
-    
-        .first {
-          justify-content: flex-start;
-          max-width: 40%;
-        }
-    
-        .second {
-          // justify-content: flex-end;
-        }
-    
-      }
-
-    }
-   
     .reviews {
-    
-      margin: auto;
+      
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      line-height: 1.8;
   
-      font-size: 1.80rem;
+      width: 100%;
+      border: none;
+      
+      list-style: none;
+      margin: auto;
+
+      color: rgb(12, 67, 88);
+      
+      // text-align: left;
+      outline: none;
+
+      font-size: 1.7rem;
     
-      padding-left: 38px;
-      padding-top: 20px;
-      padding-right: 20px;
+      padding-left: 20px;
+      padding-top: 18px;
       padding-bottom: 20px;
+      padding-right: 18px;
       background-color: white;
       // max-height: 0;
-  
+
         .review {
           margin-top: 10px; 
-  
+
           .title {
             color: tomato;
           }
         }
-  
+
     }
-  
+
     #gallery {
-  
+
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-  
-      margin-top: 20px !important;
-      margin-bottom: 20px !important;
-  
+
+      margin-top: 30px;
+      // margin-bottom: 30px;
+
       width: 100%;
-  
+
       div.gallery {
-        margin: 1.5px !important;
+        margin: 1.2px;
         border: 1px solid #ccc;
         float: left;
-        width: 220px;
+        width: 49%;
       }
       
       div.gallery:hover {
@@ -1165,36 +814,861 @@ html, body {
         padding: 15px;
         text-align: center;
       }
-  
+
       div.larger {
-        width: 49.4% !important;
+        // width: 49.4%;
         float: right;
       }
+
     }
-  
+
     /* Set the size of the div element that contains the map */
     #map {
-  
-      margin-top: 20px;
-      margin-bottom: 20px;
-  
-      height: 500px;
+
+      margin-top: 1rem;
+      // margin-bottom: 15px;
+
+      height: 400px;
       /* The height is 400 pixels */
       width: 100%;
       /* The width is the width of the web page */
     }
-  
+
     footer {
-  
-      // height: 40vh;
-      margin: auto;
-      margin-top: 20px;
-      margin-bottom: 20px;
+
+      background-color: #f8f8f8;
+      background-image: linear-gradient(black, rgb(9, 24, 29));
+      color: black;
+      height: auto;
+
+      top: 100;
+
+      margin: 0;
+      margin-top: 1rem;
+      margin-bottom: 0;
+
+      display: flex;
+      flex-direction: row;
+
+      text-align: center;
+    }
+    
+    p.copyright {
+      padding: 10px;
+      font-size: 16px;
+      text-align: center;
+    }
+    
+    ul#footer-list {
+
+      align-items: center;
+      vertical-align: middle;
+      padding-top: 18px;
+
+      text-align: center;
+
+      li a {
+        list-style: none;
+        color:#f8f8f8 !important;
+        font-size: 18px;
+      }
     }
 
-  }
+    .footer-menu-divider {
+      font-size: 22px;
+    }
 
+    .footer, .push {
+      clear: both;
+      height: 4em;
+    }
+ 
+    
+    /* 
+      ##Device = Low Resolution Tablets, Mobiles (Landscape)
+      ##Screen = B/w 481px to 767px
+    */
+
+    @media (min-width: 481px) and (max-width: 767px) {
+      
+      header nav {
+        // height: 5.8rem !important;
+      }
+
+      .heroBg {
+        background-size: cover !important;
+      }
+      
+      .intro-message {
+     
+        padding-bottom: 3% !important;
+      }
+
+      #marketing {
+
+        // margin: auto !important;
+
+        .structure{
+
+          justify-content: space-between;
+
+          .view {
+
+            max-width: 33rem;
+
+          }
+
+          .middle {
+           
+
+          }
+
+          .right {
+
+            max-width: 33rem;
+    
+          }
+        
+          form {
+        
+            input[type=submit] {
+              padding: 1.2rem;
+              margin-bottom: 2rem;
+            }
+            
+            input[type=tel]{
+              width: 280px !important;
+            }
+    
+            #okay {
+              padding: 10px;
+              font-size: 28px;
+            }
+    
+            .feedback {
+              padding: 10px;
+              font-size: 18px;
+            }
+            
+          }
+  
+        }
+
+      }
+      
+      #gallery {
+
+        div.gallery {
+          margin: 1.2px;
+          width: 32.6%;
+        }
+        
+        div.gallery:hover {
+          border: 1px solid #777;
+        }
+        
+        div.desc {
+          padding: 15px;
+          text-align: center;
+        }
+  
+        div.larger {
+          width: 49%;
+          float: right;
+        }
+  
+      }
+      
+    }
+
+    /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+    */
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+
+      header nav {
+        height: 5.8rem !important;
+      }
+
+      .heroBg {
+        background-size: cover !important;
+      }
+      
+      .intro-divider {
+        width: 58rem !important;
+      }
+      
+      .intro-message {
+     
+        padding-bottom: 8% !important;
+        
+      }
+
+      #marketing {
+
+        margin: auto !important;
+
+        .structure{
+
+          flex-direction: row;
+          justify-content: space-between;
+
+          .view {
+
+            max-width: 30rem;
+
+            .second-middle {
+
+              display: unset!important;
+
+              hr {
+                width: 88%;
+              }
+
+            }
+
+          }
+
+          .middle {
+            display: none !important;
+
+          }
+
+          .right {
+
+            max-width: 30rem;
+    
+          }
+        
+          form {
+        
+            input[type=submit] {
+              padding: 1.2rem;
+              margin-bottom: 2rem;
+            }
+            
+            input[type=tel]{
+              width: 260px !important;
+            }
+    
+            #okay {
+              padding: 10px;
+              font-size: 28px;
+            }
+    
+            .feedback {
+              padding: 10px;
+              font-size: 18px;
+            }
+            
+          }
+  
+        }
+
+      }
+      
+      #gallery {
+
+        div.gallery {
+          margin: 1.2px;
+          width: 24.5%;
+        }
+        
+        div.gallery:hover {
+          border: 1px solid #777;
+        }
+        
+        div.desc {
+          padding: 15px;
+          text-align: center;
+        }
+  
+        div.larger {
+          // width: 49.4%;
+          float: right;
+        }
+  
+      }
+      
+    }
+
+    /* 
+      ##Device = Tablets, Ipads (landscape)
+      ##Screen = B/w 768px to 1024px
+    */
+
+    @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+      
+      header nav {
+        height: 5.8rem !important;
+      }
+
+      .heroBg {
+        background-size: cover !important;
+      }
+      
+      .intro-divider {
+        width: 58rem !important;
+      }
+      
+      .intro-message {
+     
+        padding-bottom: 8% !important;
+        
+      }
+
+      #marketing {
+
+        margin: auto !important;
+
+        .structure{
+
+          flex-direction: row;
+          justify-content: space-between;
+
+          .view {
+
+            max-width: 30rem;
+
+            .second-middle {
+
+              display: unset!important;
+
+              hr {
+                width: 88%;
+              }
+
+            }
+
+          }
+
+          .middle {
+            display: none !important;
+
+          }
+
+          .right {
+
+            max-width: 30rem;
+    
+          }
+        
+          form {
+        
+            input[type=submit] {
+              padding: 1.2rem;
+              margin-bottom: 2rem;
+            }
+            
+            input[type=tel]{
+              width: 260px !important;
+            }
+    
+            #okay {
+              padding: 10px;
+              font-size: 28px;
+            }
+    
+            .feedback {
+              padding: 10px;
+              font-size: 18px;
+            }
+            
+          }
+  
+        }
+
+      }
+      
+      #gallery {
+
+        div.gallery {
+          margin: 1.2px;
+          width: 24.5%;
+        }
+        
+        div.gallery:hover {
+          border: 1px solid #777;
+        }
+        
+        div.desc {
+          padding: 15px;
+          text-align: center;
+        }
+  
+        div.larger {
+          // width: 49.4%;
+          float: right;
+        }
+  
+      }
+      
+      
+    }
+
+    /* 
+      ##Device = Laptops, Desktops
+      ##Screen = B/w 1025px to 1280px
+    */
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      
+      header nav {
+        height: 5.8rem !important;
+      }
+
+      .heroBg {
+        background-size: cover !important;
+      }
+      
+      .intro-divider {
+        width: 38rem !important;
+      }
+      
+      .intro-message {
+        position: relative;
+        
+      }
+      
+      #marketing {
+
+        .structure {
+          flex-direction: row !important;
+          justify-content: space-between;
+  
+          .view {
+            max-width: 33rem;
+          }
+  
+          .right {
+            max-width: 33rem;
+
+            form {
+
+              input[type=tel] {
+
+                width: 287px !important;
+
+              }
+
+            }
+
+          }
+          
+        }
+  
+        /* Style the button that is used to open and close the collapsible content */
+        .collapsible {
+  
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          line-height: 1.8;
+  
+          color: rgb(12, 67, 88);
+  
+          cursor: pointer;
+          padding-left: 38px;
+          padding-top: 30px;
+          padding-bottom: -12px;
+          padding-right: 20px;
+  
+          width: 100%;
+
+          text-align: left;
+
+          font-size: 1.80rem;
+          margin: auto;
+  
+        }
+  
+        .s-content {
+          
+          display: flex;
+          flex-direction: column;
+  
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          line-height: 1.8;
+      
+          width: 100%;
+     
+          margin: auto;
+  
+          color: rgb(12, 67, 88);
+          
+          border-bottom-right-radius: 1rem;
+          border-bottom-left-radius: 1rem;
+          // text-align: left;
+  
+          font-size: 1.80rem;
+        
+          padding-left: 38px;
+          padding-top: 20px;
+          // padding-bottom: -20px;
+          padding-right: 20px;
+  
+          .sections {
+  
+            display: flex;
+            flex-direction: row;
+  
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 18px;
+        
+            hr {
+              padding: 4px;
+            }
+        
+            .first {
+              justify-content: flex-start;
+              max-width: 42%;
+            }
+  
+            .second {
+              max-width: 48%;
+            }
+        
+          }
+  
+        }
+  
+        .reviews {
+        
+          margin: auto;
+      
+          font-size: 1.80rem;
+        
+          padding-left: 38px;
+          padding-top: 20px;
+          padding-right: 20px;
+          padding-bottom: 20px;
+          background-color: white;
+          // max-height: 0;
+      
+            .review {
+              margin-top: 10px; 
+      
+              .title {
+                color: tomato;
+              }
+            }
+      
+        }
+
+      }
+      
+      #gallery {
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+        width: 100%;
+    
+        div.gallery {
+          margin: 1.5px !important;
+          border: 1px solid #ccc;
+          float: left;
+          width: 19.6%;
+        }
+        
+        div.gallery:hover {
+          border: 1px solid #777;
+        }
+        
+        div.gallery img {
+          width: 100%;
+          height: auto;
+        }
+        
+        div.desc {
+          padding: 15px;
+          text-align: center;
+        }
+    
+        // div.larger {
+        //   width: 49.4% !important;
+        //   float: right;
+        // }
+
+      }
+    
+      /* Set the size of the div element that contains the map */
+      #map {
+    
+        height: 500px;
+        /* The height is 400 pixels */
+        width: 100%;
+        /* The width is the width of the web page */
+      }
+
+    }
+
+    @media (min-width: 1281px) {
+    
+      header nav {
+        height: 5.8rem !important;
+      }
+
+      .heroBg {
+        background-size: cover !important;
+      }
+      
+      .intro-divider {
+        width: 38rem !important;
+      }
+      
+      .intro-message {
+        // padding-top: 14% !important;
+        padding-bottom: 12% !important;
+        
+      }
+      
+      .structure {
+
+        display: flex;
+        flex-direction: row !important;
+
+        // flex-direction: column;
+        justify-content: space-between;
+        align-content: stretch;
+        // width: 100%;
+        
+        .view {
+
+          max-width: 33rem;
+    
+          align-self: flex-start;
+          margin: 0;
+
+          float: left;
+
+        }
+        
+        .price {
+          font-size: 18px;
+        }
+        
+        .view button {
+      
+          padding: 12px;
+        
+          cursor: pointer;
+          width: 80%;
+          font-size: 18px;
+
+        }
+        
+        .middle {
+              
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+      
+          height: auto;
+      
+          // top: 80%;
+          // bottom: 20%;
+    
+          display: inline-block;
+          align-self: center;
+    
+          font-size: 1.8rem;
+
+          // padding: 1.8rem;
+    
+          // hr {
+
+          // }
+
+        }
+    
+        .right {
+
+          display: inline-block;
+          align-self: flex-start;
+          margin: 0;
+
+          max-width: 34.8rem !important;
+          
+        }
+      
+        form {
+
+          h3 {
+            font-size: 2.60rem;
+          }
+      
+          p {
+            font-size: 1.6rem;
+          }
+    
+          input {
+      
+            width: 88%;
+            padding: .6rem;
+            margin: .6rem;
+
+            font-size: 1.7rem;
+            text-align: center;
+            
+          }
+      
+          input[type=submit] {
+            padding: 1rem;
+            margin-top: 1.4rem;
+            margin-bottom: 1.8rem;
+          }
+          
+          input[type=tel]{
+            width: 307px !important;
+            padding: .6rem;
+            margin: .6rem;
+          }
+
+          input[type=text] {
+            padding: .6rem !important;
+            margin: .6rem !important;
+          }
+          
+        }
+    
+      }
+    
+      /* Style the button that is used to open and close the collapsible content */
+      .collapsible {
+    
+        cursor: pointer;
+        padding-left: 38px;
+        padding-top: 30px;
+        padding-bottom: -12px;
+        padding-right: 20px;
+    
+        text-align: left;
+      
+        font-size: 1.80rem;
+        margin: auto;
+    
+      }
+    
+      .s-content {
+        
+        display: flex;
+        flex-direction: column;
+    
+        margin: auto;
+
+        font-size: 1.80rem;
+        text-align: left;
+
+        padding-left: 38px;
+        padding-top: 20px;
+        padding-bottom: -20px;
+        padding-right: 20px;
+    
+        .sections {
+    
+          display: flex;
+          flex-direction: row;
+    
+          justify-content: space-between;
+          flex-wrap: wrap;
+          padding: 18px;
+      
+          // hr {
+          //   padding: 4px;
+          // }
+      
+          .first {
+            justify-content: flex-start;
+            max-width: 40%;
+          }
+      
+          .second {
+            // justify-content: flex-end;
+          }
+      
+        }
+
+      }
+    
+      .reviews {
+      
+        margin: auto;
+    
+        font-size: 1.80rem;
+      
+        padding-left: 38px;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        background-color: white;
+        // max-height: 0;
+    
+          .review {
+            margin-top: 10px; 
+    
+            .title {
+              color: tomato;
+            }
+          }
+    
+      }
+    
+      #gallery {
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+        width: 100%;
+    
+        div.gallery {
+          margin: 1.5px !important;
+          border: 1px solid #ccc;
+          float: left;
+          width: 16.33%;
+        }
+        
+        div.gallery:hover {
+          border: 1px solid #777;
+        }
+        
+        div.gallery img {
+          width: 100%;
+          height: auto;
+        }
+        
+        div.desc {
+          padding: 15px;
+          text-align: center;
+        }
+    
+        div.larger {
+          width: 49.4% !important;
+          float: right;
+        }
+      }
+    
+      /* Set the size of the div element that contains the map */
+      #map {
+    
+        height: 500px;
+        /* The height is 400 pixels */
+        width: 100%;
+        /* The width is the width of the web page */
+      }
+    
+      // footer {
+    
+      //   // height: 40vh;
+      //   margin: auto;
+      // }
+
+    }
    
+
 }
   
 .iti__flag {background-image: url("./app/build/img/flags.png");}
@@ -1248,7 +1722,6 @@ html, body {
   opacity: .5;
 }
 
-
 // MEDIA QUERIES
 
 /* 
@@ -1260,371 +1733,3 @@ html, body {
 
 }
 
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-  
-  /* CSS */
-  .heroBg {
-    background-size: cover !important;
-  }
-  
-  .intro-divider {
-    width: 38rem !important;
-  }
-  
-  .intro-header {
-    padding-top: 50px !important;
-    padding-bottom: 50px !important;
-  }
-  
-  .intro-message {
-    position: relative;
-    padding-top: 14% !important;
-    padding-bottom: 14% !important;
-    
-  }
-  
-  .structure {
-    flex-direction: row !important;
-  }
-
-  .structure {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-content: stretch;
-    // width: 100%;
-    
-    padding-top: 30px;
-    padding-bottom: 30px;
-  
-    .view {
-
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-      max-width: 33rem;
-     
-      text-align: center;
-   
-      float: left;
-      margin-bottom: 20px;
-      padding-bottom: 1.8rem;
-
-      height: 55rem;
-     
-      background-color: white;
-      z-index: 5;
-      position: relative;
-    }
-    
-    .price {
-      color: grey;
-      font-size: 22px;
-    }
-    
-    .view button {
-      border: none;
-      outline: 0;
-      padding: 12px;
-      color: white;
-      background-color: #000;
-      text-align: center;
-      cursor: pointer;
-      width: 80%;
-      font-size: 18px;
-    }
-    
-    .view button:hover {
-      opacity: 0.7;
-    }  
-
-    .middle {
-          
-      display: flex;
-      flex-direction: column;
-      flex-wrap: nowrap;
-  
-      // height: 28rem;
-      height: auto;
-  
-      top: 80%;
-      bottom: 20%;
-
-      display: inline-block;
-      align-self: flex-end;
-
-      // max-width: 40rem;
-      text-align: center;
-      align-items: center;
-      align-content: center;
-      // font-family: arial;
-      font-size: 1.8rem;
-      // background-color: white;
-  
-      padding: 1.8rem;
-  
-      // border-bottom: 4px solid rgb(235, 228, 228);
-      // border-bottom-left-radius: 2px;
-      // border-bottom-right-radius: 2px;
-      
-      #reason {
-        color: whitesmoke;
-        
-      }
-
-      #benefits {
-        margin: 0;
-        text-align: center;
-      }
-  
-      div.green {
-        color: green;
-        color: yellowgreen;
-        color: black;
-      }
-      
-      hr {
-
-        color: whitesmoke;
-        width: 22rem;
-        // border-bottom: 1px dashed whitesmoke;
-        padding-top: -70px;
-        border-style: dashed;
-
-      }
-    }
-
-    .middle {
-      margin-bottom: 20px;
-      padding-bottom: 1.8rem;
-    }
-
-    .right {
-
-      margin-bottom: 20px;
-      padding-bottom: 1.8rem;
-
-      max-width: 38rem;
-      height: 58rem;
-
-    }
-  
-    form {
-  
-      // display: block;
-      border: 1px solid transparent;
-      text-align: center;
-      // border-radius: 8px;
-      
-      // background-color: #78A4DA;
-      background-color: white;
-
-      h3 {
-        font-family: "Josefin Sans",sans-serif;
-        font-weight: 20;
-        font-size: 2.88rem;
-        padding: 1rem;
-        margin-right: 10px;
-        margin-left: 10px;
-        color: black;
-        border: 1px dashed black;
-        opacity: .7;
-      }
-  
-      p {
-        font-family: "Josefin Sans",sans-serif;
-        font-weight: 20;
-        font-size: 1.8rem;
-        color: #0a59b9;
-        opacity: .7;
-      }
-      
-      ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-        color: black;
-        opacity: .5; /* Firefox */
-      }
-      
-      :-ms-input-placeholder { /* Internet Explorer 10-11 */
-        color: black;
-      }
-      
-      ::-ms-input-placeholder { /* Microsoft Edge */
-        color: black;
-      }
-
-      input {
-  
-        width: 88%;
-        padding: .8rem;
-        margin: .8rem;
-
-        // background-color: #78A4DA;
-        background-color: transparent;
-
-        color: black;
-
-        border-style: none;
-        border-bottom: 1px solid black;
-
-        border-radius: 2px;
-
-        font-size: 1.8rem;
-        text-align: center;
-        
-      }
-  
-      input[type=submit] {
-        background-color: #FF8000;
-        color: whitesmoke;
-        border-style: none;
-        padding: 1rem;
-        margin-bottom: 2rem;
-      }
-      
-      input[type=tel]{
-        width: 330px;
-        padding: .8rem;
-        margin: .8rem;
-      }
-      
-    }
-
-  }
-  
-
-  /* Style the button that is used to open and close the collapsible content */
-  .collapsible {
-
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    line-height: 1.8;
-
-    background-color: white;
-    color: rgb(12, 67, 88);
-
-    cursor: pointer;
-    padding-left: 38px;
-    padding-top: 30px;
-    padding-bottom: -12px;
-    padding-right: 20px;
-
-    width: 100%;
-    border: none;
-    border-top-right-radius: 1rem;
-    border-top-left-radius: 1rem;
-    text-align: left;
-    outline: none;
-    font-size: 1.80rem;
-    margin: auto;
-
-  }
-
-  
-  .s-content {
-    
-    display: flex;
-    flex-direction: column;
-
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    line-height: 1.8;
- 
-    width: 100%;
-    border: none;
-    
-    list-style: none;
-    margin: auto;
-
-    color: rgb(12, 67, 88);
-    
-    border-bottom-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-    // text-align: left;
-    outline: none;
-
-    font-size: 1.80rem;
-  
-    padding-left: 38px;
-    padding-top: 20px;
-    padding-bottom: -20px;
-    padding-right: 20px;
-
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-
-    .sections {
-
-      display: flex;
-      flex-direction: row;
-
-      justify-content: space-between;
-      flex-wrap: wrap;
-      padding: 18px;
-  
-      hr {
-        padding: 4px;
-      }
-  
-      .first {
-        justify-content: flex-start;
-        max-width: 40%;
-      }
-  
-      .second {
-        // justify-content: flex-end;
-      }
-  
-    }
-  }
-
-}
-
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  
-  /* CSS */
-  
-}
-
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
-  /* CSS */
-  
-}
-
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
-@media (min-width: 481px) and (max-width: 767px) {
-  
-  /* CSS */
-  
-}
-
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-
-@media (min-width: 320px) and (max-width: 480px) {
-  
-  body {
-    width: 100% !important;
-  }
-
-}
