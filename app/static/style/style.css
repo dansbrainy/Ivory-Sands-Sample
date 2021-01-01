@@ -644,6 +644,7 @@ html .collapsible, body .collapsible {
   outline: none;
   font-size: 1.7rem;
   margin: auto;
+  z-index: 1;
 }
 
 html .s-content, body .s-content {
@@ -674,6 +675,7 @@ html .s-content, body .s-content {
   overflow: hidden;
   -webkit-transition: max-height 0.2s ease-out;
   transition: max-height 0.2s ease-out;
+  z-index: 0;
 }
 
 html .s-content .sections, body .s-content .sections {

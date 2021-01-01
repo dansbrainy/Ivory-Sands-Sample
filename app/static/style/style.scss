@@ -611,7 +611,7 @@ html, body {
       font-size: 1.7rem;
       margin: auto;
       // margin-top: 20px;
-
+      z-index: 1;
     }
   
     .s-content {
@@ -648,6 +648,8 @@ html, body {
       overflow: hidden;
       transition: max-height 0.2s ease-out;
 
+      z-index: 0;
+      
       .sections {
 
         display: flex;
