@@ -128,9 +128,13 @@ html header nav .topnav .collapse ul li:hover, body header nav .topnav .collapse
   background: #20201f;
 }
 
+html header nav .topnav .collapse ul li a, body header nav .topnav .collapse ul li a {
+  list-style: none;
+  color: #f8f8f8 !important;
+  font-size: 16px !important;
+}
+
 html header .topnav, body header .topnav {
-  border-bottom-left-radius: .5em;
-  border-bottom-right-radius: .5em;
   border-bottom-style: hidden;
 }
 
