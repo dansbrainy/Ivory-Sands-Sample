@@ -275,8 +275,7 @@ html .intro-header, body .intro-header {
 
 html .intro-message, body .intro-message {
   position: relative;
-  padding-top: 20%;
-  padding-bottom: 20%;
+  padding-top: 28% !important;
 }
 
 html .intro-message > h1, body .intro-message > h1 {
