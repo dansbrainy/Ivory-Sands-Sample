@@ -411,7 +411,6 @@ html .structure, body .structure {
       -ms-flex-align: center;
           align-items: center;
   justify-content: center;
-  z-index: 2;
 }
 
 html .structure .view, body .structure .view {
