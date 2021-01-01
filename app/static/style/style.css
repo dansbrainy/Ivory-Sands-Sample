@@ -845,6 +845,7 @@ html .footer, html .push, body .footer, body .push {
     background-size: cover !important;
   }
   html .intro-message, body .intro-message {
+    padding-top: 20% !important;
     padding-bottom: 3% !important;
   }
   html #marketing .structure, body #marketing .structure {
@@ -901,6 +902,7 @@ html .footer, html .push, body .footer, body .push {
     width: 58rem !important;
   }
   html .intro-message, body .intro-message {
+    padding-top: 20% !important;
     padding-bottom: 8% !important;
   }
   html #marketing, body #marketing {
@@ -972,6 +974,7 @@ html .footer, html .push, body .footer, body .push {
     width: 58rem !important;
   }
   html .intro-message, body .intro-message {
+    padding-top: 20% !important;
     padding-bottom: 8% !important;
   }
   html #marketing, body #marketing {
@@ -1047,6 +1050,8 @@ html .footer, html .push, body .footer, body .push {
   }
   html .intro-message, body .intro-message {
     position: relative;
+    padding-top: 20% !important;
+    padding-bottom: 20% !important;
   }
   html #marketing, body #marketing {
     /* Style the button that is used to open and close the collapsible content */
@@ -1196,6 +1201,7 @@ html .footer, html .push, body .footer, body .push {
     width: 38rem !important;
   }
   html .intro-message, body .intro-message {
+    padding-top: 20% !important;
     padding-bottom: 12% !important;
   }
   html .structure, body .structure {
