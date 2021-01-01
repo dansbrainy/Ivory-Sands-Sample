@@ -61,8 +61,8 @@ html, body {
 
       
       .topnav {
-        // border-bottom-left-radius: .5em;
-        // border-bottom-right-radius: .5em;
+        border-bottom-left-radius: .48em;
+        border-bottom-right-radius: .48em;
         border-bottom-style: hidden;
       }
 
@@ -861,6 +861,10 @@ html, body {
       flex-direction: row;
 
       text-align: center;
+
+      border-top-left-radius: .48em;
+      border-top-right-radius: .48em;
+      border-top-style: hidden;
     }
     
     p.copyright {
