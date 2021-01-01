@@ -502,6 +502,7 @@ html .structure .middle, body .structure .middle {
 }
 
 html .structure .right, body .structure .right {
+  z-index: 1;
   margin-bottom: 20px;
   max-width: 28rem;
   width: 90%;
@@ -597,7 +598,7 @@ html .structure form input, body .structure form input {
   border-radius: 2px;
   font-size: 1.55rem;
   text-align: center;
-  z-index: 5 !important;
+  z-index: 3 !important;
 }
 
 html .structure form input[type=submit], body .structure form input[type=submit] {
