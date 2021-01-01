@@ -644,7 +644,7 @@ html .collapsible, body .collapsible {
   outline: none;
   font-size: 1.7rem;
   margin: auto;
-  z-index: 1;
+  z-index: 2 !important;
 }
 
 html .s-content, body .s-content {
