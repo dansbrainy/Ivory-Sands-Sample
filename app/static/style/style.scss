@@ -38,9 +38,9 @@ html, body {
 
             ul {
 
-              li {
-                font-size: 16px !important;
-              }
+              // li {
+                // font-size: 16px !important;
+              // }
 
               li:hover {
                 background: #20201f;
@@ -50,7 +50,7 @@ html, body {
               li a {
                 list-style: none;
                 color:#f8f8f8 !important;
-                font-size: 16px !important;
+                // font-size: 16px !important;
               }
               
             }
@@ -547,8 +547,6 @@ html, body {
 
           font-size: 1.55rem;
           text-align: center;
-
-          z-index: 3 !important;
           
         }
     
@@ -678,6 +676,8 @@ html, body {
     /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
     .active, .collapsible:hover {
       background-color: rgb(188, 221, 235);
+      // background: #00b4ff;
+      // background-color: skyblue;
       // background-color: #488FC4;
     }
 
@@ -1776,10 +1776,10 @@ html, body {
 body {
 	// background: #00b4ff;
 	// color: #333;
-	font: 100% Lato, Arial, Sans Serif;
+	// font: 100% Lato, Arial, Sans Serif;
 	// height: 100vh;
-	margin: 0;
-	padding: 0;
+	// margin: 0;
+	// padding: 0;
 	overflow-x: hidden;
 }
 

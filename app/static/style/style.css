@@ -124,10 +124,6 @@ html header nav, body header nav {
   vertical-align: middle;
 }
 
-html header nav .topnav .collapse ul li, body header nav .topnav .collapse ul li {
-  font-size: 16px !important;
-}
-
 html header nav .topnav .collapse ul li:hover, body header nav .topnav .collapse ul li:hover {
   background: #20201f;
 }
@@ -135,7 +131,6 @@ html header nav .topnav .collapse ul li:hover, body header nav .topnav .collapse
 html header nav .topnav .collapse ul li a, body header nav .topnav .collapse ul li a {
   list-style: none;
   color: #f8f8f8 !important;
-  font-size: 16px !important;
 }
 
 html header .topnav, body header .topnav {
@@ -596,7 +591,6 @@ html .structure form input, body .structure form input {
   border-radius: 2px;
   font-size: 1.55rem;
   text-align: center;
-  z-index: 3 !important;
 }
 
 html .structure form input[type=submit], body .structure form input[type=submit] {
@@ -1456,9 +1450,6 @@ html .footer, html .push, body .footer, body .push {
   ##Screen = 1281px to higher resolution desktops
 */
 body {
-  font: 100% Lato, Arial, Sans Serif;
-  margin: 0;
-  padding: 0;
   overflow-x: hidden;
 }
 
