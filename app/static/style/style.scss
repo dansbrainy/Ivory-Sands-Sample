@@ -546,7 +546,7 @@ html, body {
           font-size: 1.55rem;
           text-align: center;
 
-          z-index: 3;
+          z-index: 5!important;
           
         }
     
@@ -1991,7 +1991,7 @@ body {
 	position: absolute;
   width: 100px;
   
-  z-index: 1;
+  // z-index: 1;
 }
 
 .bubble:after {
