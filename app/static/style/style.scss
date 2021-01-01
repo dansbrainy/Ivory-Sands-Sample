@@ -131,6 +131,7 @@ html, body {
         // border: 1px solid whitesmoke;
         align-self: center;
         // margin-left: 48%;
+        z-index: 3;
 
         // a {
          
@@ -389,6 +390,8 @@ html, body {
         font-size: 18px;
 
         border-radius: 2px;
+
+        z-index: 3;
       }
       
       .view button:hover {
@@ -542,6 +545,8 @@ html, body {
 
           font-size: 1.55rem;
           text-align: center;
+
+          z-index: 3;
           
         }
     
@@ -551,6 +556,7 @@ html, body {
           border-style: none;
           padding: 1rem;
           margin-bottom: 2rem;
+
         }
         
         input[type=tel]{
@@ -679,10 +685,14 @@ html, body {
       float: right;
       margin-left: 5px;
 
+      z-index: 3;
+
     }
     
     .active:after {
       content: "\2796"; /* Unicode character for "minus" sign (-) */
+
+      z-index: 3;
     }
 
     /* section {
@@ -818,6 +828,8 @@ html, body {
       div.gallery img {
         width: 100%;
         height: auto;
+
+        z-index: 3;
       }
       
       div.desc {
@@ -842,6 +854,8 @@ html, body {
       /* The height is 400 pixels */
       width: 100%;
       /* The width is the width of the web page */
+
+      z-index: 3;
     }
 
     footer {
@@ -880,6 +894,8 @@ html, body {
 
       text-align: center;
 
+      z-index: 3;
+      
       li a {
         list-style: none;
         color:#f8f8f8 !important;

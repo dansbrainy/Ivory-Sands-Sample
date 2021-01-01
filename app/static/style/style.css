@@ -205,6 +205,7 @@ html .wrapper #pictures, body .wrapper #pictures {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  z-index: 3;
 }
 
 html .search-cover-photo-container, html .heroBg, body .search-cover-photo-container, body .heroBg {
@@ -447,6 +448,7 @@ html .structure .view button, body .structure .view button {
   width: 80%;
   font-size: 18px;
   border-radius: 2px;
+  z-index: 3;
 }
 
 html .structure .view button:hover, body .structure .view button:hover {
@@ -595,6 +597,7 @@ html .structure form input, body .structure form input {
   border-radius: 2px;
   font-size: 1.55rem;
   text-align: center;
+  z-index: 3;
 }
 
 html .structure form input[type=submit], body .structure form input[type=submit] {
@@ -710,11 +713,13 @@ html .collapsible:after, body .collapsible:after {
   color: white;
   float: right;
   margin-left: 5px;
+  z-index: 3;
 }
 
 html .active:after, body .active:after {
   content: "\2796";
   /* Unicode character for "minus" sign (-) */
+  z-index: 3;
 }
 
 html .reviews, body .reviews {
@@ -769,6 +774,7 @@ html #gallery div.gallery:hover, body #gallery div.gallery:hover {
 html #gallery div.gallery img, body #gallery div.gallery img {
   width: 100%;
   height: auto;
+  z-index: 3;
 }
 
 html #gallery div.desc, body #gallery div.desc {
@@ -786,6 +792,7 @@ html #map, body #map {
   /* The height is 400 pixels */
   width: 100%;
   /* The width is the width of the web page */
+  z-index: 3;
 }
 
 html footer, body footer {
@@ -823,6 +830,7 @@ html ul#footer-list, body ul#footer-list {
   vertical-align: middle;
   padding-top: 18px;
   text-align: center;
+  z-index: 3;
 }
 
 html ul#footer-list li a, body ul#footer-list li a {
