@@ -124,6 +124,10 @@ html header nav, body header nav {
   vertical-align: middle;
 }
 
+html header nav .topnav .collapse ul li, body header nav .topnav .collapse ul li {
+  font-size: 16px !important;
+}
+
 html header nav .topnav .collapse ul li:hover, body header nav .topnav .collapse ul li:hover {
   background: #20201f;
 }
