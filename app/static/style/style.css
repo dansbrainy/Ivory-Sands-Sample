@@ -1606,6 +1606,7 @@ body {
   height: 100px;
   position: absolute;
   width: 100px;
+  z-index: 1;
 }
 
 .bubble:after {
