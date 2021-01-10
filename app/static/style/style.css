@@ -637,7 +637,7 @@ html .collapsible, body .collapsible {
   border-top-left-radius: 1rem;
   text-align: center;
   outline: none;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   margin: auto;
   z-index: 2 !important;
 }
@@ -660,7 +660,7 @@ html .s-content, body .s-content {
   border-bottom-right-radius: 1rem;
   border-bottom-left-radius: 1rem;
   outline: none;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   text-align: center;
   padding-left: 12px;
   padding-top: 18px;
