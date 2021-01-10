@@ -279,7 +279,7 @@ html .intro-message, body .intro-message {
 html .intro-message > h1, body .intro-message > h1 {
   margin: 0;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-  font-size: 3.2em !important;
+  font-size: 3em !important;
 }
 
 html .intro-message > h3, body .intro-message > h3 {
