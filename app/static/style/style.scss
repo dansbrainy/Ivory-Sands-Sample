@@ -363,6 +363,7 @@ html, body {
         height: auto;
       
         background-color: white;
+        
         // z-index: 5;
         position: relative;
 
@@ -487,6 +488,9 @@ html, body {
         justify-content: center;
 
         background-color: white;
+        
+
+        z-index: 1;
 
         h3 {
 
@@ -581,6 +585,18 @@ html, body {
         
       }
 
+      // form::before {
+      //   content: "";
+      //   position: absolute;
+      //   top: 110; 
+      //   left: 0;
+      //   width: 100%; 
+      //   height: 90%;  
+      //   opacity: .4; 
+      //   z-index: 1;
+      //   background: url('/img/palm-tree-silhouette_500x500.png');
+      //   background-size: 42px 42px;
+      // }
     }
 
     /* Style the button that is used to open and close the collapsible content */
@@ -627,6 +643,8 @@ html, body {
       margin: auto;
 
       color: rgb(12, 67, 88);
+      color: black;
+      // color: rgb(65, 38, 3);
       
       border-bottom-right-radius: 1rem;
       border-bottom-left-radius: 1rem;
@@ -642,11 +660,15 @@ html, body {
       padding-right: 12px;
 
       background-color: white;
+      position: relative;
+      // background-size: 82px;
+
       max-height: 0;
       overflow: hidden;
       transition: max-height 0.2s ease-out;
 
       z-index: 0;
+
 
       .sections {
 
@@ -671,6 +693,26 @@ html, body {
         }
     
       }
+    }
+
+    .s-content:before {
+      content: ' ';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      opacity: 0.18;
+      background-image: url('/img/palm-tree-silhouette_500x500.png');
+      background-repeat: repeat;
+      // background-position: 50% 0;
+      -ms-background-size: cover;
+      -o-background-size: cover;
+      -moz-background-size: cover;
+      -webkit-background-size: cover;
+      background-size: cover;
     }
 
     /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -2049,4 +2091,27 @@ body {
 	left: 10px;
 	position: absolute;
 	width: 90px;
+}
+
+
+
+
+
+
+
+
+
+path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear alternate infinite;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 822;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
 }
