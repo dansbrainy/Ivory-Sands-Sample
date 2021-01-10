@@ -20,6 +20,7 @@ html, body {
     header {
 
       nav {
+
         height: auto !important;
         background-image: linear-gradient(black, rgb(9, 24, 29));
         border-bottom-style: none;
@@ -85,8 +86,7 @@ html, body {
 
       }
 
-    }
-    
+    } 
   
     a, .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
       color: white;
@@ -96,7 +96,6 @@ html, body {
       color: #FF8000;
     }
   
-
     h2.villaFeat {
       font-family: "Josefin Sans",sans-serif;
       font-size: 1.2rem;
@@ -168,7 +167,6 @@ html, body {
       display: grid;
       grid-auto-flow: dense;
     }
-
     
     @media screen and (max-width: 680px) {
       .heroGrid {
@@ -176,7 +174,6 @@ html, body {
       }
     }
 
-  
     .alert-info {
       width: 50%;
       margin: auto;
@@ -854,7 +851,7 @@ html, body {
       margin-top: 1rem;
       // margin-bottom: 15px;
 
-      height: 400px;
+      height: 40rem;
       /* The height is 400 pixels */
       width: 100%;
       /* The width is the width of the web page */
@@ -1012,6 +1009,9 @@ html, body {
   
       }
       
+      #map {
+        height: 48rem;
+      }
     }
 
     /* 
@@ -1124,6 +1124,10 @@ html, body {
           float: right;
         }
   
+      }
+
+      #map {
+        height: 58rem;
       }
       
     }
@@ -1240,6 +1244,9 @@ html, body {
   
       }
       
+      #map {
+        height: 58rem;
+      }
     }
 
     /* 
@@ -1432,7 +1439,7 @@ html, body {
       /* Set the size of the div element that contains the map */
       #map {
     
-        height: 500px;
+        height: 68rem;
         /* The height is 400 pixels */
         width: 100%;
         /* The width is the width of the web page */
@@ -1690,7 +1697,7 @@ html, body {
       /* Set the size of the div element that contains the map */
       #map {
     
-        height: 500px;
+        height: 68rem;
         /* The height is 400 pixels */
         width: 100%;
         /* The width is the width of the web page */
@@ -1768,7 +1775,6 @@ html, body {
 @media (min-width: 1281px) {
 
 }
-
 
 
 

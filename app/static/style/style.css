@@ -783,7 +783,7 @@ html #gallery div.larger, body #gallery div.larger {
 
 html #map, body #map {
   margin-top: 1rem;
-  height: 400px;
+  height: 40rem;
   /* The height is 400 pixels */
   width: 100%;
   /* The width is the width of the web page */
@@ -892,6 +892,9 @@ html .footer, html .push, body .footer, body .push {
     width: 49%;
     float: right;
   }
+  html #map, body #map {
+    height: 48rem;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -964,6 +967,9 @@ html .footer, html .push, body .footer, body .push {
   html #gallery div.larger, body #gallery div.larger {
     float: right;
   }
+  html #map, body #map {
+    height: 58rem;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
@@ -1035,6 +1041,9 @@ html .footer, html .push, body .footer, body .push {
   }
   html #gallery div.larger, body #gallery div.larger {
     float: right;
+  }
+  html #map, body #map {
+    height: 58rem;
   }
 }
 
@@ -1182,7 +1191,7 @@ html .footer, html .push, body .footer, body .push {
     text-align: center;
   }
   html #map, body #map {
-    height: 500px;
+    height: 68rem;
     /* The height is 400 pixels */
     width: 100%;
     /* The width is the width of the web page */
@@ -1382,7 +1391,7 @@ html .footer, html .push, body .footer, body .push {
     float: right;
   }
   html #map, body #map {
-    height: 500px;
+    height: 68rem;
     /* The height is 400 pixels */
     width: 100%;
     /* The width is the width of the web page */
