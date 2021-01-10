@@ -111,6 +111,7 @@ html, body {
     }
   
     .wrapper {
+
       min-height: 100%;
       height: auto !important;
       height: 100%;
@@ -228,7 +229,7 @@ html, body {
     .intro-message > h1 {
       margin: 0;
       text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-      font-size: 4.2em !important;
+      font-size: 3.6em !important;
     }
     
     .intro-message > h3 {
@@ -605,7 +606,7 @@ html, body {
       text-align: center;
 
       outline: none;
-      font-size: 1.5rem;
+      font-size: 1.58rem;
       margin: auto;
       // margin-top: 20px;
       z-index: 2 !important;
@@ -632,7 +633,7 @@ html, body {
       // text-align: left;
       outline: none;
 
-      font-size: 1.5rem;
+      font-size: 1.58rem;
       text-align: center;
 
       padding-left: 12px;
@@ -787,7 +788,7 @@ html, body {
       // text-align: left;
       outline: none;
 
-      font-size: 1.5rem;
+      font-size: 1.58rem;
     
       padding-left: 20px;
       padding-top: 18px;
@@ -936,6 +937,10 @@ html, body {
         padding-bottom: 3% !important;
       }
 
+      .intro-message > h1 {
+        font-size: 3.8em !important;
+      }
+
       #marketing {
 
         // margin: auto !important;
@@ -1040,6 +1045,10 @@ html, body {
         padding-top: 20% !important;
         padding-bottom: 8% !important;
         
+      }
+
+      .intro-message > h1 {
+        font-size: 4em !important;
       }
 
       #marketing {
@@ -1160,6 +1169,10 @@ html, body {
         
       }
 
+      .intro-message > h1 {
+        font-size: 4em !important;
+      }
+
       #marketing {
 
         margin: auto !important;
@@ -1274,6 +1287,10 @@ html, body {
         position: relative;
         padding-top: 20% !important;
         padding-bottom: 20% !important;
+      }
+
+      .intro-message > h1 {
+        font-size: 4.2em !important;
       }
       
       #marketing {
@@ -1468,6 +1485,10 @@ html, body {
         padding-top: 20% !important;
         padding-bottom: 12% !important;
        
+      }
+
+      .intro-message > h1 {
+        font-size: 4.2em !important;
       }
       
       .structure {

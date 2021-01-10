@@ -279,7 +279,7 @@ html .intro-message, body .intro-message {
 html .intro-message > h1, body .intro-message > h1 {
   margin: 0;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-  font-size: 4.2em !important;
+  font-size: 3.6em !important;
 }
 
 html .intro-message > h3, body .intro-message > h3 {
@@ -637,7 +637,7 @@ html .collapsible, body .collapsible {
   border-top-left-radius: 1rem;
   text-align: center;
   outline: none;
-  font-size: 1.5rem;
+  font-size: 1.58rem;
   margin: auto;
   z-index: 2 !important;
 }
@@ -660,7 +660,7 @@ html .s-content, body .s-content {
   border-bottom-right-radius: 1rem;
   border-bottom-left-radius: 1rem;
   outline: none;
-  font-size: 1.5rem;
+  font-size: 1.58rem;
   text-align: center;
   padding-left: 12px;
   padding-top: 18px;
@@ -727,7 +727,7 @@ html .reviews, body .reviews {
   margin: auto;
   color: #0c4358;
   outline: none;
-  font-size: 1.5rem;
+  font-size: 1.58rem;
   padding-left: 20px;
   padding-top: 18px;
   padding-bottom: 20px;
@@ -852,6 +852,9 @@ html .footer, html .push, body .footer, body .push {
     padding-top: 20% !important;
     padding-bottom: 3% !important;
   }
+  html .intro-message > h1, body .intro-message > h1 {
+    font-size: 3.8em !important;
+  }
   html #marketing .structure, body #marketing .structure {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -911,6 +914,9 @@ html .footer, html .push, body .footer, body .push {
   html .intro-message, body .intro-message {
     padding-top: 20% !important;
     padding-bottom: 8% !important;
+  }
+  html .intro-message > h1, body .intro-message > h1 {
+    font-size: 4em !important;
   }
   html #marketing, body #marketing {
     margin: auto !important;
@@ -986,6 +992,9 @@ html .footer, html .push, body .footer, body .push {
   html .intro-message, body .intro-message {
     padding-top: 20% !important;
     padding-bottom: 8% !important;
+  }
+  html .intro-message > h1, body .intro-message > h1 {
+    font-size: 4em !important;
   }
   html #marketing, body #marketing {
     margin: auto !important;
@@ -1065,6 +1074,9 @@ html .footer, html .push, body .footer, body .push {
     position: relative;
     padding-top: 20% !important;
     padding-bottom: 20% !important;
+  }
+  html .intro-message > h1, body .intro-message > h1 {
+    font-size: 4.2em !important;
   }
   html #marketing, body #marketing {
     /* Style the button that is used to open and close the collapsible content */
@@ -1216,6 +1228,9 @@ html .footer, html .push, body .footer, body .push {
   html .intro-message, body .intro-message {
     padding-top: 20% !important;
     padding-bottom: 12% !important;
+  }
+  html .intro-message > h1, body .intro-message > h1 {
+    font-size: 4.2em !important;
   }
   html .structure, body .structure {
     display: -webkit-box;
