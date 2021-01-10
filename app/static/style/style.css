@@ -705,16 +705,12 @@ html .s-content:before, body .s-content:before {
   content: ' ';
   display: block;
   position: absolute;
-  left: 0;
-  top: 0;
   width: 100%;
   height: 100%;
   z-index: 1;
-  opacity: 0.18;
+  opacity: 0.08;
   background-image: url("/img/palm-tree-silhouette_500x500.png");
-  background-repeat: repeat;
-  -ms-background-size: cover;
-  background-size: cover;
+  background-repeat: round;
 }
 
 html .active, html .collapsible:hover, body .active, body .collapsible:hover {
