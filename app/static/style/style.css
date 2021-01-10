@@ -434,14 +434,14 @@ html .structure .price, body .structure .price {
 html .structure .view button, body .structure .view button {
   border: none;
   outline: 0;
-  padding: 10px;
   color: white;
   background-color: #000;
   text-align: center;
   cursor: pointer;
-  width: 80%;
+  width: 88%;
   font-size: 1.58rem;
   border-radius: 2px;
+  padding: 1rem;
   z-index: 3;
 }
 
@@ -534,6 +534,8 @@ html .structure form h3, body .structure form h3 {
   border-radius: 2px;
   color: black;
   border: 1px dashed black;
+  background: -webkit-gradient(linear, left top, right top, from(#DAC6A6), to(white));
+  background: linear-gradient(to right, #DAC6A6, white);
   opacity: .8;
 }
 
@@ -596,8 +598,11 @@ html .structure form input, body .structure form input {
 }
 
 html .structure form input[type=submit], body .structure form input[type=submit] {
-  background-color: #FF8000;
+  background: -webkit-gradient(linear, left top, right top, from(#DAC6A6), to(white));
+  background: linear-gradient(to right, #DAC6A6, white);
+  background: #DAC6A6;
   color: whitesmoke;
+  color: black;
   border-style: none;
   padding: 1rem;
   margin-bottom: 2rem;
@@ -634,8 +639,11 @@ html .collapsible, body .collapsible {
   padding-right: 18px;
   width: 100%;
   border: none;
-  border-top-right-radius: 1rem;
-  border-top-left-radius: 1rem;
+  border-top-right-radius: .8rem;
+  border-top-left-radius: .8rem;
+  border-top: 2px solid #DAC6A6;
+  border-left: 2px solid #DAC6A6;
+  border-right: 2px solid #DAC6A6;
   text-align: center;
   outline: none;
   font-size: 1.58rem;
@@ -659,8 +667,11 @@ html .s-content, body .s-content {
   margin: auto;
   color: #0c4358;
   color: black;
-  border-bottom-right-radius: 1rem;
-  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: .8rem;
+  border-bottom-left-radius: .8rem;
+  border-bottom: 2px solid #DAC6A6;
+  border-left: 2px solid #DAC6A6;
+  border-right: 2px solid #DAC6A6;
   outline: none;
   font-size: 1.58rem;
   text-align: center;
@@ -701,6 +712,27 @@ html .s-content .sections .first, body .s-content .sections .first {
           justify-content: center;
 }
 
+html .s-content .sections .first .title, body .s-content .sections .first .title {
+  color: #121e1f;
+  background: -webkit-gradient(linear, left top, right top, from(#DAC6A6), to(white));
+  background: linear-gradient(to right, #DAC6A6, white);
+  padding: 5px;
+}
+
+html .s-content .sections .second .title, body .s-content .sections .second .title {
+  color: #121e1f;
+  background: -webkit-gradient(linear, left top, right top, from(#DAC6A6), to(white));
+  background: linear-gradient(to right, #DAC6A6, white);
+  padding: 5px;
+}
+
+html .s-content .title, body .s-content .title {
+  color: #121e1f;
+  background: -webkit-gradient(linear, left top, right top, from(#DAC6A6), to(white));
+  background: linear-gradient(to right, #DAC6A6, white);
+  padding: 5px;
+}
+
 html .s-content:before, body .s-content:before {
   content: ' ';
   display: block;
@@ -714,7 +746,8 @@ html .s-content:before, body .s-content:before {
 }
 
 html .active, html .collapsible:hover, body .active, body .collapsible:hover {
-  background-color: #bcddeb;
+  background: -webkit-gradient(linear, left top, right top, from(#DAC6A6), to(white));
+  background: linear-gradient(to right, #DAC6A6, white);
 }
 
 html .collapsible:after, body .collapsible:after {
