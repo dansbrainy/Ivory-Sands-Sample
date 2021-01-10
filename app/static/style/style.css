@@ -5,6 +5,7 @@
 }
 
 html, body {
+  font-family: "Josefin Sans",sans-serif;
   width: 100%;
   height: 100%;
   background: #78A4DA;
@@ -134,8 +135,8 @@ html header nav .topnav .collapse ul li a, body header nav .topnav .collapse ul 
 }
 
 html header .topnav, body header .topnav {
-  border-bottom-left-radius: .48em;
-  border-bottom-right-radius: .48em;
+  border-bottom-left-radius: .28em;
+  border-bottom-right-radius: .28em;
   border-bottom-style: hidden;
 }
 
@@ -807,8 +808,8 @@ html footer, body footer {
       -ms-flex-direction: row;
           flex-direction: row;
   text-align: center;
-  border-top-left-radius: .48em;
-  border-top-right-radius: .48em;
+  border-top-left-radius: .28em;
+  border-top-right-radius: .28em;
   border-top-style: hidden;
 }
 
