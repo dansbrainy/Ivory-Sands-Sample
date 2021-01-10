@@ -748,14 +748,25 @@ html .reviews, body .reviews {
   padding-bottom: 20px;
   padding-right: 18px;
   background-color: white;
+  border: 2px solid #DAC6A6;
+  border-radius: 8px;
 }
 
 html .reviews .review, body .reviews .review {
   margin-top: 10px;
+  border-bottom: 1px solid grey;
+  margin-bottom: 18px;
 }
 
 html .reviews .review .title, body .reviews .review .title {
-  color: tomato;
+  color: #121e1f;
+  background: -webkit-gradient(linear, left top, right top, from(#DAC6A6), to(white));
+  background: linear-gradient(to right, #DAC6A6, white);
+  padding: 5px;
+}
+
+html .reviews .review .comment, body .reviews .review .comment {
+  padding: 8px;
 }
 
 html #gallery, body #gallery {
@@ -1385,9 +1396,6 @@ html .footer, html .push, body .footer, body .push {
   }
   html .reviews .review, body .reviews .review {
     margin-top: 10px;
-  }
-  html .reviews .review .title, body .reviews .review .title {
-    color: tomato;
   }
   html #gallery, body #gallery {
     display: -webkit-box;

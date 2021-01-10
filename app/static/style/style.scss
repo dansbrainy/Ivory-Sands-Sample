@@ -837,13 +837,26 @@ html, body {
       padding-bottom: 20px;
       padding-right: 18px;
       background-color: white;
+
+      border: 2px solid #DAC6A6;
+      border-radius: 8px;
       // max-height: 0;
 
         .review {
           margin-top: 10px; 
+          border-bottom: 1px solid grey;
+          margin-bottom: 18px;
 
           .title {
-            color: tomato;
+            // color: tomato;
+            color: rgb(18, 30, 31);
+            background: linear-gradient(to right, #DAC6A6, white);
+            padding: 5px;
+          }
+
+          .comment {
+            padding: 8px;
+            // color: cadetblue;
           }
         }
 
@@ -1718,7 +1731,7 @@ html, body {
             margin-top: 10px; 
     
             .title {
-              color: tomato;
+              // color: tomato;
             }
           }
     
