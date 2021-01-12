@@ -9,8 +9,8 @@ html, body {
   width: 100%;
   height: 100%;
   background: #78A4DA;
-  background: -webkit-gradient(linear, right top, left bottom, from(#78A4DA), color-stop(#eff3f5), to(#DAC6A6));
-  background: linear-gradient(to bottom left, #78A4DA, #eff3f5, #DAC6A6);
+  background: -webkit-gradient(linear, right top, left bottom, from(#78A4DA));
+  background: linear-gradient(to bottom left, #78A4DA);
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
