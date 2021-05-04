@@ -8,7 +8,6 @@ html, body {
   font-family: "Josefin Sans",sans-serif;
   width: 100%;
   height: 100%;
-  background: #78A4DA;
   background: -webkit-gradient(linear, right top, left bottom, from(#78A4DA));
   background: linear-gradient(to bottom left, #78A4DA);
   margin: 0;
@@ -16,78 +15,6 @@ html, body {
   background-attachment: fixed;
   /* Style the button that is used to open and close the collapsible content */
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  /* section {
-      position: static;
-      width: 100%;
-      height: 100vh;
-      overflow: hidden;
-      background: lavender;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-    }
-    
-    section span {
-      position: absolute;
-      bottom: -50px;
-      background: transparent;
-      border-radius: 50%;
-      pointer-events: none;
-      -webkit-box-shadow: inset 0 0 10px rgba(225, 225, 225, 0.5);
-              box-shadow: inset 0 0 10px rgba(225, 225, 225, 0.5);
-      -webkit-animation: animate 4s linear infinite;
-              animation: animate 4s linear infinite;
-    }
-    
-    section span::before {
-      content: "";
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      -webkit-transform: scale(0.25) translate(-70%, -70%);
-              transform: scale(0.25) translate(-70%, -70%);
-      background: radial-gradient(#ffffff, transparent);
-      border-radius: 50%;
-    }
-    
-    @-webkit-keyframes animation {
-      0% {
-        -webkit-transform: translateY(0%);
-                transform: translateY(0%);
-        opacity: 1;
-      }
-      99% {
-        opacity: 1;
-      }
-      100% {
-        -webkit-transform: translateY(-1200%);
-                transform: translateY(-1200%);
-        opacity: .1;
-      }
-    }
-    
-    @keyframes animation {
-      0% {
-        -webkit-transform: translateY(0%);
-                transform: translateY(0%);
-        opacity: 1;
-      }
-      99% {
-        opacity: 1;
-      }
-      100% {
-        -webkit-transform: translateY(-1200%);
-                transform: translateY(-1200%);
-        opacity: .1;
-      }
-    } */
-  /*# sourceMappingURL=style.css.map */
   /* Set the size of the div element that contains the map */
   /* 
       ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -603,10 +530,7 @@ html .structure form input, body .structure form input {
 }
 
 html .structure form input[type=submit], body .structure form input[type=submit] {
-  background: -webkit-gradient(linear, left top, right top, from(#DAC6A6), to(white));
-  background: linear-gradient(to right, #DAC6A6, white);
   background: #DAC6A6;
-  color: whitesmoke;
   color: black;
   border-style: none;
   padding: 1rem;
