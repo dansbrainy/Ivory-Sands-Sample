@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0"/>
+
+    <title>Welcome | Ivory Sands</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="app/static/style/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/img/favicon">
+    
+    <link rel="stylesheet" href="app/build/css/intlTelInput.css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    
+    <!-- ADDITIONAL / EXTERNAL LINKS -->
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script> -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script src="app/build/js/intlTelInput.js"></script>
+    <script src="app/build/js/utils.js"></script>
+    <script src="app/build/js/intlTelInput.min.js"></script>
+
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+
+    <script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYffitXco5gGG_pvwljyRYzWri97wYbRM&callback=initMap">
+    </script>
+    
+    <!-- css3-mediaqueries.js for IE less than 9 -->
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+
+    <script src="https://kit.fontawesome.com/ec05dfd494.js" crossorigin="anonymous"></script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+
+            <div class="container topnav">
+
+                <div class="navbar-header">
+
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a id="nav-welcome" class="navbar-brand topnav" href="#">Ivory Sands</a>
+
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li style="font-size: 1.6rem;"><a href="#">Home</a></li>
+                        <li style="font-size: 1.6rem;" id="refer"><a href="#enquire">Enquire</a></li>
+                        <li style="font-size: 1.6rem;"><a href="#about">About</a></li>
+                        <li style="font-size: 1.6rem;"><a href="#gallery">Gallery</a></li>
+                        <!-- Dropdown -->
+                        <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                Account
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Login</a>
+                                <a class="dropdown-item" href="#">Register</a>
+                                <a class="dropdown-item" href="#">Logout</a>
+                            </div>
+                        </li> -->
+                    </ul>
+                    
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <div class="wrapper">
+
+            <div id="background-wrap">
+                <div class="bubble x1"></div>
+                <div class="bubble x2"></div>
+                <div class="bubble x3"></div>
+                <div class="bubble x4"></div>
+                <div class="bubble x5"></div>
+                <div class="bubble x6"></div>
+                <div class="bubble x7"></div>
+                <div class="bubble x8"></div>
+                <div class="bubble x9"></div>
+                <div class="bubble x10"></div>
+            </div>
+
+            <section>
+                <!-- {% block body %}
+                {% endblock %} -->
+
+                <div class="intro-header">
+                    <div class="heroBg">
+                        <div class="heroGrid">
+                                    
+                            <div class="intro-message">
+                                <h1 id="name">Ivory Sands</h1>
+                                <h2 id="villaFeat" class="villaFeat">
+                                    CLIFTON, SLEEPS 4 PEOPLE
+                                </h2>
+                                <hr class="intro-divider">
+                            </div>
+
+                            <div class="propMedia pull-right">
+
+                                <div id="pictures">
+                                    <a href="#gallery">
+                                        <span class="glyphicon glyphicon-camera"></span>
+                                        <br>Pictures
+                                    </a>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                   
+                </div>
+
+            </section>
+
+        </div>
+        
+        <div id="marketing" class="container marketing">
+
+            <section>
+
+                <div class="structure">
+
+                    <div class="view">
+
+                        <img src="/img/ivory-sands-clifton-.jpg.webp" alt="Denim Jeans" style="width:100%">
+                        <h2>Holiday Rental</h2>
+                        <p class="price">from R 6000 per night</p>
+
+                        <div class="second-middle" style="display: none;">
+                            <hr>
+                            <p>
+                                
+                                <div class="green">
+    
+                                    ✓ Sea View
+                                 
+                                    ✓ Pool
+                                    <br>
+                                    ✓ Air Conditioning
+                                 
+                                    ✓ Walk To Beach
+                                    <br>
+                                    ✓ Romantic
+                                   
+                                    ✓ Own Water Provisions
+    
+                                </div>
+                                
+                            </p>
+                            <hr>
+                        </div>
+                       
+                        <a href="#enquire"><button id="refer">Enquire</button></a>
+
+                    </div>
+
+                    <div class="middle">
+
+                        <svg id="svg-castle" width="240" height="240" viewBox="0 0 480 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M231.111 183.761V150.371C231.111 149.553 231.774 148.889 232.592 148.889H247.407C248.225 148.889 248.889 149.552 248.889 150.371V183.761L258.342 206.667H271.111V135.556H240H208.889V206.667H221.658L231.111 183.761Z" stroke="#B2441D" stroke-width="2px" class="color-6"/>
+                            <path d="M311.111 420H288.889V455.556V468.889H311.111V455.556V420Z" stroke="#B2441D" stroke-width="2px" class="color-1"/>
+                            <path d="M191.111 420H168.889V455.556V468.889H191.111V455.556V420Z" stroke="#B2441D" stroke-width="2px" class="color-1"/>
+                            <path d="M168.889 220V228.889V237.778H222.222V228.889H212.487L221.658 206.667H208.889H169.524L177.778 220H168.889Z" stroke="#B2441D" stroke-width="2px" class="color-1"/>
+                            <path d="M267.513 228.889H257.778V237.778H311.111V228.889V220H302.222L310.476 206.667H271.111H258.342L267.513 228.889Z" stroke="#B2441D" stroke-width="2px" class="color-1"/>
+                            <path d="M220.741 246.667H205.926C205.108 246.667 204.445 247.33 204.445 248.149V286.667H222.223V248.149C222.222 247.33 221.559 246.667 220.741 246.667Z" stroke="#B2441D" stroke-width="2px" class="color-1"/>
+                            <path d="M248.889 183.761V150.371C248.889 149.553 248.226 148.889 247.407 148.889H232.592C231.774 148.889 231.111 149.552 231.111 150.371V183.761L240 162.222L248.889 183.761Z" stroke="#B2441D" stroke-width="2px" class="color-1"/>
+                            <path d="M195.556 248.148C195.556 247.33 194.893 246.666 194.075 246.666H179.26C178.442 246.666 177.778 247.329 177.778 248.148V286.666H195.556V248.148Z" stroke="#B2441D" stroke-width="2px" class="color-1"/>
+                            <path d="M300.741 246.667H285.926C285.108 246.667 284.445 247.33 284.445 248.149V286.667H302.223V248.149C302.222 247.33 301.559 246.667 300.741 246.667Z" stroke="#B2441D" stroke-width="2px" class="color-1"/>
+                            <path d="M275.556 286.667V248.149C275.556 247.331 274.893 246.667 274.075 246.667H259.26C258.442 246.667 257.778 247.33 257.778 248.149V286.667H275.556Z" stroke="#B2441D" stroke-width="2px" class="color-1"/>
+                            <path d="M408.889 411.111H391.111V228.889H408.889V220H360H328.889V228.889V411.111H311.111V237.778H257.778V248.148C257.778 247.33 258.441 246.666 259.26 246.666H274.075C274.893 246.666 275.556 247.329 275.556 248.148V286.666H257.778V288.717L297.778 353.332H288.889V362.221V420H311.111H337.778H408.889V455.556H471.111V322.222H408.889V411.111ZM302.222 286.667H284.444V248.149C284.444 247.331 285.107 246.667 285.925 246.667H300.74C301.558 246.667 302.221 247.33 302.221 248.149V286.667H302.222ZM337.778 411.111V237.778V228.889H382.223V411.111H337.778ZM431.111 354.815C431.111 353.997 431.774 353.333 432.592 353.333H447.407C448.225 353.333 448.889 353.996 448.889 354.815V393.333H431.111V354.815ZM431.111 428.889H448.889V446.667H431.111V428.889Z" stroke="#B2441D" stroke-width="2px" class="color-6"/>
+                            <path d="M422.222 228.889L408.889 250.427V322.222H471.111H480L422.222 228.889Z" stroke="#B2441D" stroke-width="2px" class="color-2"/>
+                            <path d="M204.444 362.222H191.111V420V455.556H204.444V362.222Z" stroke="#B2441D" stroke-width="2px" class="color-3"/>
+                            <path d="M275.556 455.556H288.889V420V362.222H275.556V455.556Z"  stroke="#B2441D" stroke-width="2px"class="color-3"/>
+                            <path d="M240 260V237.778H222.222V248.148V286.667V288.718L240 260Z" stroke="#B2441D" stroke-width="2px" class="color-3"/>
+                            <path d="M240 260L257.778 288.718V286.667V248.148V237.778H240V260Z" stroke="#B2441D" stroke-width="2px" class="color-4"/>
+                            <path d="M240 353.333V322.222V260L222.222 288.718L182.222 353.333H191.111H204.444H240Z" stroke="#B2441D" stroke-width="2px" class="color-5"/>
+                            <path d="M240 162.222L231.111 183.761L221.658 206.667L212.487 228.889H222.222H240V162.222Z" stroke="#B2441D" stroke-width="2px" class="color-5"/>
+                            <path d="M267.513 228.889L258.342 206.667L248.889 183.761L240 162.222L267.513 228.889Z" stroke="#B2441D" stroke-width="2px" class="color-5"/>
+                            <path d="M240 11.111L201.482 135.556H208.889H240V11.111Z" stroke="#B2441D" stroke-width="2px" class="color-5"/>
+                            <path d="M311.111 237.778V411.111H328.889V228.889H311.111V237.778Z" stroke="#B2441D" stroke-width="2px" class="color-3"/>
+                            <path d="M382.222 228.889H337.777V237.778V411.111H382.222V228.889ZM351.111 248.148C351.111 247.33 351.774 246.666 352.592 246.666H367.407C368.225 246.666 368.889 247.329 368.889 248.148V286.666H351.111V248.148ZM368.889 393.333H351.111V354.815C351.111 353.997 351.774 353.333 352.592 353.333H367.407C368.225 353.333 368.889 353.996 368.889 354.815V393.333ZM351.111 340V301.481C351.111 300.663 351.774 300 352.592 300H367.407C368.225 300 368.889 300.663 368.889 301.481V340H351.111Z" stroke="#B2441D" stroke-width="2px" class="color-3"/>
+                            <path d="M311.111 220H328.889H360V126.667L310.476 206.667L302.222 220H311.111Z" stroke="#B2441D" stroke-width="2px"  class="color-5"/>
+                            <path d="M367.407 353.333H352.592C351.774 353.333 351.111 353.996 351.111 354.815V393.333H368.889V354.815C368.889 353.997 368.226 353.333 367.407 353.333Z" stroke="#B2441D" stroke-width="2px" class="color-1"/>
+                            <path d="M448.889 354.815C448.889 353.997 448.226 353.333 447.407 353.333H432.592C431.774 353.333 431.111 353.996 431.111 354.815V393.333H448.889V354.815Z" stroke="#B2441D" stroke-width="2px" class="color-1"/>
+                            <path d="M368.889 301.481C368.889 300.663 368.226 300 367.407 300H352.592C351.774 300 351.111 300.663 351.111 301.481V340H368.889V301.481Z" stroke="#B2441D" stroke-width="2px" class="color-1"/>
+                            <path d="M368.889 248.148C368.889 247.33 368.226 246.666 367.407 246.666H352.592C351.774 246.666 351.111 247.329 351.111 248.148V286.666H368.889V248.148Z" stroke="#B2441D" stroke-width="2px" class="color-1"/>
+                            <path d="M408.889 455.556V420H337.778H311.111V455.556H408.889ZM351.111 428.889H368.889V446.667H351.111V428.889Z" stroke="#B2441D" stroke-width="2px" class="color-4"/>
+                            <path d="M391.111 411.111H408.889V322.222V250.427V228.889H391.111V411.111Z" stroke="#B2441D" stroke-width="2px" class="color-4"/>
+                            <path d="M275.556 362.222H204.445V455.555H222.223V440C222.223 430.181 230.182 422.222 240.001 422.222C249.82 422.222 257.779 430.181 257.779 440V455.556H275.557V362.222H275.556Z" stroke="#B2441D" stroke-width="2px" class="color-4"/>
+                            <path d="M257.778 440C257.778 430.181 249.819 422.222 240 422.222C230.182 422.222 222.222 430.181 222.222 440V455.556V468.889H257.777V455.556V440H257.778Z" stroke="#B2441D" stroke-width="2px" class="color-1"/>
+                            <path d="M204.444 362.222H275.556V353.333H240H204.444V362.222Z" stroke="#B2441D" stroke-width="2px" class="color-6"/>
+                            <path d="M222.222 455.556H204.444V468.889H222.222V455.556Z" stroke="#B2441D" stroke-width="2px" class="color-6"/>
+                            <path d="M275.556 455.556H257.778V468.889H275.556V455.556Z" stroke="#B2441D" stroke-width="2px" class="color-6"/>
+                            <path d="M204.444 455.556H191.111V468.889H204.444V455.556Z" stroke="#B2441D" stroke-width="2px" class="color-4"/>
+                            <path d="M204.444 353.333H191.111V362.222H204.444V353.333Z"  stroke="#B2441D" stroke-width="2px"class="color-4"/>
+                            <path d="M288.889 353.333H275.556V362.222H288.889V353.333Z" stroke="#B2441D" stroke-width="2px" class="color-4"/>
+                            <path d="M328.889 220H311.111V228.889H328.889V220Z" stroke="#B2441D" stroke-width="2px"  class="color-4"/>
+                            <path d="M288.889 455.556H275.556V468.889H288.889V455.556Z" stroke="#B2441D" stroke-width="2px" class="color-4"/>
+                            <path d="M368.889 428.889H351.111V446.667H368.889V428.889Z" stroke="#B2441D" stroke-width="2px" class="color-1"/>
+                            <path d="M448.889 428.889H431.111V446.667H448.889V428.889Z" stroke="#B2441D" stroke-width="2px" class="color-1"/>
+                            <path d="M71.111 420H137.778H168.889H191.111V362.222V353.333H182.222L222.222 288.718V286.667H204.444V248.149C204.444 247.331 205.107 246.667 205.925 246.667H220.74C221.558 246.667 222.221 247.33 222.221 248.149V237.779H168.888V411.112H151.11V228.889H168.888V220H120H88.889V228.889V411.111H71.111V322.222H8.88901V455.555H71.111V420ZM177.778 248.148C177.778 247.33 178.441 246.666 179.26 246.666H194.075C194.893 246.666 195.556 247.329 195.556 248.148V286.666H177.778V248.148ZM97.778 228.889H142.223V411.111H97.778V228.889ZM48.889 446.667H31.111V428.889H48.889V446.667V446.667ZM48.889 393.333H31.111V354.815C31.111 353.997 31.774 353.333 32.592 353.333H47.407C48.225 353.333 48.889 353.996 48.889 354.815V393.333V393.333Z" stroke="#B2441D" stroke-width="2px" class="color-6"/>
+                            <path d="M71.111 250.427L57.778 228.889L0 322.222H8.889H71.111V250.427Z" stroke="#B2441D" stroke-width="2px"  class="color-2"/>
+                            <path d="M47.407 353.333H32.593C31.775 353.333 31.112 353.996 31.112 354.815V393.333H48.89V354.815C48.889 353.997 48.226 353.333 47.407 353.333Z" stroke="#B2441D" stroke-width="2px"  class="color-1"/>
+                            <path d="M48.889 428.889H31.111V446.667H48.889V428.889Z" stroke="#B2441D" stroke-width="2px" class="color-1"/>
+                            <path d="M71.111 411.111H88.889V228.889H71.111V250.427V322.222V411.111Z" stroke="#B2441D" stroke-width="2px"  class="color-3"/>
+                            <path d="M142.222 411.111V228.889H97.778V411.111H142.222ZM128.889 393.333H111.111V354.815C111.111 353.997 111.774 353.333 112.592 353.333H127.407C128.225 353.333 128.889 353.996 128.889 354.815V393.333ZM128.889 340H111.111V301.481C111.111 300.663 111.774 300 112.592 300H127.407C128.225 300 128.889 300.663 128.889 301.481V340ZM128.889 286.667H111.111V248.149C111.111 247.331 111.774 246.667 112.592 246.667H127.407C128.225 246.667 128.889 247.33 128.889 248.149V286.667Z" stroke="#B2441D" stroke-width="2px" class="color-3"/>
+                            <path d="M120 220V126.667L62.222 220H71.111H88.889H120Z" stroke="#B2441D" stroke-width="2px"  class="color-5"/>
+                            <path d="M127.407 353.333H112.592C111.774 353.333 111.111 353.996 111.111 354.815V393.333H128.889V354.815C128.889 353.997 128.226 353.333 127.407 353.333Z" stroke="#B2441D" stroke-width="2px" class="color-1"/>
+                            <path d="M127.407 300H112.592C111.774 300 111.111 300.663 111.111 301.481V340H128.889V301.481C128.889 300.663 128.226 300 127.407 300Z" stroke="#B2441D" stroke-width="2px" class="color-1"/>
+                            <path d="M127.407 246.667H112.592C111.774 246.667 111.111 247.33 111.111 248.149V286.667H128.889V248.149C128.889 247.33 128.226 246.667 127.407 246.667Z" stroke="#B2441D" stroke-width="2px" class="color-1"/>
+                            <path d="M71.111 420V455.556H168.889V420H137.778H71.111ZM128.889 446.667H111.111V428.889H128.889V446.667Z" stroke="#B2441D" stroke-width="2px" class="color-4"/>
+                            <path d="M71.111 455.556V468.889H137.778H168.889V455.556H71.111Z" stroke="#B2441D" stroke-width="2px" class="color-6"/>
+                            <path d="M128.889 428.889H111.111V446.667H128.889V428.889Z" stroke="#B2441D" stroke-width="2px" class="color-1"/>
+                            <path d="M168.889 220H177.778L169.524 206.667L120 126.667V220H168.889Z" stroke="#B2441D" stroke-width="2px" class="color-2"/>
+                            <path d="M408.889 220H417.778L360 126.667V220H408.889Z" stroke="#B2441D" stroke-width="2px" class="color-2"/>
+                            <path d="M240 162.222V228.889H257.778H267.513L240 162.222Z" stroke="#B2441D" stroke-width="2px"  class="color-2"/>
+                            <path d="M240 260V322.222V353.333H275.556H288.889H297.778L257.778 288.718L240 260Z" stroke="#B2441D" stroke-width="2px"  class="color-2"/>
+                            <path d="M271.111 135.556H278.519L240 11.111V135.556H271.111Z" stroke="#B2441D" stroke-width="2px" class="color-2"/>
+                            <path d="M151.111 228.889V411.111H168.889V237.778V228.889H151.111Z" stroke="#B2441D" stroke-width="2px" class="color-4"/>
+                            <path d="M71.111 455.556H8.88901V468.889H71.111V455.556Z" stroke="#B2441D" stroke-width="2px" class="color-1"/>
+                            <path d="M311.111 455.556V468.889H337.778H408.889V455.556H311.111Z" stroke="#B2441D" stroke-width="2px" class="color-6"/>
+                            <path d="M471.111 455.556H408.889V468.889H471.111V455.556Z" stroke="#B2441D" stroke-width="2px" class="color-1"/>
+                            <path d="M88.889 220H71.111V228.889H88.889V220Z" stroke="#B2441D" stroke-width="2px" class="color-4"/>
+                            <path d="M240 228.889H222.222V237.778H240V228.889Z" stroke="#B2441D" stroke-width="2px" class="color-4"/>
+                            <path d="M257.778 228.889H240V237.778H257.778V228.889Z" stroke="#B2441D" stroke-width="2px" class="color-6"/>
+                        </svg>
+                            
+                        <p>
+                            <div id="reason">
+                                Why stay at <strong class="josefin">IVORY SANDS?</strong>
+                            </div>
+
+                            <hr>
+                            <div class="green">
+
+                                ✓ Sea View
+                               
+                                ✓ Pool
+                                <br>
+                                ✓ Air Conditioning
+                                
+                                ✓ Walk To Beach
+                                <br>
+                                ✓ Romantic
+                                
+                                ✓ Own Water Provisions
+
+                            </div>
+
+                        </p>
+
+                    </div>
+
+                    <div id="enquire" class="right">
+
+                        <form id="my-form" action="https://formspree.io/f/xpzoowrr" method="POST">
+
+                            <h3>Plan Your Stay at IVORY SANDS. Get a Quote</h3>
+                            <p>(form R 6000 per month)</p>
+                            <p>*excluding peak season</p>
+                            <input type="text" name="name" id="name" placeholder="Name" required>
+                            <input type="text" name="surname" id="surname" placeholder="Surname" required>
+                            <input type="tel" name="telephone" id="tel" placeholder="Tel Number" required>
+                            <input type="email" name="email" class="email" placeholder="example@email.com" required>
+                            <input type="text" name="arrival_date" id="arrival_date" placeholder="Arrival Date" required>
+                            <input type="text" name="departure_date" id="departure_date" placeholder="Departure Date" required>
+                            <input type="submit" id="my-form-button" value="ENQUIRE NOW">
+                            <!-- <button >Submit</button> -->
+                            <i id="okay" class="fas fa-thumbs-up fa-5x" style="display: none"></i>
+                            <span id="feedback" class="feedback" style="display: none">Thank you so much, we are at your service and you shall hear from us very soon!</span>
+
+                        </form>
+                        
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section id="about">
+
+                <button type="button" class="collapsible">
+                    <p><b>IVORY SANDS</b> is a unique villa, situate on Clifton beach with direct access to the beach 
+                        making it the perfect position for those wanting to experience a true beach holiday.</p>
+                    <p>The house has spectacular ocean views both bedrooms as well as the living area. Stacking 
+                        doors open up onto a deck with pool, sun loungers and dining area.</p>
+                    <p>Whether you are wanting to spend your day on the beach or merely laze on the deck, next to the pool 
+                        with a cocktail in hand, listening to the soothing ocean, this is the perfect property for you. 
+                    </p>
+                </button>
+
+                <div class="s-content">
+
+                    <p id="col"><em>This is a dedicated year-round vacation home which is exclusively and professionally managed.
+                        This property has been meticulously vetted prior to on-boarding, comes with a dedicated 24/7 guest support team, 
+                        housekeeping, WiFi and hotel grade amenities. The manager prides themselves on offering the highest level of service 
+                        to ensure you have a memorable stay!</em><br>
+                    </p><br>
+
+                    <div class="sections">
+                        <div class="first">
+                            <p class="title"><b>BEST FEATURE</b></p>
+                            <hr>
+                            <ul>
+                                <li>Location – on Clifton 1<sup>st</sup> beach</li>
+                                <li>Direct access to beach</li>
+                                <li>Ocean &amp; Mountain view</li>
+                            </ul><br>
+                            <p class="title"><b>OUTDOORS</b></p>
+                            <hr>
+                            <ul>
+                                <li>Private Pool</li>
+                                <li>Deck</li>
+                                <li>Pool loungers</li>
+                                <li>6 seater stone-cast glass dining table </li>
+                                <li>Gated access to Clifton Second Beach</li>
+                            </ul><br>
+                            <p class="title"><b>LOUNGE/DINING</b></p>
+                            <hr>
+                            <ul>
+                                <li>Spacious living room with L-shaped couch</li>
+                                <li>Sea views</li>
+                                <li>Separate television lounge ample seating</li>
+                                <li>Dining 8-seater dining table and chairs</li>
+                                <li>Large sideboard</li>
+                                <li>Leads out onto outdoor patio</li>
+                            </ul><br>
+                            <div>
+                                <p class="title"><b>FACILITIES</b><hr></p>
+                                <ul>
+                                    <li>Satellite TV (DSTV) - please be aware that signal may be intermittent</li>
+                                    <li>Wi Fi internet</li>
+                                    <li>Security w/alarm</li>
+                                    <li>Dynamic surround sound system controlled and available throughout the
+                                        property
+                                    </li>
+                                    <li>Housekeeping: Monday - Friday (excl public holidays)</li>
+                                    <li>Parking (Single garage parking for a small car)</li>
+                                </ul>
+                            </div><br>
+    
+                            <div>
+                                <p class="title"><b>LOCATION</b><hr></p>
+                                <p>Shops &amp; Restaurants – 5 minute drive</p>
+                                <p>Beach – Walking distance</p>
+                                <p>V&amp;A Waterfront – 15 minute drive</p>
+                                <p>Airport – 40 minute drive</p><br> <b>IVORY SANDS, Clifton, 2 bedroom villa, Pool</b>
+                            </div>
+    
+                        </div>
+
+                        <div class="second">
+                            <p class="title"><b>KITCHEN</b></p>
+                            <hr>
+                            <ul>
+                                <li>Full range of appliances, utensils, crockery and glassware</li>
+                                <li>Built-in oven and microwave</li>
+                                <li>Gas Stove with modern overhead extractor</li>
+                                <li>Open-plan design leading into dining area</li>
+                                <li>Dishwasher</li>
+                                <li>Washing machine</li>
+                                <li>Tumble dryer</li>
+                            </ul><br>
+                            <p class="title"><b>MASTER BEDROOM</b></p>
+                            <hr>
+                            <ul>
+                                <li>Queen bed </li>
+                                <li>Ocean views</li>
+                                <li>En-suite bathroom with bathtub and walk-in shower</li>
+                                <li>Balcony overlooking the ocean</li>
+                                <li>Ample cupboard storage space</li>
+                            </ul><br>
+                            <p class="title"><b>2<sup>nd</sup> BEDROOM</b></p>
+                            <hr>
+                            <ul>
+                                <li>Queen bed </li>
+                                <li>Sea views</li>
+                                <li>En-suite bathroom with tub and walk-in shower</li>
+                                <li>Balcony overlooking the ocean</li>
+                                <li>Ample cupboard storage space</li>
+                            </ul><br>
+                            
+                            <div>
+                                <p class="title">
+                                    <strong>FEATURE LIST:</strong><hr>
+                                </p>
+                                <p>
+                                    <li> ✓
+                                        Sea View </li>
+                                    <li> ✓
+                                        Mountain View </li>
+                                    <li> ✓
+                                        Pool </li>
+                                    <li> ✓
+                                        Tv </li>
+                                    <li> ✓
+                                        DSTV </li>
+                                    <li> ✓
+                                        Air Conditioning </li>
+                                    <li> ✓
+                                        Security </li>
+                                    <li> ✓
+                                        Entrance Area </li>
+                                    <li> ✓
+                                        Dish Washer </li>
+                                    <li> ✓
+                                        Washing Machine </li>
+                                    <li> ✓
+                                        Tumble Drier </li>
+                                    <li> ✓
+                                        Maid </li>
+                                    <li> ✓
+                                        Parking </li>
+                                    <li> ✓
+                                        Internet </li>
+                                    <li> ✓
+                                        Walk To Beach </li>
+                                    <li> ✓
+                                        Romantic </li>
+                                    <li> ✓
+                                        Own Water Provisions </li>
+                                    <li> ✓
+                                        Water Tanks (JoJo etc) </li>
+                                </p>
+        
+                            </div>   
+                        </div>
+
+                    </div><br>
+
+                    <div>
+                        <p class="title">
+                            <strong>WATER PROVISIONS:</strong>
+                        </p> 
+                        <hr>
+                        <p>
+                            March 2018:<br>
+                            - Water tank feeds the pool - 2500l tank - 
+                        </p>
+                        <strong>Please Be Aware:</strong>
+                        <p>
+                            Access to this property is via the Clifton 2nd Beach stairs. The property is not
+                            suitable for mobility issues as there are quite a few stairs to climb up and
+                            down to
+                            get to the property.<br>
+                            <br>
+                            Please ensure you have familiarised yourself with the by-laws surrounding water
+                            restrictions in Cape Town. We request that you adhere to the prescribed minimum
+                            water usage at all times. Further information can be found here:
+                            <a style="color: blue" href="http://www.capetown.gov.za/thinkwater">www.capetown.gov.za/thinkwater</a><br>
+                            <br>
+                            Please contact your consultant should you require further information on how
+                            this
+                            could potentially impact your stay 
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+
+            <section>
+
+                <div class="col-md-12 reviews">
+                    <p>
+                        <strong>REVIEWS:</strong>
+                    </p>
+                    <div class="review">
+                        <div class="title">
+                            Olivier - Nov 2019 </div>
+                        <div class="comment">
+                            Super location. Super view. Super deco. Super welcoming. Simply Super !
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="title">
+                            Lucie - Nov 2019 </div>
+                        <div class="comment">
+                            Idyllic place for this week with our kids! The location of the bungalow is
+                            exceptional, the sound of the waves to rock us. The view is unique, you
+                            never
+                            tire of watching the sea, the decoration is neat, very cozy. It feels like
+                            home.
+                            Many thanks to Reggie for his welcome and availability. Everything was
+                            perfect !
+                            We left with a big pinch to the heart! Thanks thanks </div>
+                    </div>
+                    <div class="review">
+                        <div class="title">
+                            Emma - Jan 2019 </div>
+                        <div class="comment">
+                            What an amazing property, beautiful, well equipped with everything you could
+                            ask
+                            for. The staff were utterly brilliant and they really looked after us, made
+                            us
+                            feel comfortable and safe. Lucky, Gladius and Alistair were fantastic and
+                            really
+                            made us feel on holiday! We’ve never stayed somewhere quite so fabulous and
+                            we
+                            are extremely fussy people to please, so it’s a massive compliment for the
+                            team
+                            and also the house owner that I’d like you to pass on. Everything else will
+                            be a
+                            let down for us now!! Thanks for assisting us with the booking and I hope we
+                            will be back in the future to beautiful Cape Town. Emma and family </div>
+                    </div>
+                
+                </div>
+
+            </section>
+
+        </div>
+
+        <div id="gallery" class="justified-gallery">
+            <div class="gallery">
+                <a class="property-images jg-entry entry-visible"
+                    href="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b519188aaeb4.jpg" rel="gallery">
+                    <img alt="" src="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b519188aaeb4.jpg?d=300x300"
+                    width="600" height="400">
+                </a>
+            </div>
+
+            <div class="gallery">
+                <a class="property-images jg-entry entry-visible"
+                    href="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b5191852ba26.jpg" rel="gallery">
+                    <img alt="" src="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b5191852ba26.jpg?d=300x300"
+                    width="600" height="400">
+                </a>
+            </div>
+
+            <div class="gallery">
+                <a class="property-images jg-entry entry-visible"
+                    href="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b519178cacc3.jpg" rel="gallery"
+                    style="width: 378px; height: 378px; top: 759px; left: 1px;">
+                    <img alt="" src="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b519178cacc3.jpg?d=300x300"
+                    width="600" height="400">
+                </a>
+            </div>
+
+            <div class="gallery">
+                <a class="property-images jg-entry entry-visible"
+                    href="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b519182b5172.jpg" rel="gallery"
+                    style="width: 378px; height: 378px; top: 1138px; left: 1px;">
+                    <img alt="" src="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b519182b5172.jpg?d=300x300"
+                    width="600" height="400">
+                </a>
+            </div>
+
+            <div class="gallery">
+                <a class="property-images jg-entry entry-visible"
+                    href="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b51918601d22.jpg" rel="gallery"
+                    style="width: 378px; height: 378px; top: 1517px; left: 1px;">
+                    <img alt="" src="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b51918601d22.jpg?d=300x300"
+                    width="600" height="400">
+                </a>
+            </div>
+
+            <div class="gallery">
+                <a class="property-images jg-entry entry-visible"
+                    href="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5ab8913688d63.jpg" rel="gallery"
+                    style="width: 378px; height: 378px; top: 1896px; left: 1px;">
+                    <img alt="" src="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5ab8913688d63.jpg?d=300x300"
+                    width="600" height="400">
+                </a>
+            </div>
+
+            <div class="gallery">
+                <a class="property-images jg-entry entry-visible"
+                    href="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b519181e24fa.jpg" rel="gallery"
+                    style="width: 378px; height: 378px; top: 2275px; left: 1px;">
+                    <img alt="" src="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b519181e24fa.jpg?d=300x300"
+                    width="600" height="400">
+                </a>
+            </div>
+
+            <div class="gallery">
+                <a class="property-images jg-entry entry-visible"
+                    href="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b51918462859.jpg" rel="gallery"
+                    style="width: 378px; height: 378px; top: 2654px; left: 1px;">
+                    <img alt="" src="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b51918462859.jpg?d=300x300"
+                    width="600" height="400">
+                </a>
+            </div>
+
+            <div class="gallery">
+                <a class="property-images jg-entry entry-visible"
+                    href="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b51917de15a0.jpg" rel="gallery"
+                    style="width: 378px; height: 378px; top: 3033px; left: 1px;">
+                    <img alt="" src="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b51917de15a0.jpg?d=300x300"
+                    width="600" height="400">
+                </a>
+            </div>
+
+            <div class="gallery">
+                <a class="property-images jg-entry entry-visible"
+                    href="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b5191838e505.jpg" rel="gallery"
+                    style="width: 378px; height: 378px; top: 3412px; left: 1px;">
+                    <img alt="" src="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b5191838e505.jpg?d=300x300"
+                    width="600" height="400">
+                </a>
+            </div>
+
+            <div class="gallery">
+                <a class="property-images jg-entry entry-visible"
+                    href="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b519187e3d97.jpg" rel="gallery"
+                    style="width: 378px; height: 378px; top: 3791px; left: 1px;">
+                    <img alt="" src="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b519187e3d97.jpg?d=300x300"
+                    width="600" height="400">
+                </a>
+            </div>
+
+            <div class="gallery">
+                <a class="property-images jg-entry entry-visible"
+                    href="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b51917f802c7.jpg" rel="gallery"
+                    style="width: 378px; height: 378px; top: 4170px; left: 1px;">
+                    <img alt="" src="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b51917f802c7.jpg?d=300x300"
+                    width="600" height="400">
+                </a>
+            </div>
+
+            <div class="gallery">
+                <a class="property-images jg-entry entry-visible"
+                    href="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b519181126ea.jpg" rel="gallery"
+                    style="width: 378px; height: 378px; top: 4549px; left: 1px;">
+                    <img alt="" src="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b519181126ea.jpg?d=300x300"
+                    width="600" height="400">
+                </a>
+            </div>
+
+            <div class="gallery">
+                <a class="property-images jg-entry entry-visible"
+                    href="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b5191803ee10.jpg" rel="gallery"
+                    style="width: 378px; height: 378px; top: 4928px; left: 1px;">
+                    <img alt="" src="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b5191803ee10.jpg?d=300x300"
+                    width="600" height="400">
+                </a>
+            </div>
+
+            <div class="gallery">
+                <a class="property-images jg-entry entry-visible"
+                    href="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b51917a4c41a.jpg" rel="gallery"
+                    style="width: 378px; height: 378px; top: 5307px; left: 1px;">
+                    <img alt="" src="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b51917a4c41a.jpg?d=300x300"
+                    width="600" height="400">
+                </a>
+            </div>
+
+            <div class="gallery">
+                <a class="property-images jg-entry entry-visible"
+                    href="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b51917c0d541.jpg" rel="gallery"
+                    style="width: 378px; height: 378px; top: 5686px; left: 1px;">
+                    <img alt="" src="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b51917c0d541.jpg?d=300x300"
+                    width="600" height="400">
+                </a>
+            </div>
+
+            <div class="gallery">
+                <a class="property-images jg-entry entry-visible"
+                    href="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b51917b37e5a.jpg" rel="gallery"
+                    style="width: 378px; height: 378px; top: 6065px; left: 1px;">
+                    <img alt="" src="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b51917b37e5a.jpg?d=300x300"
+                    width="600" height="400">
+                </a>
+            </div>
+
+            <div class="gallery">
+                <a class="property-images jg-entry entry-visible"
+                    href="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b51917ceff13.jpg" rel="gallery"
+                    style="width: 378px; height: 378px; top: 6444px; left: 1px;">
+                    <img alt="" src="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b51917ceff13.jpg?d=300x300"
+                    width="600" height="400">
+                </a>
+            </div>
+
+            <div class="gallery larger">
+                <a class="property-images jg-entry entry-visible"
+                    href="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b51917eaec0c.jpg" rel="gallery"
+                    style="width: 378px; height: 378px; top: 6823px; left: 1px;">
+                    <img alt="" src="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b51917eaec0c.jpg?d=300x300"
+                    width="600" height="400">
+                </a>
+            </div>
+
+            <div class="gallery larger">
+                <a class="property-images jg-entry entry-visible"
+                    href="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b519186e96e2.jpg" rel="gallery"
+                    style="width: 378px; height: 378px; top: 7202px; left: 1px;">
+                    <img alt="" src="https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b519186e96e2.jpg?d=300x300"
+                    width="600" height="400">
+                </a>
+            </div>
+            
+        </div>
+
+        <div id="map"></div>
+
+    </main>
+
+    <footer>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul id="footer-list" class="list-inline">
+                        <!-- <li><a href="#">Home</a></li> -->
+                        <!-- <li class="footer-menu-divider">⋅</li> -->
+
+                        <!-- <li><a href="#">Register</a></li> -->
+
+                        <!-- <li class="footer-menu-divider">⋅</li> -->
+                        <!-- <li><a href="#">Login</a></li> -->
+                    </ul>
+                    <p class="copyright text-muted small">Copyright © 2021. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- <script type="text/javascript">
+
+        let stitle = 'Welcome'
+
+        function createBubble() {
+            const section =
+                document.querySelector("Section");
+            const createElement =
+                document.createElement("span");
+            var size = Math.random() * 60;
+
+            createElement.style.animation =
+                "animation 6s linear infinite";
+            createElement.style.width = 180 + size + "px";
+            createElement.style.height = 180 + size + "px";
+            createElement.style.left =
+                Math.random() * innerWidth + "px";
+            section.appendChild(createElement);
+
+            setTimeout(() => {
+                createElement.remove();
+            }, 4000);
+        }
+        setInterval(createBubble, 100);
+    </script> -->
+
+    <script src="app/static/script/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/walkway.js/src/walkway.min.js"></script>
+
+    <script src="/app/static/script/phone.js"></script>
+
+</body>
+
+</html>
