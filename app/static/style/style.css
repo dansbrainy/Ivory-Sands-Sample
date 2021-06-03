@@ -79,8 +79,6 @@ body header nav .topnav .collapse ul li a {
 
 html header .topnav,
 body header .topnav {
-  border-bottom-left-radius: 0.28em;
-  border-bottom-right-radius: 0.28em;
   border-bottom-style: hidden;
 }
 
@@ -203,8 +201,8 @@ body .alert-info {
   width: 50%;
   margin: auto;
   color: tomato;
-  background-color: #e6ecca;
-  border-color: wheat;
+  background-color: #dddad5;
+  border-color: #dddad5;
 }
 
 html .btn-default,
@@ -486,8 +484,6 @@ body .structure .middle #benefits {
 html .structure .middle div.green,
 body .structure .middle div.green {
   color: green;
-  color: yellowgreen;
-  color: #442505;
 }
 
 html .structure .middle hr,
@@ -545,8 +541,8 @@ body .structure form h3 {
   border-radius: 2px;
   color: black;
   border: 1px dashed black;
-  background: -webkit-gradient(linear, left top, right top, from(#dac6a6), to(white));
-  background: linear-gradient(to right, #dac6a6, white);
+  background: -webkit-gradient(linear, left top, right top, from(#dddad5), to(white));
+  background: linear-gradient(to right, #dddad5, white);
   opacity: 0.8;
 }
 
@@ -618,7 +614,7 @@ body .structure form input {
 
 html .structure form input[type="submit"],
 body .structure form input[type="submit"] {
-  background: #dac6a6;
+  background: #dddad5;
   color: black;
   border-style: none;
   padding: 1rem;
@@ -687,7 +683,6 @@ body .s-content {
   border: none;
   list-style: none;
   margin: auto;
-  color: #0c4358;
   color: black;
   border-bottom-right-radius: 0.8rem;
   border-bottom-left-radius: 0.8rem;
@@ -742,7 +737,7 @@ body .s-content .sections .first .title {
   color: #121e1f;
   background: -webkit-gradient(linear, left top, right top, from(#dddad5), to(white));
   background: linear-gradient(to right, #dddad5, white);
-  padding: 5px;
+  padding: 0.5rem;
 }
 
 html .s-content .sections .second .title,
@@ -750,7 +745,7 @@ body .s-content .sections .second .title {
   color: #121e1f;
   background: -webkit-gradient(linear, left top, right top, from(#dddad5), to(white));
   background: linear-gradient(to right, #dddad5, white);
-  padding: 5px;
+  padding: 0.5rem;
 }
 
 html .s-content .title,
@@ -758,7 +753,7 @@ body .s-content .title {
   color: #121e1f;
   background: -webkit-gradient(linear, left top, right top, from(#dddad5), to(white));
   background: linear-gradient(to right, #dddad5, white);
-  padding: 5px;
+  padding: 0.5rem;
 }
 
 html .s-content:before,
@@ -816,7 +811,7 @@ body .reviews {
   padding-bottom: 20px;
   padding-right: 18px;
   background-color: white;
-  border: 2px solid #dac6a6;
+  border: 2px solid #dddad5;
   border-radius: 8px;
 }
 
@@ -830,8 +825,8 @@ body .reviews .review {
 html .reviews .review .title,
 body .reviews .review .title {
   color: #121e1f;
-  background: -webkit-gradient(linear, left top, right top, from(#dac6a6), to(white));
-  background: linear-gradient(to right, #dac6a6, white);
+  background: -webkit-gradient(linear, left top, right top, from(#dddad5), to(white));
+  background: linear-gradient(to right, #dddad5, white);
   padding: 5px;
 }
 
@@ -897,8 +892,6 @@ body #map {
 
 html footer,
 body footer {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(#09181d));
-  background-image: linear-gradient(black, #09181d);
   height: auto;
   margin: 0;
   display: -webkit-box;
@@ -914,10 +907,9 @@ body footer {
 
 html p.copyright,
 body p.copyright {
-  padding: 10px;
+  padding: 1rem;
   font-size: 16px;
   text-align: center;
-  color: whitesmoke;
 }
 
 html ul#footer-list,
@@ -926,7 +918,7 @@ body ul#footer-list {
       -ms-flex-align: center;
           align-items: center;
   vertical-align: middle;
-  padding-top: 18px;
+  padding-top: 1rem;
   text-align: center;
   z-index: 3;
 }
