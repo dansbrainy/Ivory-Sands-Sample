@@ -4,95 +4,21 @@
   box-sizing: border-box;
 }
 
-html, body {
-  font-family: "Josefin Sans",sans-serif;
+html,
+body {
+  font-family: "Josefin Sans", sans-serif;
   width: 100%;
   height: 100%;
-  background: #78A4DA;
-  background: -webkit-gradient(linear, right top, left bottom, from(#78A4DA));
-  background: linear-gradient(to bottom left, #78A4DA);
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
   /* Style the button that is used to open and close the collapsible content */
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  /* section {
-      position: static;
-      width: 100%;
-      height: 100vh;
-      overflow: hidden;
-      background: lavender;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-    }
-    
-    section span {
-      position: absolute;
-      bottom: -50px;
-      background: transparent;
-      border-radius: 50%;
-      pointer-events: none;
-      -webkit-box-shadow: inset 0 0 10px rgba(225, 225, 225, 0.5);
-              box-shadow: inset 0 0 10px rgba(225, 225, 225, 0.5);
-      -webkit-animation: animate 4s linear infinite;
-              animation: animate 4s linear infinite;
-    }
-    
-    section span::before {
-      content: "";
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      -webkit-transform: scale(0.25) translate(-70%, -70%);
-              transform: scale(0.25) translate(-70%, -70%);
-      background: radial-gradient(#ffffff, transparent);
-      border-radius: 50%;
-    }
-    
-    @-webkit-keyframes animation {
-      0% {
-        -webkit-transform: translateY(0%);
-                transform: translateY(0%);
-        opacity: 1;
-      }
-      99% {
-        opacity: 1;
-      }
-      100% {
-        -webkit-transform: translateY(-1200%);
-                transform: translateY(-1200%);
-        opacity: .1;
-      }
-    }
-    
-    @keyframes animation {
-      0% {
-        -webkit-transform: translateY(0%);
-                transform: translateY(0%);
-        opacity: 1;
-      }
-      99% {
-        opacity: 1;
-      }
-      100% {
-        -webkit-transform: translateY(-1200%);
-                transform: translateY(-1200%);
-        opacity: .1;
-      }
-    } */
-  /*# sourceMappingURL=style.css.map */
   /* Set the size of the div element that contains the map */
   /* 
-      ##Device = Low Resolution Tablets, Mobiles (Landscape)
-      ##Screen = B/w 481px to 767px
-    */
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
   /* 
     ##Device = Tablets, Ipads (portrait)
     ##Screen = B/w 768px to 1024px
@@ -107,11 +33,21 @@ html, body {
     */
 }
 
-html body, html h1, html h2, html h3, html a, body body, body h1, body h2, body h3, body a {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+html body,
+html h1,
+html h2,
+html h3,
+html a,
+body body,
+body h1,
+body h2,
+body h3,
+body a {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-html header nav, body header nav {
+html header nav,
+body header nav {
   height: auto !important;
   background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(#09181d));
   background-image: linear-gradient(black, #09181d);
@@ -130,22 +66,26 @@ html header nav, body header nav {
   vertical-align: middle;
 }
 
-html header nav .topnav .collapse ul li:hover, body header nav .topnav .collapse ul li:hover {
+html header nav .topnav .collapse ul li:hover,
+body header nav .topnav .collapse ul li:hover {
   background: #20201f;
 }
 
-html header nav .topnav .collapse ul li a, body header nav .topnav .collapse ul li a {
+html header nav .topnav .collapse ul li a,
+body header nav .topnav .collapse ul li a {
   list-style: none;
   color: #f8f8f8 !important;
 }
 
-html header .topnav, body header .topnav {
-  border-bottom-left-radius: .28em;
-  border-bottom-right-radius: .28em;
+html header .topnav,
+body header .topnav {
+  border-bottom-left-radius: 0.28em;
+  border-bottom-right-radius: 0.28em;
   border-bottom-style: hidden;
 }
 
-html header .dropdown-menu, body header .dropdown-menu {
+html header .dropdown-menu,
+body header .dropdown-menu {
   background-color: inherit;
   background: -webkit-gradient(linear, left top, left bottom, from(black), to(#09181d));
   background: linear-gradient(black, #09181d);
@@ -155,7 +95,8 @@ html header .dropdown-menu, body header .dropdown-menu {
           flex-direction: column;
 }
 
-html header .dropdown-menu a, body header .dropdown-menu a {
+html header .dropdown-menu a,
+body header .dropdown-menu a {
   color: whitesmoke;
   margin: 20px;
   padding-top: 20px;
@@ -167,27 +108,42 @@ html header .dropdown-menu a, body header .dropdown-menu a {
           align-items: center;
 }
 
-html a, html .navbar-default .navbar-brand, html .navbar-default .navbar-nav > li > a, body a, body .navbar-default .navbar-brand, body .navbar-default .navbar-nav > li > a {
+html a,
+html .navbar-default .navbar-brand,
+html .navbar-default .navbar-nav > li > a,
+body a,
+body .navbar-default .navbar-brand,
+body .navbar-default .navbar-nav > li > a {
   color: white;
 }
 
-html a:hover, html .navbar-default .navbar-brand:hover, html .navbar-default .navbar-nav > li > a:hover, body a:hover, body .navbar-default .navbar-brand:hover, body .navbar-default .navbar-nav > li > a:hover {
-  color: #FF8000;
+html a:hover,
+html .navbar-default .navbar-brand:hover,
+html .navbar-default .navbar-nav > li > a:hover,
+body a:hover,
+body .navbar-default .navbar-brand:hover,
+body .navbar-default .navbar-nav > li > a:hover {
+  color: #ff8000;
 }
 
-html h2.villaFeat, body h2.villaFeat {
-  font-family: "Josefin Sans",sans-serif;
+html h2.villaFeat,
+body h2.villaFeat {
+  font-family: "Josefin Sans", sans-serif;
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #dadada;
 }
 
-html h1, html h2, body h1, body h2 {
+html h1,
+html h2,
+body h1,
+body h2 {
   text-transform: uppercase;
 }
 
-html .wrapper, body .wrapper {
+html .wrapper,
+body .wrapper {
   min-height: 100%;
   height: auto !important;
   height: 100%;
@@ -196,24 +152,30 @@ html .wrapper, body .wrapper {
   width: 100% !important;
 }
 
-html .wrapper .pull-left, body .wrapper .pull-left {
+html .wrapper .pull-left,
+body .wrapper .pull-left {
   font-size: 1.8rem;
   text-align: left;
   line-height: 2;
 }
 
-html .wrapper #pictures, body .wrapper #pictures {
+html .wrapper #pictures,
+body .wrapper #pictures {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
   z-index: 3 !important;
 }
 
-html .search-cover-photo-container, html .heroBg, body .search-cover-photo-container, body .heroBg {
+html .search-cover-photo-container,
+html .heroBg,
+body .search-cover-photo-container,
+body .heroBg {
   background-attachment: fixed !important;
 }
 
-html .heroBg, body .heroBg {
+html .heroBg,
+body .heroBg {
   background: #111 url(/img/15.jpg) no-repeat center center fixed;
   background-size: auto auto;
   position: relative;
@@ -221,7 +183,8 @@ html .heroBg, body .heroBg {
   grid-area: auto;
 }
 
-html .heroGrid, body .heroGrid {
+html .heroGrid,
+body .heroGrid {
   background: rgba(0, 0, 0, 0.4) !important;
   display: -ms-grid;
   display: grid;
@@ -229,12 +192,14 @@ html .heroGrid, body .heroGrid {
 }
 
 @media screen and (max-width: 680px) {
-  html .heroGrid, body .heroGrid {
+  html .heroGrid,
+  body .heroGrid {
     background: rgba(0, 0, 0, 0.4) !important;
   }
 }
 
-html .alert-info, body .alert-info {
+html .alert-info,
+body .alert-info {
   width: 50%;
   margin: auto;
   color: tomato;
@@ -242,64 +207,75 @@ html .alert-info, body .alert-info {
   border-color: wheat;
 }
 
-html .btn-default, body .btn-default {
+html .btn-default,
+body .btn-default {
   border-color: skyblue;
   color: skyblue;
 }
 
-html .btn-default:hover, body .btn-default:hover {
+html .btn-default:hover,
+body .btn-default:hover {
   background-color: skyblue;
 }
 
-html .center, body .center {
+html .center,
+body .center {
   margin: auto;
   width: 50%;
   padding: 10px;
 }
 
-html .content-section, body .content-section {
+html .content-section,
+body .content-section {
   padding: 1% 0;
   border-top: 1px solid #e7e7e7;
 }
 
-html .intro-divider, body .intro-divider {
+html .intro-divider,
+body .intro-divider {
   width: 20rem;
   border-top: 1px solid #f8f8f8;
   border-bottom: 2px solid rgba(0, 0, 0, 0.2);
 }
 
-html .intro-header, body .intro-header {
+html .intro-header,
+body .intro-header {
   text-align: center;
   color: #f8f8f8;
   background-size: cover;
   height: auto;
 }
 
-html .intro-message, body .intro-message {
+html .intro-message,
+body .intro-message {
   position: relative;
   padding-top: 28% !important;
   padding-bottom: 28% !important;
 }
 
-html .intro-message > h1, body .intro-message > h1 {
+html .intro-message > h1,
+body .intro-message > h1 {
   margin: 0;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
   font-size: 3em !important;
 }
 
-html .intro-message > h3, body .intro-message > h3 {
+html .intro-message > h3,
+body .intro-message > h3 {
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
-html .lead, body .lead {
+html .lead,
+body .lead {
   font-size: 18px;
   font-weight: 400;
 }
 
-html .marketing, body .marketing {
+html .marketing,
+body .marketing {
   height: auto;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: black;
@@ -312,22 +288,26 @@ html .marketing, body .marketing {
   margin-top: auto;
 }
 
-html .marketing section, body .marketing section {
+html .marketing section,
+body .marketing section {
   padding-top: 4rem;
 }
 
-html .justified-gallery, body .justified-gallery {
+html .justified-gallery,
+body .justified-gallery {
   width: 100%;
   position: relative;
   overflow: hidden;
 }
 
-html #singleProperty #map, body #singleProperty #map {
+html #singleProperty #map,
+body #singleProperty #map {
   width: 100%;
   height: 500px;
 }
 
-html .card, body .card {
+html .card,
+body .card {
   position: -webkit-sticky;
   position: sticky;
   top: 50%;
@@ -340,7 +320,8 @@ html .card, body .card {
           perspective: 500px;
 }
 
-html .content, body .content {
+html .content,
+body .content {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -354,7 +335,8 @@ html .content, body .content {
           transform-style: preserve-3d;
 }
 
-html .card:hover .content, body .card:hover .content {
+html .card:hover .content,
+body .card:hover .content {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
   -webkit-transition: -webkit-transform 0.5s;
@@ -364,14 +346,15 @@ html .card:hover .content, body .card:hover .content {
 }
 
 html .front,
-html .back, body .front,
+html .back,
+body .front,
 body .back {
   position: absolute;
   height: 100%;
   width: 100%;
   background: white;
   line-height: 98px;
-  color: #03446A;
+  color: #03446a;
   text-align: center;
   font-size: 40px;
   border-radius: 5px;
@@ -379,8 +362,9 @@ body .back {
           backface-visibility: hidden;
 }
 
-html .back, body .back {
-  background: #03446A;
+html .back,
+body .back {
+  background: #03446a;
   color: whitesmoke;
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
@@ -388,12 +372,14 @@ html .back, body .back {
   line-height: 48px;
 }
 
-html .front, body .front {
+html .front,
+body .front {
   text-align: center;
   vertical-align: middle;
 }
 
-html .structure, body .structure {
+html .structure,
+body .structure {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -413,7 +399,8 @@ html .structure, body .structure {
   justify-content: center;
 }
 
-html .structure .view, body .structure .view {
+html .structure .view,
+body .structure .view {
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 28rem;
@@ -422,21 +409,30 @@ html .structure .view, body .structure .view {
   margin-bottom: 20px;
   padding-bottom: 1.8rem;
   height: auto;
-  background-color: white;
   position: relative;
-  border-radius: 4px;
+  border: 1px solid grey;
+  border-radius: 8px;
 }
 
-html .structure h2, body .structure h2 {
+html .structure .view img,
+body .structure .view img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+html .structure h2,
+body .structure h2 {
   font-size: 1.8rem;
 }
 
-html .structure .price, body .structure .price {
+html .structure .price,
+body .structure .price {
   color: grey;
   font-size: 1.58rem;
 }
 
-html .structure .view button, body .structure .view button {
+html .structure .view button,
+body .structure .view button {
   border: none;
   outline: 0;
   color: white;
@@ -450,11 +446,13 @@ html .structure .view button, body .structure .view button {
   z-index: 3;
 }
 
-html .structure .view button:hover, body .structure .view button:hover {
+html .structure .view button:hover,
+body .structure .view button:hover {
   opacity: 0.7;
 }
 
-html .structure .middle, body .structure .middle {
+html .structure .middle,
+body .structure .middle {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -474,33 +472,39 @@ html .structure .middle, body .structure .middle {
   font-size: 1.58rem;
 }
 
-html .structure .middle #reason, body .structure .middle #reason {
+html .structure .middle #reason,
+body .structure .middle #reason {
   color: whitesmoke;
 }
 
-html .structure .middle #benefits, body .structure .middle #benefits {
+html .structure .middle #benefits,
+body .structure .middle #benefits {
   margin: 0;
   text-align: center;
 }
 
-html .structure .middle div.green, body .structure .middle div.green {
+html .structure .middle div.green,
+body .structure .middle div.green {
   color: green;
   color: yellowgreen;
   color: #442505;
 }
 
-html .structure .middle hr, body .structure .middle hr {
+html .structure .middle hr,
+body .structure .middle hr {
   color: whitesmoke;
   width: 22rem;
   padding-top: -70px;
   border-style: dashed;
 }
 
-html .structure .middle, body .structure .middle {
+html .structure .middle,
+body .structure .middle {
   margin-bottom: 20px;
 }
 
-html .structure .right, body .structure .right {
+html .structure .right,
+body .structure .right {
   z-index: 1;
   margin-bottom: 20px;
   max-width: 28rem;
@@ -514,8 +518,9 @@ html .structure .right, body .structure .right {
           justify-content: center;
 }
 
-html .structure form, body .structure form {
-  border: 1px solid transparent;
+html .structure form,
+body .structure form {
+  border: 1px solid grey;
   text-align: center;
   border-radius: 4px;
   -webkit-box-align: center;
@@ -528,8 +533,9 @@ html .structure form, body .structure form {
   z-index: 1;
 }
 
-html .structure form h3, body .structure form h3 {
-  font-family: "Josefin Sans",sans-serif;
+html .structure form h3,
+body .structure form h3 {
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 20;
   font-size: 2rem;
   padding: 1rem;
@@ -539,60 +545,68 @@ html .structure form h3, body .structure form h3 {
   border-radius: 2px;
   color: black;
   border: 1px dashed black;
-  background: -webkit-gradient(linear, left top, right top, from(#DAC6A6), to(white));
-  background: linear-gradient(to right, #DAC6A6, white);
-  opacity: .8;
+  background: -webkit-gradient(linear, left top, right top, from(#dac6a6), to(white));
+  background: linear-gradient(to right, #dac6a6, white);
+  opacity: 0.8;
 }
 
-html .structure form p, body .structure form p {
-  font-family: "Josefin Sans",sans-serif;
+html .structure form p,
+body .structure form p {
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 20;
-  font-size: 1.60rem;
+  font-size: 1.6rem;
   color: #0a59b9;
 }
 
-html .structure form ::-webkit-input-placeholder, body .structure form ::-webkit-input-placeholder {
+html .structure form ::-webkit-input-placeholder,
+body .structure form ::-webkit-input-placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: black;
-  opacity: .5;
+  opacity: 0.5;
   /* Firefox */
 }
 
-html .structure form :-ms-input-placeholder, body .structure form :-ms-input-placeholder {
+html .structure form :-ms-input-placeholder,
+body .structure form :-ms-input-placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: black;
-  opacity: .5;
+  opacity: 0.5;
   /* Firefox */
 }
 
-html .structure form ::-ms-input-placeholder, body .structure form ::-ms-input-placeholder {
+html .structure form ::-ms-input-placeholder,
+body .structure form ::-ms-input-placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: black;
-  opacity: .5;
+  opacity: 0.5;
   /* Firefox */
 }
 
-html .structure form ::placeholder, body .structure form ::placeholder {
+html .structure form ::placeholder,
+body .structure form ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: black;
-  opacity: .5;
+  opacity: 0.5;
   /* Firefox */
 }
 
-html .structure form :-ms-input-placeholder, body .structure form :-ms-input-placeholder {
+html .structure form :-ms-input-placeholder,
+body .structure form :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
   color: black;
 }
 
-html .structure form ::-ms-input-placeholder, body .structure form ::-ms-input-placeholder {
+html .structure form ::-ms-input-placeholder,
+body .structure form ::-ms-input-placeholder {
   /* Microsoft Edge */
   color: black;
 }
 
-html .structure form input, body .structure form input {
+html .structure form input,
+body .structure form input {
   width: 88%;
-  padding: .8rem;
-  margin: .8rem;
+  padding: 0.8rem;
+  margin: 0.8rem;
   background-color: transparent;
   color: black;
   border-style: none;
@@ -602,38 +616,40 @@ html .structure form input, body .structure form input {
   text-align: center;
 }
 
-html .structure form input[type=submit], body .structure form input[type=submit] {
-  background: -webkit-gradient(linear, left top, right top, from(#DAC6A6), to(white));
-  background: linear-gradient(to right, #DAC6A6, white);
-  background: #DAC6A6;
-  color: whitesmoke;
+html .structure form input[type="submit"],
+body .structure form input[type="submit"] {
+  background: #dac6a6;
   color: black;
   border-style: none;
   padding: 1rem;
   margin-bottom: 2rem;
 }
 
-html .structure form input[type=tel], body .structure form input[type=tel] {
+html .structure form input[type="tel"],
+body .structure form input[type="tel"] {
   width: 246px !important;
-  padding: .8rem;
-  margin: .8rem;
+  padding: 0.8rem;
+  margin: 0.8rem;
 }
 
-html .structure form #okay, body .structure form #okay {
+html .structure form #okay,
+body .structure form #okay {
   padding: 10px;
   font-size: 28px;
   color: #024402;
 }
 
-html .structure form .feedback, body .structure form .feedback {
+html .structure form .feedback,
+body .structure form .feedback {
   padding: 10px;
   font-size: 18px;
   color: #066c74;
   text-align: center;
 }
 
-html .collapsible, body .collapsible {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+html .collapsible,
+body .collapsible {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   line-height: 1.8;
   background-color: white;
   color: #0c4358;
@@ -644,11 +660,11 @@ html .collapsible, body .collapsible {
   padding-right: 18px;
   width: 100%;
   border: none;
-  border-top-right-radius: .8rem;
-  border-top-left-radius: .8rem;
-  border-top: 2px solid #DAC6A6;
-  border-left: 2px solid #DAC6A6;
-  border-right: 2px solid #DAC6A6;
+  border-top-right-radius: 0.8rem;
+  border-top-left-radius: 0.8rem;
+  border-top: 1px solid #dddad5;
+  border-left: 1px solid #dddad5;
+  border-right: 1px solid #dddad5;
   text-align: center;
   outline: none;
   font-size: 1.58rem;
@@ -656,7 +672,8 @@ html .collapsible, body .collapsible {
   z-index: 2 !important;
 }
 
-html .s-content, body .s-content {
+html .s-content,
+body .s-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -664,7 +681,7 @@ html .s-content, body .s-content {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   line-height: 1.8;
   width: 100%;
   border: none;
@@ -672,11 +689,11 @@ html .s-content, body .s-content {
   margin: auto;
   color: #0c4358;
   color: black;
-  border-bottom-right-radius: .8rem;
-  border-bottom-left-radius: .8rem;
-  border-bottom: 2px solid #DAC6A6;
-  border-left: 2px solid #DAC6A6;
-  border-right: 2px solid #DAC6A6;
+  border-bottom-right-radius: 0.8rem;
+  border-bottom-left-radius: 0.8rem;
+  border-bottom: 1px solid #dddad5;
+  border-left: 1px solid #dddad5;
+  border-right: 1px solid #dddad5;
   outline: none;
   font-size: 1.58rem;
   text-align: center;
@@ -692,7 +709,8 @@ html .s-content, body .s-content {
   z-index: 0;
 }
 
-html .s-content .sections, body .s-content .sections {
+html .s-content .sections,
+body .s-content .sections {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -707,39 +725,45 @@ html .s-content .sections, body .s-content .sections {
       flex-wrap: wrap;
 }
 
-html .s-content .sections hr, body .s-content .sections hr {
+html .s-content .sections hr,
+body .s-content .sections hr {
   padding: 4px;
 }
 
-html .s-content .sections .first, body .s-content .sections .first {
+html .s-content .sections .first,
+body .s-content .sections .first {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-html .s-content .sections .first .title, body .s-content .sections .first .title {
+html .s-content .sections .first .title,
+body .s-content .sections .first .title {
   color: #121e1f;
-  background: -webkit-gradient(linear, left top, right top, from(#DAC6A6), to(white));
-  background: linear-gradient(to right, #DAC6A6, white);
+  background: -webkit-gradient(linear, left top, right top, from(#dddad5), to(white));
+  background: linear-gradient(to right, #dddad5, white);
   padding: 5px;
 }
 
-html .s-content .sections .second .title, body .s-content .sections .second .title {
+html .s-content .sections .second .title,
+body .s-content .sections .second .title {
   color: #121e1f;
-  background: -webkit-gradient(linear, left top, right top, from(#DAC6A6), to(white));
-  background: linear-gradient(to right, #DAC6A6, white);
+  background: -webkit-gradient(linear, left top, right top, from(#dddad5), to(white));
+  background: linear-gradient(to right, #dddad5, white);
   padding: 5px;
 }
 
-html .s-content .title, body .s-content .title {
+html .s-content .title,
+body .s-content .title {
   color: #121e1f;
-  background: -webkit-gradient(linear, left top, right top, from(#DAC6A6), to(white));
-  background: linear-gradient(to right, #DAC6A6, white);
+  background: -webkit-gradient(linear, left top, right top, from(#dddad5), to(white));
+  background: linear-gradient(to right, #dddad5, white);
   padding: 5px;
 }
 
-html .s-content:before, body .s-content:before {
-  content: ' ';
+html .s-content:before,
+body .s-content:before {
+  content: " ";
   display: block;
   position: absolute;
   width: 100%;
@@ -750,13 +774,17 @@ html .s-content:before, body .s-content:before {
   background-repeat: round;
 }
 
-html .active, html .collapsible:hover, body .active, body .collapsible:hover {
-  background: -webkit-gradient(linear, left top, right top, from(#DAC6A6), to(white));
-  background: linear-gradient(to right, #DAC6A6, white);
+html .active,
+html .collapsible:hover,
+body .active,
+body .collapsible:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#dddad5), to(white));
+  background: linear-gradient(to right, #dddad5, white);
 }
 
-html .collapsible:after, body .collapsible:after {
-  content: '\02795';
+html .collapsible:after,
+body .collapsible:after {
+  content: "\02795";
   /* Unicode character for "plus" sign (+) */
   font-size: 14px;
   color: white;
@@ -765,14 +793,16 @@ html .collapsible:after, body .collapsible:after {
   z-index: 3;
 }
 
-html .active:after, body .active:after {
+html .active:after,
+body .active:after {
   content: "\2796";
   /* Unicode character for "minus" sign (-) */
   z-index: 3;
 }
 
-html .reviews, body .reviews {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+html .reviews,
+body .reviews {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   line-height: 1.8;
   width: 100%;
   border: none;
@@ -786,28 +816,32 @@ html .reviews, body .reviews {
   padding-bottom: 20px;
   padding-right: 18px;
   background-color: white;
-  border: 2px solid #DAC6A6;
+  border: 2px solid #dac6a6;
   border-radius: 8px;
 }
 
-html .reviews .review, body .reviews .review {
+html .reviews .review,
+body .reviews .review {
   margin-top: 10px;
   border-bottom: 1px solid grey;
   margin-bottom: 18px;
 }
 
-html .reviews .review .title, body .reviews .review .title {
+html .reviews .review .title,
+body .reviews .review .title {
   color: #121e1f;
-  background: -webkit-gradient(linear, left top, right top, from(#DAC6A6), to(white));
-  background: linear-gradient(to right, #DAC6A6, white);
+  background: -webkit-gradient(linear, left top, right top, from(#dac6a6), to(white));
+  background: linear-gradient(to right, #dac6a6, white);
   padding: 5px;
 }
 
-html .reviews .review .comment, body .reviews .review .comment {
+html .reviews .review .comment,
+body .reviews .review .comment {
   padding: 8px;
 }
 
-html #gallery, body #gallery {
+html #gallery,
+body #gallery {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -820,50 +854,53 @@ html #gallery, body #gallery {
   width: 100%;
 }
 
-html #gallery div.gallery, body #gallery div.gallery {
+html #gallery div.gallery,
+body #gallery div.gallery {
   margin: 1.2px;
   border: 1px solid #ccc;
   float: left;
   width: 49%;
 }
 
-html #gallery div.gallery:hover, body #gallery div.gallery:hover {
+html #gallery div.gallery:hover,
+body #gallery div.gallery:hover {
   border: 1px solid #777;
 }
 
-html #gallery div.gallery img, body #gallery div.gallery img {
+html #gallery div.gallery img,
+body #gallery div.gallery img {
   width: 100%;
   height: auto;
   z-index: 3;
 }
 
-html #gallery div.desc, body #gallery div.desc {
+html #gallery div.desc,
+body #gallery div.desc {
   padding: 15px;
   text-align: center;
 }
 
-html #gallery div.larger, body #gallery div.larger {
+html #gallery div.larger,
+body #gallery div.larger {
   float: right;
 }
 
-html #map, body #map {
-  margin-top: 1rem;
-  height: 40rem;
+html #map,
+body #map {
+  padding: 1rem;
+  height: 500px !important;
   /* The height is 400 pixels */
   width: 100%;
   /* The width is the width of the web page */
   z-index: 3;
 }
 
-html footer, body footer {
+html footer,
+body footer {
   background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(#09181d));
   background-image: linear-gradient(black, #09181d);
-  color: black;
   height: auto;
-  top: 100;
   margin: 0;
-  margin-top: 1rem;
-  margin-bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -872,18 +909,19 @@ html footer, body footer {
       -ms-flex-direction: row;
           flex-direction: row;
   text-align: center;
-  border-top-left-radius: .28em;
-  border-top-right-radius: .28em;
   border-top-style: hidden;
 }
 
-html p.copyright, body p.copyright {
+html p.copyright,
+body p.copyright {
   padding: 10px;
   font-size: 16px;
   text-align: center;
+  color: whitesmoke;
 }
 
-html ul#footer-list, body ul#footer-list {
+html ul#footer-list,
+body ul#footer-list {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -893,99 +931,126 @@ html ul#footer-list, body ul#footer-list {
   z-index: 3;
 }
 
-html ul#footer-list li a, body ul#footer-list li a {
+html ul#footer-list li a,
+body ul#footer-list li a {
   list-style: none;
   color: #f8f8f8 !important;
   font-size: 16px;
 }
 
-html .footer-menu-divider, body .footer-menu-divider {
+html .footer-menu-divider,
+body .footer-menu-divider {
   font-size: 22px;
 }
 
-html .footer, html .push, body .footer, body .push {
+html .footer,
+html .push,
+body .footer,
+body .push {
   clear: both;
   height: 4em;
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-  html .heroBg, body .heroBg {
+  html .heroBg,
+  body .heroBg {
     background-size: cover !important;
   }
-  html .intro-message, body .intro-message {
+  html .intro-message,
+  body .intro-message {
     padding-top: 20% !important;
     padding-bottom: 3% !important;
   }
-  html .intro-message > h1, body .intro-message > h1 {
+  html .intro-message > h1,
+  body .intro-message > h1 {
     font-size: 3.8em !important;
   }
-  html #marketing .structure, body #marketing .structure {
+  html #marketing .structure,
+  body #marketing .structure {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  html #marketing .structure .view, body #marketing .structure .view {
+  html #marketing .structure .view,
+  body #marketing .structure .view {
     max-width: 33rem;
   }
-  html #marketing .structure .right, body #marketing .structure .right {
+  html #marketing .structure .right,
+  body #marketing .structure .right {
     max-width: 33rem;
   }
-  html #marketing .structure form input[type=submit], body #marketing .structure form input[type=submit] {
+  html #marketing .structure form input[type="submit"],
+  body #marketing .structure form input[type="submit"] {
     padding: 1.2rem;
     margin-bottom: 2rem;
   }
-  html #marketing .structure form input[type=tel], body #marketing .structure form input[type=tel] {
+  html #marketing .structure form input[type="tel"],
+  body #marketing .structure form input[type="tel"] {
     width: 280px !important;
   }
-  html #marketing .structure form #okay, body #marketing .structure form #okay {
+  html #marketing .structure form #okay,
+  body #marketing .structure form #okay {
     padding: 10px;
     font-size: 28px;
   }
-  html #marketing .structure form .feedback, body #marketing .structure form .feedback {
+  html #marketing .structure form .feedback,
+  body #marketing .structure form .feedback {
     padding: 10px;
     font-size: 18px;
   }
-  html #gallery div.gallery, body #gallery div.gallery {
+  html #gallery div.gallery,
+  body #gallery div.gallery {
     margin: 1.2px;
     width: 32.6%;
   }
-  html #gallery div.gallery:hover, body #gallery div.gallery:hover {
+  html #gallery div.gallery:hover,
+  body #gallery div.gallery:hover {
     border: 1px solid #777;
   }
-  html #gallery div.desc, body #gallery div.desc {
+  html #gallery div.desc,
+  body #gallery div.desc {
     padding: 15px;
     text-align: center;
   }
-  html #gallery div.larger, body #gallery div.larger {
+  html #gallery div.larger,
+  body #gallery div.larger {
     width: 49%;
     float: right;
   }
-  html #map, body #map {
+  html #map,
+  body #map {
     height: 48rem;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  html header nav, body header nav {
+  html header nav,
+  body header nav {
     height: 5.8rem !important;
   }
-  html .heroBg, body .heroBg {
+  html .heroBg,
+  body .heroBg {
     background-size: cover !important;
   }
-  html .intro-divider, body .intro-divider {
+  html .intro-divider,
+  body .intro-divider {
     width: 58rem !important;
   }
-  html .intro-message, body .intro-message {
+  html .intro-message,
+  body .intro-message {
     padding-top: 20% !important;
     padding-bottom: 8% !important;
   }
-  html .intro-message > h1, body .intro-message > h1 {
+  html .intro-message > h1,
+  body .intro-message > h1 {
     font-size: 4em !important;
   }
-  html #marketing, body #marketing {
+  html #marketing,
+  body #marketing {
     margin: auto !important;
   }
-  html #marketing .structure, body #marketing .structure {
+  html #marketing .structure,
+  body #marketing .structure {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -994,76 +1059,97 @@ html .footer, html .push, body .footer, body .push {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  html #marketing .structure .view, body #marketing .structure .view {
+  html #marketing .structure .view,
+  body #marketing .structure .view {
     max-width: 30rem;
   }
-  html #marketing .structure .view .second-middle, body #marketing .structure .view .second-middle {
+  html #marketing .structure .view .second-middle,
+  body #marketing .structure .view .second-middle {
     display: unset !important;
   }
-  html #marketing .structure .view .second-middle hr, body #marketing .structure .view .second-middle hr {
+  html #marketing .structure .view .second-middle hr,
+  body #marketing .structure .view .second-middle hr {
     width: 88%;
   }
-  html #marketing .structure .middle, body #marketing .structure .middle {
+  html #marketing .structure .middle,
+  body #marketing .structure .middle {
     display: none !important;
   }
-  html #marketing .structure .right, body #marketing .structure .right {
+  html #marketing .structure .right,
+  body #marketing .structure .right {
     max-width: 30rem;
   }
-  html #marketing .structure form input[type=submit], body #marketing .structure form input[type=submit] {
+  html #marketing .structure form input[type="submit"],
+  body #marketing .structure form input[type="submit"] {
     padding: 1.2rem;
     margin-bottom: 2rem;
   }
-  html #marketing .structure form input[type=tel], body #marketing .structure form input[type=tel] {
+  html #marketing .structure form input[type="tel"],
+  body #marketing .structure form input[type="tel"] {
     width: 260px !important;
   }
-  html #marketing .structure form #okay, body #marketing .structure form #okay {
+  html #marketing .structure form #okay,
+  body #marketing .structure form #okay {
     padding: 10px;
     font-size: 28px;
   }
-  html #marketing .structure form .feedback, body #marketing .structure form .feedback {
+  html #marketing .structure form .feedback,
+  body #marketing .structure form .feedback {
     padding: 10px;
     font-size: 18px;
   }
-  html #gallery div.gallery, body #gallery div.gallery {
+  html #gallery div.gallery,
+  body #gallery div.gallery {
     margin: 1.2px;
     width: 24.5%;
   }
-  html #gallery div.gallery:hover, body #gallery div.gallery:hover {
+  html #gallery div.gallery:hover,
+  body #gallery div.gallery:hover {
     border: 1px solid #777;
   }
-  html #gallery div.desc, body #gallery div.desc {
+  html #gallery div.desc,
+  body #gallery div.desc {
     padding: 15px;
     text-align: center;
   }
-  html #gallery div.larger, body #gallery div.larger {
+  html #gallery div.larger,
+  body #gallery div.larger {
     float: right;
   }
-  html #map, body #map {
+  html #map,
+  body #map {
     height: 58rem;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  html header nav, body header nav {
+  html header nav,
+  body header nav {
     height: 5.8rem !important;
   }
-  html .heroBg, body .heroBg {
+  html .heroBg,
+  body .heroBg {
     background-size: cover !important;
   }
-  html .intro-divider, body .intro-divider {
+  html .intro-divider,
+  body .intro-divider {
     width: 58rem !important;
   }
-  html .intro-message, body .intro-message {
+  html .intro-message,
+  body .intro-message {
     padding-top: 20% !important;
     padding-bottom: 8% !important;
   }
-  html .intro-message > h1, body .intro-message > h1 {
+  html .intro-message > h1,
+  body .intro-message > h1 {
     font-size: 4em !important;
   }
-  html #marketing, body #marketing {
+  html #marketing,
+  body #marketing {
     margin: auto !important;
   }
-  html #marketing .structure, body #marketing .structure {
+  html #marketing .structure,
+  body #marketing .structure {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -1072,80 +1158,102 @@ html .footer, html .push, body .footer, body .push {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  html #marketing .structure .view, body #marketing .structure .view {
+  html #marketing .structure .view,
+  body #marketing .structure .view {
     max-width: 30rem;
   }
-  html #marketing .structure .view .second-middle, body #marketing .structure .view .second-middle {
+  html #marketing .structure .view .second-middle,
+  body #marketing .structure .view .second-middle {
     display: unset !important;
   }
-  html #marketing .structure .view .second-middle hr, body #marketing .structure .view .second-middle hr {
+  html #marketing .structure .view .second-middle hr,
+  body #marketing .structure .view .second-middle hr {
     width: 88%;
   }
-  html #marketing .structure .middle, body #marketing .structure .middle {
+  html #marketing .structure .middle,
+  body #marketing .structure .middle {
     display: none !important;
   }
-  html #marketing .structure .right, body #marketing .structure .right {
+  html #marketing .structure .right,
+  body #marketing .structure .right {
     max-width: 30rem;
   }
-  html #marketing .structure form input[type=submit], body #marketing .structure form input[type=submit] {
+  html #marketing .structure form input[type="submit"],
+  body #marketing .structure form input[type="submit"] {
     padding: 1.2rem;
     margin-bottom: 2rem;
   }
-  html #marketing .structure form input[type=tel], body #marketing .structure form input[type=tel] {
+  html #marketing .structure form input[type="tel"],
+  body #marketing .structure form input[type="tel"] {
     width: 260px !important;
   }
-  html #marketing .structure form #okay, body #marketing .structure form #okay {
+  html #marketing .structure form #okay,
+  body #marketing .structure form #okay {
     padding: 10px;
     font-size: 28px;
   }
-  html #marketing .structure form .feedback, body #marketing .structure form .feedback {
+  html #marketing .structure form .feedback,
+  body #marketing .structure form .feedback {
     padding: 10px;
     font-size: 18px;
   }
-  html #gallery div.gallery, body #gallery div.gallery {
+  html #gallery div.gallery,
+  body #gallery div.gallery {
     margin: 1.2px;
     width: 24.5%;
   }
-  html #gallery div.gallery:hover, body #gallery div.gallery:hover {
+  html #gallery div.gallery:hover,
+  body #gallery div.gallery:hover {
     border: 1px solid #777;
   }
-  html #gallery div.desc, body #gallery div.desc {
+  html #gallery div.desc,
+  body #gallery div.desc {
     padding: 15px;
     text-align: center;
   }
-  html #gallery div.larger, body #gallery div.larger {
+  html #gallery div.larger,
+  body #gallery div.larger {
     float: right;
   }
-  html #map, body #map {
+  html #map,
+  body #map {
     height: 58rem;
   }
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-  html, body {
+  html,
+  body {
     /* Set the size of the div element that contains the map */
   }
-  html header nav, body header nav {
+  html header nav,
+  body header nav {
     height: 5.8rem !important;
   }
-  html .heroBg, body .heroBg {
+  html .heroBg,
+  body .heroBg {
     background-size: cover !important;
   }
-  html .intro-divider, body .intro-divider {
+  html .intro-divider,
+  body .intro-divider {
     width: 38rem !important;
   }
-  html .intro-message, body .intro-message {
+  html .intro-message,
+  body .intro-message {
     position: relative;
     padding-top: 20% !important;
     padding-bottom: 20% !important;
   }
-  html .intro-message > h1, body .intro-message > h1 {
+  html .intro-message > h1,
+  body .intro-message > h1 {
     font-size: 4.2em !important;
   }
-  html #marketing, body #marketing {
+  html #marketing,
+  body #marketing {
     /* Style the button that is used to open and close the collapsible content */
   }
-  html #marketing .structure, body #marketing .structure {
+  html #marketing .structure,
+  body #marketing .structure {
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: normal !important;
         -ms-flex-direction: row !important;
@@ -1154,17 +1262,21 @@ html .footer, html .push, body .footer, body .push {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  html #marketing .structure .view, body #marketing .structure .view {
+  html #marketing .structure .view,
+  body #marketing .structure .view {
     max-width: 33rem;
   }
-  html #marketing .structure .right, body #marketing .structure .right {
+  html #marketing .structure .right,
+  body #marketing .structure .right {
     max-width: 33rem;
   }
-  html #marketing .structure .right form input[type=tel], body #marketing .structure .right form input[type=tel] {
+  html #marketing .structure .right form input[type="tel"],
+  body #marketing .structure .right form input[type="tel"] {
     width: 287px !important;
   }
-  html #marketing .collapsible, body #marketing .collapsible {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  html #marketing .collapsible,
+  body #marketing .collapsible {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     line-height: 1.8;
     color: #0c4358;
     cursor: pointer;
@@ -1174,10 +1286,11 @@ html .footer, html .push, body .footer, body .push {
     padding-right: 20px;
     width: 100%;
     text-align: left;
-    font-size: 1.80rem;
+    font-size: 1.8rem;
     margin: auto;
   }
-  html #marketing .s-content, body #marketing .s-content {
+  html #marketing .s-content,
+  body #marketing .s-content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1185,19 +1298,20 @@ html .footer, html .push, body .footer, body .push {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     line-height: 1.8;
     width: 100%;
     margin: auto;
     color: #0c4358;
     border-bottom-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
-    font-size: 1.80rem;
+    font-size: 1.8rem;
     padding-left: 38px;
     padding-top: 20px;
     padding-right: 20px;
   }
-  html #marketing .s-content .sections, body #marketing .s-content .sections {
+  html #marketing .s-content .sections,
+  body #marketing .s-content .sections {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1212,34 +1326,41 @@ html .footer, html .push, body .footer, body .push {
         flex-wrap: wrap;
     padding: 18px;
   }
-  html #marketing .s-content .sections hr, body #marketing .s-content .sections hr {
+  html #marketing .s-content .sections hr,
+  body #marketing .s-content .sections hr {
     padding: 4px;
   }
-  html #marketing .s-content .sections .first, body #marketing .s-content .sections .first {
+  html #marketing .s-content .sections .first,
+  body #marketing .s-content .sections .first {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
     max-width: 42%;
   }
-  html #marketing .s-content .sections .second, body #marketing .s-content .sections .second {
+  html #marketing .s-content .sections .second,
+  body #marketing .s-content .sections .second {
     max-width: 48%;
   }
-  html #marketing .reviews, body #marketing .reviews {
+  html #marketing .reviews,
+  body #marketing .reviews {
     margin: auto;
-    font-size: 1.80rem;
+    font-size: 1.8rem;
     padding-left: 38px;
     padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
     background-color: white;
   }
-  html #marketing .reviews .review, body #marketing .reviews .review {
+  html #marketing .reviews .review,
+  body #marketing .reviews .review {
     margin-top: 10px;
   }
-  html #marketing .reviews .review .title, body #marketing .reviews .review .title {
+  html #marketing .reviews .review .title,
+  body #marketing .reviews .review .title {
     color: tomato;
   }
-  html #gallery, body #gallery {
+  html #gallery,
+  body #gallery {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1250,24 +1371,29 @@ html .footer, html .push, body .footer, body .push {
             justify-content: center;
     width: 100%;
   }
-  html #gallery div.gallery, body #gallery div.gallery {
+  html #gallery div.gallery,
+  body #gallery div.gallery {
     margin: 1.5px !important;
     border: 1px solid #ccc;
     float: left;
     width: 19.6%;
   }
-  html #gallery div.gallery:hover, body #gallery div.gallery:hover {
+  html #gallery div.gallery:hover,
+  body #gallery div.gallery:hover {
     border: 1px solid #777;
   }
-  html #gallery div.gallery img, body #gallery div.gallery img {
+  html #gallery div.gallery img,
+  body #gallery div.gallery img {
     width: 100%;
     height: auto;
   }
-  html #gallery div.desc, body #gallery div.desc {
+  html #gallery div.desc,
+  body #gallery div.desc {
     padding: 15px;
     text-align: center;
   }
-  html #map, body #map {
+  html #map,
+  body #map {
     height: 68rem;
     /* The height is 400 pixels */
     width: 100%;
@@ -1276,27 +1402,34 @@ html .footer, html .push, body .footer, body .push {
 }
 
 @media (min-width: 1281px) {
-  html, body {
+  html,
+  body {
     /* Style the button that is used to open and close the collapsible content */
     /* Set the size of the div element that contains the map */
   }
-  html header nav, body header nav {
+  html header nav,
+  body header nav {
     height: 5.8rem !important;
   }
-  html .heroBg, body .heroBg {
+  html .heroBg,
+  body .heroBg {
     background-size: cover !important;
   }
-  html .intro-divider, body .intro-divider {
+  html .intro-divider,
+  body .intro-divider {
     width: 38rem !important;
   }
-  html .intro-message, body .intro-message {
+  html .intro-message,
+  body .intro-message {
     padding-top: 20% !important;
     padding-bottom: 12% !important;
   }
-  html .intro-message > h1, body .intro-message > h1 {
+  html .intro-message > h1,
+  body .intro-message > h1 {
     font-size: 4.2em !important;
   }
-  html .structure, body .structure {
+  html .structure,
+  body .structure {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1310,23 +1443,27 @@ html .footer, html .push, body .footer, body .push {
     -ms-flex-line-pack: stretch;
         align-content: stretch;
   }
-  html .structure .view, body .structure .view {
+  html .structure .view,
+  body .structure .view {
     max-width: 33rem;
     -ms-flex-item-align: start;
         align-self: flex-start;
     margin: 0;
     float: left;
   }
-  html .structure .price, body .structure .price {
+  html .structure .price,
+  body .structure .price {
     font-size: 18px;
   }
-  html .structure .view button, body .structure .view button {
+  html .structure .view button,
+  body .structure .view button {
     padding: 12px;
     cursor: pointer;
     width: 80%;
     font-size: 18px;
   }
-  html .structure .middle, body .structure .middle {
+  html .structure .middle,
+  body .structure .middle {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1342,51 +1479,60 @@ html .footer, html .push, body .footer, body .push {
         align-self: center;
     font-size: 1.8rem;
   }
-  html .structure .right, body .structure .right {
+  html .structure .right,
+  body .structure .right {
     display: inline-block;
     -ms-flex-item-align: start;
         align-self: flex-start;
     margin: 0;
     max-width: 34.8rem !important;
   }
-  html .structure form h3, body .structure form h3 {
-    font-size: 2.60rem;
+  html .structure form h3,
+  body .structure form h3 {
+    font-size: 2.6rem;
   }
-  html .structure form p, body .structure form p {
+  html .structure form p,
+  body .structure form p {
     font-size: 1.6rem;
   }
-  html .structure form input, body .structure form input {
+  html .structure form input,
+  body .structure form input {
     width: 88%;
-    padding: .6rem;
-    margin: .6rem;
+    padding: 0.6rem;
+    margin: 0.6rem;
     font-size: 1.7rem;
     text-align: center;
   }
-  html .structure form input[type=submit], body .structure form input[type=submit] {
+  html .structure form input[type="submit"],
+  body .structure form input[type="submit"] {
     padding: 1rem;
     margin-top: 1.4rem;
     margin-bottom: 1.8rem;
   }
-  html .structure form input[type=tel], body .structure form input[type=tel] {
+  html .structure form input[type="tel"],
+  body .structure form input[type="tel"] {
     width: 307px !important;
-    padding: .6rem;
-    margin: .6rem;
+    padding: 0.6rem;
+    margin: 0.6rem;
   }
-  html .structure form input[type=text], body .structure form input[type=text] {
-    padding: .6rem !important;
-    margin: .6rem !important;
+  html .structure form input[type="text"],
+  body .structure form input[type="text"] {
+    padding: 0.6rem !important;
+    margin: 0.6rem !important;
   }
-  html .collapsible, body .collapsible {
+  html .collapsible,
+  body .collapsible {
     cursor: pointer;
     padding-left: 38px;
     padding-top: 30px;
     padding-bottom: -12px;
     padding-right: 20px;
     text-align: left;
-    font-size: 1.80rem;
+    font-size: 1.8rem;
     margin: auto;
   }
-  html .s-content, body .s-content {
+  html .s-content,
+  body .s-content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1395,14 +1541,15 @@ html .footer, html .push, body .footer, body .push {
         -ms-flex-direction: column;
             flex-direction: column;
     margin: auto;
-    font-size: 1.80rem;
+    font-size: 1.8rem;
     text-align: left;
     padding-left: 38px;
     padding-top: 20px;
     padding-bottom: -20px;
     padding-right: 20px;
   }
-  html .s-content .sections, body .s-content .sections {
+  html .s-content .sections,
+  body .s-content .sections {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1417,25 +1564,29 @@ html .footer, html .push, body .footer, body .push {
         flex-wrap: wrap;
     padding: 18px;
   }
-  html .s-content .sections .first, body .s-content .sections .first {
+  html .s-content .sections .first,
+  body .s-content .sections .first {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
     max-width: 40%;
   }
-  html .reviews, body .reviews {
+  html .reviews,
+  body .reviews {
     margin: auto;
-    font-size: 1.80rem;
+    font-size: 1.8rem;
     padding-left: 38px;
     padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
     background-color: white;
   }
-  html .reviews .review, body .reviews .review {
+  html .reviews .review,
+  body .reviews .review {
     margin-top: 10px;
   }
-  html #gallery, body #gallery {
+  html #gallery,
+  body #gallery {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1446,28 +1597,34 @@ html .footer, html .push, body .footer, body .push {
             justify-content: center;
     width: 100%;
   }
-  html #gallery div.gallery, body #gallery div.gallery {
+  html #gallery div.gallery,
+  body #gallery div.gallery {
     margin: 1.5px !important;
     border: 1px solid #ccc;
     float: left;
     width: 16.33%;
   }
-  html #gallery div.gallery:hover, body #gallery div.gallery:hover {
+  html #gallery div.gallery:hover,
+  body #gallery div.gallery:hover {
     border: 1px solid #777;
   }
-  html #gallery div.gallery img, body #gallery div.gallery img {
+  html #gallery div.gallery img,
+  body #gallery div.gallery img {
     width: 100%;
     height: auto;
   }
-  html #gallery div.desc, body #gallery div.desc {
+  html #gallery div.desc,
+  body #gallery div.desc {
     padding: 15px;
     text-align: center;
   }
-  html #gallery div.larger, body #gallery div.larger {
+  html #gallery div.larger,
+  body #gallery div.larger {
     width: 49.4% !important;
     float: right;
   }
-  html #map, body #map {
+  html #map,
+  body #map {
     height: 68rem;
     /* The height is 400 pixels */
     width: 100%;
@@ -1516,7 +1673,7 @@ html .footer, html .push, body .footer, body .push {
 }
 
 .ui-datepicker-title {
-  color: #03446A;
+  color: #03446a;
 }
 
 .ui-datepicker-week-end {
@@ -1524,11 +1681,11 @@ html .footer, html .push, body .footer, body .push {
 }
 
 .ui-datepicker-today {
-  color: #FF8000;
+  color: #ff8000;
 }
 
 .ui-datepicker-unselectable {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 /* 
@@ -1587,8 +1744,8 @@ body {
 
 /* ANIMATIONS */
 .x1 {
-  -webkit-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
-  animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
   left: -5%;
   top: 5%;
   -webkit-transform: scale(0.6);
@@ -1596,8 +1753,8 @@ body {
 }
 
 .x2 {
-  -webkit-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
-  animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
   left: 5%;
   top: 80%;
   -webkit-transform: scale(0.4);
@@ -1605,8 +1762,8 @@ body {
 }
 
 .x3 {
-  -webkit-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
-  animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
   left: 10%;
   top: 40%;
   -webkit-transform: scale(0.7);
@@ -1614,8 +1771,8 @@ body {
 }
 
 .x4 {
-  -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
-  animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+  animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
   left: 20%;
   top: 0;
   -webkit-transform: scale(0.3);
@@ -1623,8 +1780,8 @@ body {
 }
 
 .x5 {
-  -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
-  animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
   left: 30%;
   top: 50%;
   -webkit-transform: scale(0.5);
@@ -1632,8 +1789,8 @@ body {
 }
 
 .x6 {
-  -webkit-animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
-  animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
   left: 50%;
   top: 0;
   -webkit-transform: scale(0.8);
@@ -1641,8 +1798,8 @@ body {
 }
 
 .x7 {
-  -webkit-animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
-  animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
   left: 65%;
   top: 70%;
   -webkit-transform: scale(0.4);
@@ -1650,8 +1807,8 @@ body {
 }
 
 .x8 {
-  -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
-  animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+  animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
   left: 80%;
   top: 10%;
   -webkit-transform: scale(0.3);
@@ -1659,8 +1816,8 @@ body {
 }
 
 .x9 {
-  -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
-  animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
   left: 90%;
   top: 50%;
   -webkit-transform: scale(0.6);
@@ -1668,8 +1825,8 @@ body {
 }
 
 .x10 {
-  -webkit-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
-  animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
   left: 80%;
   top: 80%;
   -webkit-transform: scale(0.3);
