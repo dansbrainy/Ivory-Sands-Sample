@@ -203,8 +203,8 @@ body .alert-info {
   width: 50%;
   margin: auto;
   color: tomato;
-  background-color: #e6ecca;
-  border-color: wheat;
+  background-color: #dddad5;
+  border-color: #dddad5;
 }
 
 html .btn-default,
@@ -486,8 +486,6 @@ body .structure .middle #benefits {
 html .structure .middle div.green,
 body .structure .middle div.green {
   color: green;
-  color: yellowgreen;
-  color: #442505;
 }
 
 html .structure .middle hr,
@@ -545,8 +543,8 @@ body .structure form h3 {
   border-radius: 2px;
   color: black;
   border: 1px dashed black;
-  background: -webkit-gradient(linear, left top, right top, from(#dac6a6), to(white));
-  background: linear-gradient(to right, #dac6a6, white);
+  background: -webkit-gradient(linear, left top, right top, from(#dddad5), to(white));
+  background: linear-gradient(to right, #dddad5, white);
   opacity: 0.8;
 }
 
@@ -618,7 +616,7 @@ body .structure form input {
 
 html .structure form input[type="submit"],
 body .structure form input[type="submit"] {
-  background: #dac6a6;
+  background: #dddad5;
   color: black;
   border-style: none;
   padding: 1rem;
@@ -816,7 +814,7 @@ body .reviews {
   padding-bottom: 20px;
   padding-right: 18px;
   background-color: white;
-  border: 2px solid #dac6a6;
+  border: 2px solid #dddad5;
   border-radius: 8px;
 }
 
@@ -830,8 +828,8 @@ body .reviews .review {
 html .reviews .review .title,
 body .reviews .review .title {
   color: #121e1f;
-  background: -webkit-gradient(linear, left top, right top, from(#dac6a6), to(white));
-  background: linear-gradient(to right, #dac6a6, white);
+  background: -webkit-gradient(linear, left top, right top, from(#dddad5), to(white));
+  background: linear-gradient(to right, #dddad5, white);
   padding: 5px;
 }
 

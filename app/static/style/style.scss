@@ -168,8 +168,8 @@ body {
     width: 50%;
     margin: auto;
     color: tomato;
-    background-color: #e6ecca;
-    border-color: wheat;
+    background-color: #dddad5;
+    border-color: #dddad5;
   }
 
   .btn-default {
@@ -393,8 +393,6 @@ body {
 
       div.green {
         color: green;
-        color: yellowgreen;
-        color: #442505;
       }
 
       hr {
@@ -446,7 +444,7 @@ body {
         border-radius: 2px;
         color: black;
         border: 1px dashed black;
-        background: linear-gradient(to right, #dac6a6, white);
+        background: linear-gradient(to right, #dddad5, white);
         opacity: 0.8;
       }
 
@@ -488,8 +486,8 @@ body {
       }
 
       input[type="submit"] {
-        // background: linear-gradient(to right, #DAC6A6, white);
-        background: #dac6a6;
+        // background: linear-gradient(to right, #dddad5, white);
+        background: #dddad5;
         color: black;
         border-style: none;
         padding: 1rem;
@@ -654,11 +652,7 @@ body {
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active,
   .collapsible:hover {
-    // background-color: rgb(188, 221, 235);
     background: linear-gradient(to right, #dddad5, white);
-    // background: #00b4ff;
-    // background-color: skyblue;
-    // background-color: #488FC4;
   }
 
   .collapsible:after {
@@ -673,7 +667,6 @@ body {
 
   .active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
-
     z-index: 3;
   }
 
@@ -701,7 +694,7 @@ body {
     padding-right: 18px;
     background-color: white;
 
-    border: 2px solid #dac6a6;
+    border: 2px solid #dddad5;
     border-radius: 8px;
     // max-height: 0;
 
@@ -713,7 +706,7 @@ body {
       .title {
         // color: tomato;
         color: rgb(18, 30, 31);
-        background: linear-gradient(to right, #dac6a6, white);
+        background: linear-gradient(to right, #dddad5, white);
         padding: 5px;
       }
 
