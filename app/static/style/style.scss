@@ -15,6 +15,7 @@ body {
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  // background-color: #111;
 
   body,
   h1,
@@ -132,7 +133,9 @@ body {
   }
 
   .heroBg {
-    background: #111 url(/img/15.jpg) no-repeat center center fixed;
+    background: #111
+      url("https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b519181e24fa.jpg")
+      no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

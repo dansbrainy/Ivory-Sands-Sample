@@ -174,7 +174,7 @@ body .heroBg {
 
 html .heroBg,
 body .heroBg {
-  background: #111 url(/img/15.jpg) no-repeat center center fixed;
+  background: #111 url("https://d9mwsw9655mj9.cloudfront.net/ivory-sands-clifton-5b519181e24fa.jpg") no-repeat center center fixed;
   background-size: auto auto;
   position: relative;
   height: auto;
