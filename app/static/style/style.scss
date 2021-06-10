@@ -9,35 +9,24 @@
 
 html,
 body {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   width: 100%;
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  // background-color: #111;
-
-  body,
-  h1,
-  h2,
-  h3,
-  a {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  }
 
   header {
     nav {
       height: auto !important;
-      background-image: linear-gradient(black, rgb(9, 24, 29));
+      background-color: black !important;
       border-bottom-style: none;
       border-color: black;
       align-items: center;
-
       display: flex;
       justify-items: auto;
       justify-content: space-between;
-
       vertical-align: middle;
 
       .topnav {
@@ -48,19 +37,18 @@ body {
             }
 
             li:hover {
-              background: #20201f;
+              background: goldenrod;
             }
 
             li a {
               list-style: none;
               color: #f8f8f8 !important;
-              // font-size: 16px !important;
             }
           }
         }
 
         .navbar-brand {
-          font-size: 2.2rem;
+          font-size: 2.1rem;
           font-weight: 400;
         }
       }
@@ -72,7 +60,7 @@ body {
 
     .dropdown-menu {
       background-color: inherit;
-      background: linear-gradient(black, rgb(9, 24, 29));
+      background-color: black !important;
       flex-direction: column;
 
       a {
@@ -96,7 +84,7 @@ body {
   a:hover,
   .navbar-default .navbar-brand:hover,
   .navbar-default .navbar-nav > li > a:hover {
-    color: #ff8000;
+    color: goldenrod;
   }
 
   h2.villaFeat {
@@ -256,7 +244,8 @@ body {
     width: 100%;
     padding: 6rem 4rem;
     box-sizing: border-box;
-    // background-color: lavender;
+    background-color: #7db1e8;
+    // background: linear-gradient(to top, #7db1e8, white);
   }
 
   .justified-gallery {
@@ -270,9 +259,21 @@ body {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     line-height: 1.42857143;
     color: black;
-    width: 100%;
+    justify-content: center;
     padding: 6rem 4rem;
     box-sizing: border-box;
+    background-color: lavender;
+    font-size: 1.8rem;
+    text-align: left;
+    list-style: none;
+  }
+
+  .sections {
+    list-style: none;
+  }
+
+  #more {
+    display: none;
   }
 
   .comments {
@@ -385,8 +386,9 @@ body {
       padding-bottom: 1.8rem;
       height: auto;
       position: relative;
-      border: 1px solid grey;
+      // border: 1px solid white;
       border-radius: 8px;
+      background-color: white;
 
       img {
         border-top-left-radius: 8px;
@@ -462,30 +464,21 @@ body {
     }
 
     .right {
-      z-index: 1;
-
       margin-bottom: 20px;
-
       max-width: 28rem;
       width: 90%;
       height: auto;
-
       align-items: center;
       justify-content: center;
     }
 
     form {
-      border: 1px solid grey;
+      padding: 1rem;
       text-align: center;
-
       border-radius: 4px;
-
       align-items: center;
       justify-content: center;
-
       background-color: white;
-
-      z-index: 1;
 
       h3 {
         font-family: "Josefin Sans", sans-serif;
@@ -496,9 +489,8 @@ body {
         margin-left: 2rem;
         margin-bottom: 2rem;
         border-radius: 2px;
-        color: black;
-        border: 1px dashed black;
-        background: linear-gradient(to right, #dddad5, white);
+        color: #e09f36;
+        background-color: whitesmoke;
         opacity: 0.8;
       }
 
@@ -568,148 +560,6 @@ body {
         text-align: center;
       }
     }
-  }
-
-  /* Style the button that is used to open and close the collapsible content */
-  .collapsible {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    line-height: 1.8;
-
-    background-color: white;
-    color: rgb(12, 67, 88);
-
-    cursor: pointer;
-    padding-left: 20px;
-    padding-top: 18px;
-    padding-bottom: -42px;
-    padding-right: 18px;
-
-    width: 100%;
-
-    border: none;
-    border-top-right-radius: 0.8rem;
-    border-top-left-radius: 0.8rem;
-    border-top: 1px solid #dddad5;
-    border-left: 1px solid #dddad5;
-    border-right: 1px solid #dddad5;
-
-    text-align: center;
-
-    outline: none;
-    font-size: 1.58rem;
-    margin: auto;
-
-    z-index: 2 !important;
-  }
-
-  .s-content {
-    display: flex;
-    flex-direction: column;
-
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    line-height: 1.8;
-
-    width: 100%;
-    border: none;
-
-    list-style: none;
-    margin: auto;
-
-    color: black;
-
-    border-bottom-right-radius: 0.8rem;
-    border-bottom-left-radius: 0.8rem;
-    border-bottom: 1px solid #dddad5;
-    border-left: 1px solid #dddad5;
-    border-right: 1px solid #dddad5;
-
-    // text-align: left;
-    outline: none;
-
-    font-size: 1.58rem;
-    text-align: center;
-
-    padding-left: 12px;
-    padding-top: 18px;
-
-    padding-right: 12px;
-
-    background-color: white;
-    position: relative;
-
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-
-    z-index: 0;
-
-    .sections {
-      display: flex;
-      flex-direction: column;
-
-      justify-content: center;
-      flex-wrap: wrap;
-
-      hr {
-        padding: 4px;
-      }
-
-      .first {
-        justify-content: center;
-
-        .title {
-          // color: tomato;
-          color: rgb(18, 30, 31);
-          background: linear-gradient(to right, #dddad5, white);
-          padding: 0.5rem;
-        }
-      }
-
-      .second {
-        .title {
-          color: rgb(18, 30, 31);
-          background: linear-gradient(to right, #dddad5, white);
-          padding: 0.5rem;
-        }
-      }
-    }
-
-    .title {
-      // color: tomato;
-      color: rgb(18, 30, 31);
-      background: linear-gradient(to right, #dddad5, white);
-      padding: 0.5rem;
-    }
-  }
-
-  .s-content:before {
-    content: " ";
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0.08;
-    background-image: url("/img/palm-tree-silhouette_500x500.png");
-    background-repeat: round;
-  }
-
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active,
-  .collapsible:hover {
-    background: linear-gradient(to right, #dddad5, white);
-  }
-
-  .collapsible:after {
-    content: "\02795"; /* Unicode character for "plus" sign (+) */
-    font-size: 14px;
-    color: white;
-    float: right;
-    margin-left: 5px;
-
-    z-index: 3;
   }
 
   .active:after {
@@ -1143,76 +993,6 @@ body {
         }
       }
 
-      /* Style the button that is used to open and close the collapsible content */
-      .collapsible {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        line-height: 1.8;
-
-        color: rgb(12, 67, 88);
-
-        cursor: pointer;
-        padding-left: 38px;
-        padding-top: 30px;
-        padding-bottom: -12px;
-        padding-right: 20px;
-
-        width: 100%;
-
-        text-align: left;
-
-        font-size: 1.8rem;
-        margin: auto;
-      }
-
-      .s-content {
-        display: flex;
-        flex-direction: column;
-
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        line-height: 1.8;
-
-        width: 100%;
-
-        margin: auto;
-
-        color: rgb(12, 67, 88);
-
-        border-bottom-right-radius: 1rem;
-        border-bottom-left-radius: 1rem;
-        // text-align: left;
-
-        font-size: 1.8rem;
-
-        padding-left: 38px;
-        padding-top: 20px;
-        // padding-bottom: -20px;
-        padding-right: 20px;
-
-        .sections {
-          display: flex;
-          flex-direction: row;
-
-          justify-content: space-between;
-          flex-wrap: wrap;
-          padding: 18px;
-
-          hr {
-            padding: 4px;
-          }
-
-          .first {
-            justify-content: flex-start;
-            max-width: 42%;
-          }
-
-          .second {
-            max-width: 48%;
-          }
-        }
-      }
-
       .reviews {
         margin: auto;
 
@@ -1249,11 +1029,6 @@ body {
         padding: 15px;
         text-align: center;
       }
-
-      // div.larger {
-      //   width: 49.4% !important;
-      //   float: right;
-      // }
     }
 
     /* Set the size of the div element that contains the map */
@@ -1290,11 +1065,8 @@ body {
     .structure {
       display: flex;
       flex-direction: row !important;
-
-      // flex-direction: column;
       justify-content: space-between;
       align-content: stretch;
-      // width: 100%;
 
       .view {
         max-width: 33rem;
@@ -1321,22 +1093,10 @@ body {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
-
         height: auto;
-
-        // top: 80%;
-        // bottom: 20%;
-
         display: inline-block;
         align-self: center;
-
         font-size: 1.8rem;
-
-        // padding: 1.8rem;
-
-        // hr {
-
-        // }
       }
 
       .right {
@@ -1380,57 +1140,6 @@ body {
         input[type="text"] {
           padding: 0.6rem !important;
           margin: 0.6rem !important;
-        }
-      }
-    }
-
-    /* Style the button that is used to open and close the collapsible content */
-    .collapsible {
-      cursor: pointer;
-      padding-left: 38px;
-      padding-top: 30px;
-      padding-bottom: -12px;
-      padding-right: 20px;
-
-      text-align: left;
-
-      font-size: 1.8rem;
-      margin: auto;
-    }
-
-    .s-content {
-      display: flex;
-      flex-direction: column;
-
-      margin: auto;
-
-      font-size: 1.8rem;
-      text-align: left;
-
-      padding-left: 38px;
-      padding-top: 20px;
-      padding-bottom: -20px;
-      padding-right: 20px;
-
-      .sections {
-        display: flex;
-        flex-direction: row;
-
-        justify-content: space-between;
-        flex-wrap: wrap;
-        padding: 18px;
-
-        // hr {
-        //   padding: 4px;
-        // }
-
-        .first {
-          justify-content: flex-start;
-          max-width: 40%;
-        }
-
-        .second {
-          // justify-content: flex-end;
         }
       }
     }
