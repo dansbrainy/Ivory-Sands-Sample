@@ -268,8 +268,16 @@ body {
     list-style: none;
   }
 
-  .sections {
-    list-style: none;
+  .text {
+    #more {
+      div {
+        ul {
+          li {
+            list-style: none;
+          }
+        }
+      }
+    }
   }
 
   #more {

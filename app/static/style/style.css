@@ -320,8 +320,8 @@ body #about {
   list-style: none;
 }
 
-html .sections,
-body .sections {
+html .text #more div ul li,
+body .text #more div ul li {
   list-style: none;
 }
 
