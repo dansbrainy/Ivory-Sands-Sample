@@ -1286,11 +1286,11 @@ body .push {
   }
   html #marketing .structure .view,
   body #marketing .structure .view {
-    max-width: 33rem;
+    max-width: 30rem;
   }
   html #marketing .structure .right,
   body #marketing .structure .right {
-    max-width: 33rem;
+    max-width: 30rem;
   }
   html #marketing .structure .right form input[type="tel"],
   body #marketing .structure .right form input[type="tel"] {
