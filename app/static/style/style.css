@@ -6,14 +6,12 @@
 
 html,
 body {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   width: 100%;
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  /* Style the button that is used to open and close the collapsible content */
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   /* Set the size of the div element that contains the map */
   /* 
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -33,24 +31,10 @@ body {
     */
 }
 
-html body,
-html h1,
-html h2,
-html h3,
-html a,
-body body,
-body h1,
-body h2,
-body h3,
-body a {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
 html header nav,
 body header nav {
   height: auto !important;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(#09181d));
-  background-image: linear-gradient(black, #09181d);
+  background-color: black !important;
   border-bottom-style: none;
   border-color: black;
   -webkit-box-align: center;
@@ -73,7 +57,7 @@ body header nav .topnav .collapse ul li {
 
 html header nav .topnav .collapse ul li:hover,
 body header nav .topnav .collapse ul li:hover {
-  background: #20201f;
+  background: goldenrod;
 }
 
 html header nav .topnav .collapse ul li a,
@@ -84,7 +68,7 @@ body header nav .topnav .collapse ul li a {
 
 html header nav .topnav .navbar-brand,
 body header nav .topnav .navbar-brand {
-  font-size: 2.2rem;
+  font-size: 2.1rem;
   font-weight: 400;
 }
 
@@ -96,8 +80,7 @@ body header .topnav {
 html header .dropdown-menu,
 body header .dropdown-menu {
   background-color: inherit;
-  background: -webkit-gradient(linear, left top, left bottom, from(black), to(#09181d));
-  background: linear-gradient(black, #09181d);
+  background-color: black !important;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -132,7 +115,7 @@ html .navbar-default .navbar-nav > li > a:hover,
 body a:hover,
 body .navbar-default .navbar-brand:hover,
 body .navbar-default .navbar-nav > li > a:hover {
-  color: #ff8000;
+  color: goldenrod;
 }
 
 html h2.villaFeat,
@@ -309,6 +292,7 @@ body .views {
   padding: 6rem 4rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background-color: #7db1e8;
 }
 
 html .justified-gallery,
@@ -324,10 +308,26 @@ body #about {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   line-height: 1.42857143;
   color: black;
-  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 6rem 4rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background-color: lavender;
+  font-size: 1.8rem;
+  text-align: left;
+  list-style: none;
+}
+
+html .text #more div ul li,
+body .text #more div ul li {
+  list-style: none;
+}
+
+html #more,
+body #more {
+  display: none;
 }
 
 html .comments,
@@ -479,8 +479,8 @@ body .structure .view {
   padding-bottom: 1.8rem;
   height: auto;
   position: relative;
-  border: 1px solid grey;
   border-radius: 8px;
+  background-color: white;
 }
 
 html .structure .view img,
@@ -572,7 +572,6 @@ body .structure .middle {
 
 html .structure .right,
 body .structure .right {
-  z-index: 1;
   margin-bottom: 20px;
   max-width: 28rem;
   width: 90%;
@@ -587,7 +586,7 @@ body .structure .right {
 
 html .structure form,
 body .structure form {
-  border: 1px solid grey;
+  padding: 1rem;
   text-align: center;
   border-radius: 4px;
   -webkit-box-align: center;
@@ -597,7 +596,6 @@ body .structure form {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: white;
-  z-index: 1;
 }
 
 html .structure form h3,
@@ -610,10 +608,8 @@ body .structure form h3 {
   margin-left: 2rem;
   margin-bottom: 2rem;
   border-radius: 2px;
-  color: black;
-  border: 1px dashed black;
-  background: -webkit-gradient(linear, left top, right top, from(#dddad5), to(white));
-  background: linear-gradient(to right, #dddad5, white);
+  color: #e09f36;
+  background-color: whitesmoke;
   opacity: 0.8;
 }
 
@@ -712,151 +708,6 @@ body .structure form .feedback {
   font-size: 18px;
   color: #066c74;
   text-align: center;
-}
-
-html .collapsible,
-body .collapsible {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  line-height: 1.8;
-  background-color: white;
-  color: #0c4358;
-  cursor: pointer;
-  padding-left: 20px;
-  padding-top: 18px;
-  padding-bottom: -42px;
-  padding-right: 18px;
-  width: 100%;
-  border: none;
-  border-top-right-radius: 0.8rem;
-  border-top-left-radius: 0.8rem;
-  border-top: 1px solid #dddad5;
-  border-left: 1px solid #dddad5;
-  border-right: 1px solid #dddad5;
-  text-align: center;
-  outline: none;
-  font-size: 1.58rem;
-  margin: auto;
-  z-index: 2 !important;
-}
-
-html .s-content,
-body .s-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  line-height: 1.8;
-  width: 100%;
-  border: none;
-  list-style: none;
-  margin: auto;
-  color: black;
-  border-bottom-right-radius: 0.8rem;
-  border-bottom-left-radius: 0.8rem;
-  border-bottom: 1px solid #dddad5;
-  border-left: 1px solid #dddad5;
-  border-right: 1px solid #dddad5;
-  outline: none;
-  font-size: 1.58rem;
-  text-align: center;
-  padding-left: 12px;
-  padding-top: 18px;
-  padding-right: 12px;
-  background-color: white;
-  position: relative;
-  max-height: 0;
-  overflow: hidden;
-  -webkit-transition: max-height 0.2s ease-out;
-  transition: max-height 0.2s ease-out;
-  z-index: 0;
-}
-
-html .s-content .sections,
-body .s-content .sections {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-html .s-content .sections hr,
-body .s-content .sections hr {
-  padding: 4px;
-}
-
-html .s-content .sections .first,
-body .s-content .sections .first {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-html .s-content .sections .first .title,
-body .s-content .sections .first .title {
-  color: #121e1f;
-  background: -webkit-gradient(linear, left top, right top, from(#dddad5), to(white));
-  background: linear-gradient(to right, #dddad5, white);
-  padding: 0.5rem;
-}
-
-html .s-content .sections .second .title,
-body .s-content .sections .second .title {
-  color: #121e1f;
-  background: -webkit-gradient(linear, left top, right top, from(#dddad5), to(white));
-  background: linear-gradient(to right, #dddad5, white);
-  padding: 0.5rem;
-}
-
-html .s-content .title,
-body .s-content .title {
-  color: #121e1f;
-  background: -webkit-gradient(linear, left top, right top, from(#dddad5), to(white));
-  background: linear-gradient(to right, #dddad5, white);
-  padding: 0.5rem;
-}
-
-html .s-content:before,
-body .s-content:before {
-  content: " ";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  opacity: 0.08;
-  background-image: url("/img/palm-tree-silhouette_500x500.png");
-  background-repeat: round;
-}
-
-html .active,
-html .collapsible:hover,
-body .active,
-body .collapsible:hover {
-  background: -webkit-gradient(linear, left top, right top, from(#dddad5), to(white));
-  background: linear-gradient(to right, #dddad5, white);
-}
-
-html .collapsible:after,
-body .collapsible:after {
-  content: "\02795";
-  /* Unicode character for "plus" sign (+) */
-  font-size: 14px;
-  color: white;
-  float: right;
-  margin-left: 5px;
-  z-index: 3;
 }
 
 html .active:after,
@@ -1270,10 +1121,6 @@ body .push {
   body .intro-message > h1 {
     font-size: 4.2em !important;
   }
-  html #marketing,
-  body #marketing {
-    /* Style the button that is used to open and close the collapsible content */
-  }
   html #marketing .structure,
   body #marketing .structure {
     -webkit-box-orient: horizontal !important;
@@ -1295,73 +1142,6 @@ body .push {
   html #marketing .structure .right form input[type="tel"],
   body #marketing .structure .right form input[type="tel"] {
     width: 287px !important;
-  }
-  html #marketing .collapsible,
-  body #marketing .collapsible {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    line-height: 1.8;
-    color: #0c4358;
-    cursor: pointer;
-    padding-left: 38px;
-    padding-top: 30px;
-    padding-bottom: -12px;
-    padding-right: 20px;
-    width: 100%;
-    text-align: left;
-    font-size: 1.8rem;
-    margin: auto;
-  }
-  html #marketing .s-content,
-  body #marketing .s-content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    line-height: 1.8;
-    width: 100%;
-    margin: auto;
-    color: #0c4358;
-    border-bottom-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-    font-size: 1.8rem;
-    padding-left: 38px;
-    padding-top: 20px;
-    padding-right: 20px;
-  }
-  html #marketing .s-content .sections,
-  body #marketing .s-content .sections {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    padding: 18px;
-  }
-  html #marketing .s-content .sections hr,
-  body #marketing .s-content .sections hr {
-    padding: 4px;
-  }
-  html #marketing .s-content .sections .first,
-  body #marketing .s-content .sections .first {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    max-width: 42%;
-  }
-  html #marketing .s-content .sections .second,
-  body #marketing .s-content .sections .second {
-    max-width: 48%;
   }
   html #marketing .reviews,
   body #marketing .reviews {
@@ -1416,7 +1196,6 @@ body .push {
 @media (min-width: 1281px) {
   html,
   body {
-    /* Style the button that is used to open and close the collapsible content */
     /* Set the size of the div element that contains the map */
   }
   html header nav,
@@ -1531,57 +1310,6 @@ body .push {
   body .structure form input[type="text"] {
     padding: 0.6rem !important;
     margin: 0.6rem !important;
-  }
-  html .collapsible,
-  body .collapsible {
-    cursor: pointer;
-    padding-left: 38px;
-    padding-top: 30px;
-    padding-bottom: -12px;
-    padding-right: 20px;
-    text-align: left;
-    font-size: 1.8rem;
-    margin: auto;
-  }
-  html .s-content,
-  body .s-content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin: auto;
-    font-size: 1.8rem;
-    text-align: left;
-    padding-left: 38px;
-    padding-top: 20px;
-    padding-bottom: -20px;
-    padding-right: 20px;
-  }
-  html .s-content .sections,
-  body .s-content .sections {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    padding: 18px;
-  }
-  html .s-content .sections .first,
-  body .s-content .sections .first {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    max-width: 40%;
   }
   html #gallery,
   body #gallery {
