@@ -35,23 +35,21 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
-// Read more
-
-function collapse() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
-
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less";
-    moreText.style.display = "inline";
-  }
-}
+// // Initialize and add the map
+// function initMap() {
+//   // The location of Black Elegance
+//   const elegance = { lat: -33.91992, lng: 18.42196 };
+//   // The map, centered at Black Elegance
+//   const map = new google.maps.Map(document.getElementById("map"), {
+//     zoom: 14,
+//     center: elegance,
+//   });
+//   // The marker, positioned at Black Elegance
+//   const marker = new google.maps.Marker({
+//     position: elegance,
+//     map: map,
+//   });
+// }
 
 $(function () {
   $("#arrival_date").datepicker();
